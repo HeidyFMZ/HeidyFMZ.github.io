@@ -1,0 +1,79 @@
+.espacio{
+    width: 90vw;
+    border: 5px solid sandybrown;
+    
+    height: 90vh;
+    margin: auto;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 150px repeat(2,1fr) 100px;
+    grid-template-areas:    "up up up"
+                            "uno chi var"
+                            "dos chi var"
+                            "aba aba aba";
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30pt;
+    font-weight: bolder;
+}
+
+.espacio .elem1{
+    background-image: url('img/otono.jpg');
+    background-repeat: no-repeat;
+    grid-area: up;
+    text-align: right;
+    color: rgb(0, 55, 255);
+    background-size:100%;
+    padding: 20px;
+    text-shadow: -6px 6px 4px rgb(0, 255, 30);
+}
+.espacio .elem2{
+    background-color: blueviolet;
+    grid-area: uno;
+    color: aquamarine;
+}
+.espacio .elem3{
+    background-color: chocolate;
+    grid-area: dos;
+    color: rgb(217, 236, 5);
+}
+.espacio .elem4{
+    background-color: darkcyan;
+    grid-area: chi;
+    color: rgb(28, 200, 5);
+}
+.espacio .elem5{
+    background-color: fuchsia;
+    grid-area: var;
+    color: rgb(68, 31, 234);
+    text-align: center;
+}
+.escudo{
+    width: 120px;
+    height: 100px;
+}
+.espacio .elem6{
+    background-color: gold;
+    color: green;
+    grid-area: aba;
+    display: grid;
+    grid-template-columns:50px 100px 50px 100px 1fr;
+    grid-template-rows: repeat(3,33px);
+    justify-items: center;
+    align-items: center;
+}
+
+p{
+    font-size: 12pt;
+}
+
+.espacio .elem6 .direcccion{
+    grid-column: 5/-1;
+    grid-row: 1/4;
+    align-self: auto;
+    justify-self: auto;
+    width: 95%;
+    height: 95%;
+    text-align: right;
+    font-size: 30px;
+}
