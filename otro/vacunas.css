@@ -1,0 +1,218 @@
+body{
+background:#ccccff;
+}
+*{
+    margin: 0px;
+}
+/* 
+.grande{
+width:270px;
+height:270px;
+background:blue;
+border-radius:100%;
+box-shadow:1px 1px 8px 18px #ccffff;
+text-align:center;
+line-height:0.1;
+margin:20px;
+position:absolute;
+}
+
+.imagen{
+width:160px;
+height:160px;
+background:#ccccff;
+border-right:6px solid yellow;
+border-top:6px solid red;
+border-bottom:6px solid green;
+border-radius:5%;
+margin:auto;
+}
+
+img{
+width:100%;
+height:100%;
+}
+h2{
+font-family: 'Shadows Into Light', cursive;
+color:#009900;
+text-shadow:5px 5px 2px yellow;
+font-size:30px;
+}
+
+b{
+font-family: 'Zen Tokyo Zoo', cursive;
+color:white;
+}
+h1{
+font-family: 'Tourney', cursive;
+text-align:center;
+text-decoration:overline;
+color:#9900ff;
+}
+p{
+font-family: 'Shadows Into Light', cursive;
+color:white;
+}
+
+#uno{
+top:60px;
+left:0px;
+}
+#dos{
+top:240px;
+left:230px;
+background:#006600;
+box-shadow:1px 1px 8px 18px #ccff33;
+}
+#tres{
+top:60px;
+left:460px;
+background:purple;
+}
+#cuatro{
+top:240px;
+left:690px;
+background:#ff6600;
+box-shadow:1px 1px 8px 18px #ffcc33;
+}
+#cinco{
+top:60px;
+left:925px;
+background:#00ccff;
+}
+
+#uno img{
+object-fit:fill;
+}
+#dos img{
+object-fit:contain;
+}
+#tres img{
+object-fit:cover;
+}
+#cuatro img{
+object-fit:none;
+}
+#cinco img{
+object-fit:scale-down;
+}
+h3{
+position:absolute;
+right:-40px;
+bottom:60px;
+color:#9900ff;
+font-family: 'Tourney', cursive;
+transform:rotate(90deg);
+text-shadow:1px 1px 5px yellow;
+} */
+
+div{
+    width:270px;
+    height:270px;
+    border-radius: 50%;
+    text-align: center;
+   
+}
+img{
+    width:100%;
+    height:100%;
+    border-radius: 5%;
+    border-width: 6px 6px 6px 0px;
+    border-style: solid;
+    border-color: red yellow rgb(13, 226, 13);
+}
+div div{
+    width:160px;
+height:160px;
+margin: auto;
+background:#ccccff;
+border-radius: 0px;
+
+}
+
+.caja1{
+    background-color: blue;
+    box-shadow: 0px 0px 10px 10px #99ffff;
+    position: absolute;
+    left: 5%;
+    top: 15%;
+} 
+.caja3{
+    background-color: purple;
+    box-shadow: 0px 0px 10px 10px #99ffff;
+    position: absolute;
+    left: 40%;
+    top: 15%;
+}
+.caja5{
+    background-color: cyan;
+    box-shadow: 0px 0px 10px 10px #99ffff;
+    position: absolute;
+    right: 5%;
+    top: 15%;
+}
+.caja2{
+    background-color: green;
+    box-shadow: 0px 0px 10px 10px yellowgreen;
+    position: absolute;
+    left: 23%;
+    top: 40%;
+}
+.caja4{
+    background-color: orangered;
+    box-shadow: 0px 0px 10px 10px orange;
+    position: absolute;
+    right: 23%;
+    top: 40%;
+}
+
+h2{
+    font-family: 'Shadows Into Light', cursive;
+    color:#009900;
+    font-size: 30px;
+    text-shadow: 5px 5px yellow; 
+    
+}
+
+p{
+    font-family: 'Shadows Into Light', cursive;
+    color:white;
+   margin-top: 10px;
+}
+b{
+    font-family: 'Zen Tokyo Zoo', cursive;
+    color:white;
+  font-size: small;
+}
+h1{
+    font-family: 'Tourney', cursive;
+    text-align:center;
+    text-decoration:overline;
+    color:#9900ff;
+  margin-top: 10PX;
+}
+h3{
+    color:#9900ff;
+font-family: 'Tourney', cursive;
+transform:rotate(90deg);
+text-shadow:1px 1px 5px yellow;
+position: absolute;
+bottom: 80px;
+right: 0px;
+}
+.img1{
+    object-fit:fill;
+    }
+    .img2{
+    object-fit:contain;
+    }
+    .img3{
+    object-fit:cover;
+    }
+    .img4{
+    object-fit:none;
+    }
+    .img5{
+    object-fit:scale-down;
+    }
+
