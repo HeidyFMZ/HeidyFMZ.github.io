@@ -1,0 +1,75 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+section{
+     width: 98vw;
+    height: 100vh;
+    text-align: center;
+}
+
+section div{
+    width: 45%;
+    float: left;
+    margin: 10% 20px;
+
+}
+section img{
+    float: right;
+    width: 45%;
+    height: 50%;
+    margin: 10% 20px;
+}
+#sec1{
+    background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+   
+}
+
+section:nth-child(2){
+    background-image: linear-gradient(to top, #fcc5e4 0%, #fda34b 15%, #ff7882 35%, #c8699e 52%, #7046aa 71%, #0c1db8 87%, #020f75 100%);
+}
+#sec3{
+    background-image: linear-gradient(to top, #7028e4 0%, #e5b2ca 100%);
+}
+section:nth-child(4){
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+}
+
+div a{
+    display: block;
+    border: 3px solid red;
+    padding: 5px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: #020f75;
+    color: white;
+    margin: 20px auto;
+    text-decoration: none;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+}
+
+div a:hover{
+    background-color: white;
+    color: #0c1db8;
+    border: 3px solid #2af598;
+}
+div a:active{
+    box-shadow: 0px 0px 8px 10px greenyellow;
+}
+section h2{
+    color: #7028e4;
+    text-align: left;
+  font-size: 35px;
+  text-decoration: underline;
+font-family: 'Rubik Moonrocks', cursive;
+}
+
+section p{
+    color: #009efd;
+    font-family: 'Gruppo', cursive;
+    font-size: 25px;
+}
