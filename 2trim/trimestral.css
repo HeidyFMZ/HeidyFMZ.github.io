@@ -139,6 +139,12 @@ div{
     letter-spacing: 15px;
 }
 
+div p::first-letter{
+    color: red;
+    font-size: 60px;
+    text-shadow: 0px 0px 10px yellow;
+}
+
 .estrella1, .estrella2, .estrella3, .estrella4{
     width: 60px;
     position: absolute;
@@ -206,7 +212,7 @@ section{
     grid-template-rows: repeat(4,1fr);
     text-align: center;
     gap: 10px;
-    margin-top: 650px;
+    margin-top: 700px;
     margin-bottom: 20px;
 }
 #nombre{
