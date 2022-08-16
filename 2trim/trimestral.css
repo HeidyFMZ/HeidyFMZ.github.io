@@ -1,0 +1,238 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    /*background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);*/
+    /* font-family: 'Alumni Sans Collegiate One', sans-serif;
+font-family: 'DynaPuff', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Rubik Dirt', cursive;
+font-family: 'Rubik Distressed', cursive;
+font-family: 'Rubik Iso', cursive;
+font-family: 'Rubik Marker Hatch', cursive;
+font-family: 'Rubik Maze', cursive; 
+//DELGADAS
+font-family: 'Caveat', cursive;
+font-family: 'Inspiration', cursive;
+font-family: 'Marck Script', cursive;
+*/
+}
+h3{
+    text-align: center;
+    font-family: 'Rubik Maze', cursive; 
+    font-size: 2em;
+    color: #48de16;
+    margin-top: 10px;
+}
+.escudo{
+    width: 200px;
+    margin: auto;
+    display: block;
+    animation: escudo 5s infinite;    
+}
+
+h2{
+    position: absolute;
+    top: 100px;
+    color: #1659de;
+    font-size: 3em;
+    font-family: 'Rubik Iso', cursive;
+}
+
+.eugenia{
+   left: 5px;
+   animation: izquierda 5s infinite;
+}
+
+.ravasco{
+    right: 5px;
+    text-align: right;
+    animation: derecha 5s infinite;
+}
+
+@keyframes derecha{
+    0%{
+        transform: translatex(0px);
+    }
+    50%{
+        transform: translatex(-400px);
+    }
+    100%{
+        transform: translatex(0px);
+    }
+}
+@keyframes izquierda{
+    0%{
+        transform: translatex(0px);
+    }
+    50%{
+        transform: translatex(400px);
+    }
+    100%{
+        transform: translatex(0px);
+    }
+}
+@keyframes escudo{
+    0%{
+        transform: scale(1,1);
+    }
+    50%{
+        transform: scale(0.5,0.5);
+    }
+    100%{
+        transform: scale(1.5,1.5);
+    }
+}
+
+div{
+    width: 70%;
+    max-width: 750px;
+    height: 230px;
+    margin: 20px;
+    font-size: 40px;
+    padding-right: 10px;
+    font-weight: 800;
+    background-repeat: no-repeat;
+    text-align: right;
+    position: absolute;
+}
+.frase1{
+    border: 7px solid #eccf30;
+    color: #eccf30;
+    font-family: 'Marck Script', cursive;
+    background-image: url('https://static.wixstatic.com/media/66a829_9b3d594dc19846c897948b830ba9682c~mv2.jpg/v1/fill/w_297,h_419,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Eugenia%20Ravasco.jpg');
+    background-color: chocolate;
+    top: 250px;
+    right: 15px;
+}
+.frase1:hover{
+    color: chocolate;
+    background-color: #eccf30;
+    border: 7px solid chocolate;
+    background-position: right;
+    text-align: left;
+    padding-left: 10px;
+    background-size: 180px;
+    letter-spacing: 10px;
+}
+.frase2{
+   float: left;
+    border: 7px solid cyan;
+    color: cyan;
+    font-family: 'Caveat', cursive;
+    background-image: url('https://horariodemisas.net/estadosunidos/wp-content/uploads/2021/05/sagrados-corazones-de-jesus-y-maria.jpg');
+    background-color: #4146e1;
+    top: 550px;
+    left: 15px;
+}
+.frase2:hover{
+    color: #4146e1;
+    background-color: cyan;
+    border: 7px solid #4146e1;
+    background-position: right;
+    text-align: left;
+    padding-left: 10px;
+    background-size: 300px;
+    letter-spacing: 15px;
+}
+
+.estrella1, .estrella2, .estrella3, .estrella4{
+    width: 60px;
+    position: absolute;
+}
+.estrella1{
+    top:350px ;
+    left:40px ;
+    animation: estrella infinite 10s;
+}
+.estrella2{
+    top:350px ;
+    left:40px ;
+    animation: estrella infinite 10s reverse;
+}
+
+@keyframes estrella{
+    0%{
+        transform: translate(0px,0px) rotate(0deg);
+    }
+    12.5%{
+        transform: translate(60px,-80px) rotate(360deg);
+    }
+    25%{
+        transform: translate(120px,80px) rotate(0deg);
+    }
+    37.5%{
+        transform: translate(180px,-80px) rotate(360deg);
+    }
+    50%{
+        transform: translate(240px,80px) rotate(0deg);
+    }
+    62.5%{
+        transform: translate(300px,-80px) rotate(360deg);
+    }
+    75%{
+        transform: translate(360px,80px) rotate(0deg);
+    }
+    87.5%{
+        transform: translate(410px,-80px) rotate(360deg);
+    }
+    100%{
+        transform: translate(470px,0px) rotate(0deg);
+    }
+       
+}
+
+.estrella3{
+    top:650px ;
+    right:500px ;
+    animation: estrella infinite 8s;
+}
+.estrella4{
+    top:650px ;
+    right:500px ;
+    animation: estrella infinite 8s reverse;
+}
+
+section{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    border:8px solid #48de16;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    text-align: center;
+    gap: 10px;
+    margin-top: 650px;
+    margin-bottom: 20px;
+}
+#nombre{
+    background-color: #48de16;
+    grid-column: 2/span 2;
+    grid-row: 2/span 2;
+    font-family: 'Rubik Marker Hatch', cursive;
+    font-size: 40px;
+    color: greenyellow;
+    background-image: none;
+    padding-top: 15px;
+}
+
+section p:nth-child(2n+1){
+    background-color: #eccf30;
+    background-image: url('https://i.pinimg.com/originals/05/e2/ac/05e2ac5ef081d782ae0f16b46e7d5c5e.gif');
+    background-size: cover;
+}
+section p:nth-child(2n){
+    background-color: #a613db;
+    font-family: 'Rubik Maze', cursive;
+    font-size: 60px;
+    color: violet;
+    padding-top: 20px;
+}
+section p:hover{
+    font-size: 90px;
+}
+
