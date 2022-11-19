@@ -266,8 +266,8 @@ body::-webkit-scrollbar-thumb:hover{
     h2{
       font-size: 40px;
       position: absolute;
-      top: 70px;
-      left: 140px;
+      top: 80px;
+      left: 70px;
     }
     .menu{
         display: block;
@@ -286,7 +286,7 @@ body::-webkit-scrollbar-thumb:hover{
         border: 8px solid rgb(92, 10, 82);
     }
     .caja1{
-        height: 2870px;
+        height: 3200px;
         position: absolute;
         top:335px
     }
@@ -300,36 +300,44 @@ border-top: none;
         position: absolute;
         left: 10px;
         top: 70px;
-    width: 410px;
+    width: 310px;
 
     }
     .formas_medicamentos{
         position: absolute;
         left: 10px;
-        top: 580px;
-        width: 430px;
+        top: 690px;
+        width: 330px;
     }
 
     .caja2{
         position: absolute;
-        top: 3200px;
+        top: 3500px;
         height: 100px;
     }
 
     .slider2{
-        top:2350px;
-        left: 50px;
+        top:2670px;
+        left: 5px;
+        width: 380px;
     }
+    .slider2 img{
+    width: 380px;
+}
 .toma_medicamentos{
-    top:1700px;
+    top:1900px;
     left: 10px;
-    width: 430px;
+    width: 330px;
 }
 .slider{
-    left: 50px;
-    top: 1210px;
-
+    left: 5px;
+    top: 1410px;
+width: 380px;
 }
+.slider img{
+    width: 380px;
+}
+
 .logotipo_empresa{
     height: 80px;
     width: 80px;
@@ -353,7 +361,7 @@ border-top: none;
     width: 30px;
     height: 30px;
     position: absolute;
-    left: -1px;
+    left: -2px;
 }
 .enlace1{
     position: absolute;
@@ -373,7 +381,7 @@ border-top: none;
     width: 30px;
     height: 30px;
     position: absolute;
-    left: -1px;
+    left: -2px;
 }
 .boton3{
     width: 30px;
@@ -386,7 +394,7 @@ border-top: none;
     width: 30px;
     height: 30px;
     position: absolute;
-    left: -1px;
+    left: -2px;
 }
 .enlace3{
     position: absolute;

@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: white;
+}
+/*--------MENU--------*/
+
+header{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    transition: 0.7s;
+    padding:30px 20px;
+    z-index:10;
+}
+header.abajo{
+    background: white;
+    padding:15px 20px;
+
+}
+header .logo{
+    position: relative;
+    color:white;
+    font-weight: bold;
+    font-size:2em;
+    letter-spacing:2px;
+    transition:1.5s;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+header ul{
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    position: relative;
+    font-family: 'Playfair Display', serif;
+    margin:0 15px;
+    text-decoration:none;
+    color: #fff;
+    letter-spacing: 2px;
+    transition: 0.7s;
+}
+
+
+body{
+    background-image: url('../imgs/fondos.gif'); 
+}
+
+.form-register{
+    width: 400px;
+    background-color: #8b3e42af;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Calibri';
+    color: rgb(225, 236, 243);
+    box-shadow: 7px 13px 37px rgb(17, 10, 10);
+}
+
+.form-register h4{
+    font-size: 22px;
+    margin-bottom: 20px;   
+}
+
+.controls{
+ width: 100%;
+ background-color: #ffcc7487;
+ padding: 10px;
+ border-radius: 4px;
+ margin-bottom: 16px;
+ border: 1px solid #c5401f;
+ font-family: 'Calibri';
+ font-size: 18px;   
+ color: aliceblue;
+}
+
+.form-register p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px; 
+    line-height: 40px;  
+    color: white;
+}
+
+.form-register a{
+    color: aliceblue;    
+    text-decoration: none;
+}
+
+.form-register a:hover{
+    color: aliceblue;
+    text-decoration: underline;
+}
+
+.form-register button {
+    width: 100%;
+    background-color: #ae74ff97;   
+    border: none;
+    padding: 12px;
+    color: aliceblue;
+    margin: 16px 0px;
+    font-size: 16px;
+}

@@ -418,13 +418,13 @@ body::-webkit-scrollbar-thumb:hover{
       font-size: 34px;
       position: absolute;
       top: 100px;
-      left: 50px;
+      left: 20px;
       text-align: center;
     }
     .menu{
         display: block;
         width: 100%;
-        top: 170px;
+        top: 190px;
     }
     .menu a{
         font-size: 20px;
@@ -467,7 +467,7 @@ body::-webkit-scrollbar-thumb:hover{
     }
     .flechas{
         position: absolute;
-        left: 300px;
+        left: 260px;
         width: 100px;
     }
    
@@ -519,6 +519,8 @@ body::-webkit-scrollbar-thumb:hover{
         position: absolute;
         left: 13px;
         top: 170px;
+        width: 310px;
+        height: 480px;
     }
     .flechas{
         position: absolute;
@@ -528,39 +530,73 @@ body::-webkit-scrollbar-thumb:hover{
     .slider{
         position: absolute;
         top: 740px;
-        left: 50px;
+        left: 20px;
+        width: 350px;
+    }
+    .slider img{
+        width: 350px;
     }
     .concepto2{
         left: 13px;
         top: 170px;
+         width: 310px;
+        height: 500px;
     }
     .slider2{
         top: 740px;
-        left: 50px;
+        left: 20px;
+     width: 350px;
+    }
+    .slider2 ul{
+        padding-left: 150px;
+    }
+    .slider2 img{
+        width: 350px;
     }
     .concepto3{
         left: 13px;
         top: 200px;
+         width: 310px;
+        height: 500px;
     }
     .slider3{
-        top: 740px;
-        left: 50px;
+        top: 770px;
+        left: 20px;
+    width: 350px;
+    }
+    .slider3 img{
+        width: 350px;
     }
     .concepto4{
         left: 13px;
         top: 200px;
+         width: 310px;
+        height: 460px;
     }
     .slider4{
         top: 740px;
-        left: 50px;
+        left: 20px;
+     width: 350px;
+    }
+  .slider4 ul{
+        padding-left: 150px;
+    }
+    .slider4 img{
+        width: 350px;
     }
     .concepto5{
-        left: 13px;
+        left: 10px;
         top: 200px;
+         width: 310px;
+        height: 440px;
     }
     .slider5{
         top: 740px;
-        left: 50px;
+        left: 30px;
+     width: 350px;
+    }
+    .slider5 img{
+        width: 350px;
     }
     .caja_fin{
         position: absolute;
@@ -571,26 +607,50 @@ body::-webkit-scrollbar-thumb:hover{
     .concepto6{
         left: 13px;
         top: 200px;
+         width: 310px;
+        height: 430px;
     }
     .slider6{
         top: 740px;
-        left: 50px;
+        left: 20px;
+     width: 350px;
+    }
+   .slider6 ul{
+        padding-left: 150px;
+    }
+    .slider6 img{
+        width: 350px;
     }
     .concepto7{
-        left: 13px;
+        left: 10px;
         top: 200px;
+         width: 310px;
+        height: 460px;
     }
     .slider7{
         top: 740px;
-        left: 50px;
+        left: 30px;
+     width: 350px;
+    }
+    .slider7 img{
+        width: 350px;
     }
     .concepto8{
-        left: 13px;
+        left: 10px;
         top: 180px;
+         width: 310px;
+        height: 500px;
     }
     .slider8{
         top: 770px;
-        left: 50px;
+        left: 30px;
+     width: 350px;
+    }
+    .slider8 ul{
+        padding-left: 150px;
+    }
+    .slider8 img{
+        width: 350px;
     }
   
         .logotipo_empresa{
@@ -616,7 +676,7 @@ body::-webkit-scrollbar-thumb:hover{
                 width: 30px;
                 height: 30px;
                 position: absolute;
-                left: -1px;
+                left: -2px;
             }
             .enlace1{
                 position: absolute;
@@ -637,7 +697,7 @@ body::-webkit-scrollbar-thumb:hover{
                 width: 30px;
                 height: 30px;
                 position: absolute;
-                left: -1px;
+                left: -2px;
             }
             .boton3{
                 width: 30px;
@@ -650,7 +710,7 @@ body::-webkit-scrollbar-thumb:hover{
                 width: 30px;
                 height: 30px;
                 position: absolute;
-                left: -1px;
+                left: -2px;
             }
             .enlace3{
                 position: absolute;

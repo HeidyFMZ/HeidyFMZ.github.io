@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DENCKER PAN</title>
+<meta name="viewport" content="user-scalable=no,width=device-width"/>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<script src="https://kit.fontawesome.com/9834c7fe50.js" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="js/jquery.js" ></script>
+
+
+
+</head>
+<header>
+	<a href="https://www.facebook.com/denckerpan"class="logo" >Dencker Pan  </a>
+	 <nav>
+		 <ul>
+			 <li><a href="index.html">Inicio</a></li>
+			 <li><a href="index-catalogo.html">Tu sucursal</a></li>
+			 <li><a href="index-crear cuenta.html">Inicia sesion</a></li>
+		 </ul>
+	 </nav>
+ </header>
+
+
+ <div class="portadas">
+</div>
+<div class="circulo"><img src="imgs/circular.png" alt=""></div>
+<div class="denckerlogo"><img src="imgs/logo.png" alt=""></div>
+<body style="margin:30px">
+
+	<article class="info">
+		<hr></hr>
+
+  <h2>🥖 ¡REALIZA UN PEDIDO NUESTROS PRODUCTOS! 🍞</h2>
+<p>Para poder realizar el pedido para tu sucursal sigue los siguientes pasos:
+    <br>🥖Crea una "tabla" ,con el botón que dice "Crear Tabla".
+    <br>🥖Escribe el nombre del producto que desees obtener y también escribe la cantidad que desees, una vez hecho esto inserta los artículos a tu tabla de artículos presionando "Insertar" (Puedes añadir los artículos que desees,siempre y cuando estén en el catálogo).
+    <br>🥖Una vez tengas en tu tabla los productos que desees comprar presiona "Obtener Registro" para mostrar tu tabla con todos  los productos que pediste<br>
+	<br>ESPECIFICACIONES:
+	<br>🍞Puedes borrar productos de tu tabla presionando el boton "Delete" al lado,así también puedes editar la cantidad presionando "Update".
+	<br>🍞Si te arrepentiste del pedido (antes de presionar "ABASTECERME") puedas borrar tu tabla presionando "Eliminar Tabla" y luego refrescas la página.
+
+
+</p>
+
+<hr></hr>
+  </article>
+
+  
+	  
+
+<div class="container">
+	
+<div class="row">
+<form>
+	<fieldset>
+		<legend>Nombre del artículo</legend>
+		<input type="text" class="form-control" name="" id="item">
+
+		<legend>Cantidad</legend>
+		<input type="number" class="form-control" id="quantity" name="">
+<br>
+<button type="button" id="insert" class="btn btn-success">Insertar</button>
+
+<button type="button" id="create" class="btn btn-success">Crear Tabla</button>
+
+<button type="button" id="remove" class="btn btn-danger">Eliminar Tabla</button>
+
+<button type="button" id="list" class="btn btn-success">Obtener Registro</button>
+<p><small><b>Note:</b>La tabla debe crearse primero antes de insertar o realizar cualquier transacción </small></p>
+					
+	</fieldset>
+</form>
+
+<hr>
+<h4>Record</h4>
+<table class="table table-bordered table-hover" id="itemlist">
+	
+</table>
+
+<button onclick="alert('🥖🥖Gracias por confiar en  nosotros,su pedido llegara a su sucursal🥖🥖')" type="button" id="list" class="btn btn-success">ABASTECERME</button>
+
+<footer>
+    <div class="container">
+    <img src="imgs/footer.gif" alt="">
+   
+    <p class="textofooter">© 2022Google Esta pagina web fue diseñada y desarrollada por   T I V E C T U S Ⓒ copyright y derechos reservados <br>CONTACTANOS:</p>
+    <hr></hr>
+    <div class="tivectus"><img src="imgs/tivectus.png" alt=""></div>
+    <ul class="contacto">
+    <li class="link1"><a href="https://www.facebook.com/denckerpan/?ref=page_internal"><i class="fab fa-facebook"></a></i></li>
+    <li class="link2"><a href="https://www.youtube.com/channel/UC578VyRobrTQWPcxo3Zh2iA/featured"><i class="fab fa-youtube"></a></i></li>
+    <li class="link3"><a href="https://www.youtube.com/channel/UC578VyRobrTQWPcxo3Zh2iA/featured"><i class="fab fa-twitter"></a></i></li>
+    </ul>
+        </div>
+            
+           
+    </footer>
+
+</div>
+
+</div>
+
+
+
+<script type="text/javascript">
+
+var db=openDatabase("itemDB","1.0","itemDB",65535); // itemDB is the database name
+
+
+$(function(){
+
+loadData(); //loading our records
+
+
+
+//CREATING TABLE STARTS HERE
+
+$("#create").click(function(){
+db.transaction(function(transaction){
+	var sql="CREATE TABLE items "+
+	"(id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,"+
+	"item VARCHAR(100) NOT NULL,"+
+	"quantity INT(5) NOT NULL)";
+	transaction.executeSql(sql,undefined,function(){
+		alert("La tabla ha sido creada exitosamente");
+	},function(){
+		alert("Ya se está creando la tabla");
+	})
+});
+});
+// CREATING TABLE ENDS HERE
+
+
+
+//DELETING TABLE STARTS HERE
+$("#remove").click(function(){
+
+if(!confirm("¿Estás segur@ de eliminar esta tabla?","")) return;;
+db.transaction(function(transaction){
+	var sql="DROP TABLE items";
+	transaction.executeSql(sql,undefined,function(){
+		alert("La tabla se eliminó con éxito")
+	},function(transaction,err){
+		alert(err.message);
+	})
+});
+});
+//DELETING TABLE ENDS HERE
+
+
+
+//INSERTING DATA INTO TABLE
+
+$("#insert").click(function(){
+var item=$("#item").val();
+var qty=$("#quantity").val();
+db.transaction(function(transaction){
+var sql="INSERT INTO items(item,quantity) VALUES(?,?)";
+transaction.executeSql(sql,[item,qty],function(){
+	alert("El nuevo artículo  se agregó con éxito");
+},function(transaction,err){
+	alert(err.message);
+})
+})
+})
+//INSERTING DATA ENDS HERE
+
+
+//FETCHING OUR RECORD
+$("#list").click(function(){
+loadData();
+})
+
+
+
+//FUNCTION TO LOAD OUR RECORDS
+function loadData(){
+		$("#itemlist").children().remove();
+	db.transaction(function(transaction){
+		var sql="SELECT * FROM items ORDER BY id DESC";
+		transaction.executeSql(sql,undefined,function(transaction,result){
+if(result.rows.length){
+
+for(var i=0;i<result.rows.length;i++){
+	var row=result.rows.item(i);
+	var item=row.item;
+	var id=row.id;
+	var quantity=row.quantity;
+	$("#itemlist").append('<tr id="del'+id+'"><td>'+id+'</td><td>'+item+'</td><td id="newqty'+id+'">'+quantity+'</td><td><a href="#" class="btn btn-danger deleteitem" data-id="'+id+'">Delete</a> <a href="#" class="btn btn-primary updateitem" data-id="'+id+'">Update</a></td></tr>');
+}
+}else{
+	$("#itemlist").append('<tr><td colspan="3" align="center">No Item Found</td></tr>');
+}
+		},function(transaction,err){
+			alert('No se encontró ninguna tabla. Haga clic en "Crear tabla" para crear una tabla ahora');
+		})
+	})
+
+
+
+
+//setTimeout was used to execute codes inside it to be loaded after records are loaded/fetched.
+
+setTimeout(function(){
+	$(".deleteitem").click(function(){
+var sure=confirm("¿Estás segur@ de eliminar este artículo?");
+if(sure===true){
+	var id=$(this).data("id");
+db.transaction(function(transaction){
+var sql="DELETE FROM items where id=?";
+transaction.executeSql(sql,[id],function(){
+	$("#del"+id).fadeOut();
+	alert("El artículo se eliminó con éxito");
+},function(transaction,err){
+	alert(err.message);
+})
+});
+}
+})
+
+$(".updateitem").click(function(){
+var qty=prompt("Ingresa la nueva cantidad a cambiar",1);
+if(qty!==null){
+	var id=$(this).data("id");
+db.transaction(function(transaction){
+var sql="UPDATE items SET quantity=? where id=?";
+transaction.executeSql(sql,[qty,id],function(){
+	$("#newqty"+id).html(qty);
+	alert("El artículo se actualizó con éxito");
+},function(transaction,err){
+	alert(err.message);
+})
+});
+}
+})
+
+},1000);
+
+
+}
+
+
+
+
+
+});
+
+
+
+
+
+
+
+
+
+
+</script>
+
+</body>
+</html>

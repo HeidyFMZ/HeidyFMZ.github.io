@@ -1,0 +1,338 @@
+/*--------MENU--------*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color: #474140;
+}
+header{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    transition: 0.7s;
+    padding:30px 20px;
+    z-index:10;
+}
+header.abajo{
+    background: white;
+    padding:15px 20px;
+
+}
+header .logo{
+    position: relative;
+    color:white;
+    font-weight: bold;
+    font-size:2em;
+    letter-spacing:2px;
+    transition:1.5s;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+header ul{
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    position: relative;
+    font-family: 'Playfair Display', serif;
+    margin:0 15px;
+    text-decoration:none;
+    color: #fff;
+    letter-spacing: 2px;
+    transition: 0.7s;
+}
+header.abajo .logo, header.abajo ul li a{
+color: #474140;
+}
+/*-----------gif de portada----------*/
+.portadas{
+    position: relative;
+    width:100%;
+    height:100vh;
+    background:url('../imgs/fondoportadainicio.gif') ;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.6);
+}
+/*-----TITULO-----*/
+
+.circulo{
+   position:absolute;
+    top:0vh;
+    left:50vh;
+}
+.circulo img{
+     width:100vh;
+    height:100vh;
+}
+.denckerlogo{
+    position: absolute;
+    top: 25vh;
+    left: 72vh;    
+}
+.denckerlogo img{
+    width:55vh;
+    height:50vh;
+}
+/*----------INFO-------*/
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 3vh;
+}
+.somos{
+    margin-top: 30vh;
+    padding: 10pt;
+    width: 30%;
+    height: 40vh;
+    background-color: #ffe0a6;
+    text-align: center;
+    line-height: 30px;
+    box-shadow:  3.5em 3.5em #ffa6a6;
+    position: relative;
+    left:15vh;
+    transition: 1.5s;
+}
+.somos .somos1{
+    position: absolute;
+    left: 100vh;
+    top: -5em;
+    height:70vh;
+    width: auto;
+}
+.somos .somos2{
+    position: absolute;
+    left: 70vh;
+    top: -5vh;
+    width:15em;
+    height: auto;
+    border: 4px dashed white;
+
+}
+.somos .somos3{
+    position: absolute;
+    left: 120vh;
+    top: 50vh;
+    width:12em;
+    height: auto;
+    border: 4px dashed white;
+}
+.somos p{
+line-height: 2em;
+}
+.somos h2{    
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+    line-height: normal;
+
+}
+.somos:hover{
+    box-shadow:  3em -3em #ffa6a6;
+}
+
+.separador{
+    rotate: 85deg;
+    height:20vh;
+    width: min-content;
+    position: relative;
+    top:40vh;
+    left:60%;
+}
+.separador img{
+    height:100vh;
+
+}
+
+/*-----SLIDER DE IMAGENES-----*/
+.slider{
+    margin-top: 60vh;
+    width: 100%;
+    height:100vh;
+    overflow: hidden;
+}
+.slider ul{
+    display:flex;
+    animation: cambio 20s infinite;
+    width: 400%;
+
+}
+.slider li{
+    width:100%;
+    list-style: none;
+
+}
+.slider img{
+    width:100%;
+    height:100%;
+    filter: brightness(0.5);
+    
+
+}
+@keyframes cambio{
+    0%{margin-left: 0;}
+    20%{margin-left:0 ;}
+    
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+     
+    75%{margin-left:-300% ;}
+    100%{margin-left: -300%;}
+}
+/*------HISTORIA------*/
+.historia{
+    width: 30%;
+    position: absolute;
+    padding: 10pt;
+    left:60%;
+    top:110em;
+    text-align: center;
+    border:8px dotted white;
+    background-color:#c5929283;
+    
+}
+
+.historia h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+    line-height: normal;
+    text-align: center;
+    color: white;
+}
+.historia p{
+  line-height: 2em;
+  color: #fff;
+  font-weight: 600;
+}
+/*---------SECCION INFO--------*/   
+    .seccioninfo{
+    width:100%;
+    height:550px;
+    position:relative;
+    margin-top:40vh;
+    margin-bottom: 20vh;
+    }
+    .imgs{
+    box-sizing:border-box;
+    float:left;
+    width:30.33%;
+    height:550px;
+    margin:1.5%;
+    padding:1em;
+    overflow:hidden;
+    }
+    .imgs img{
+    height:300px;
+    width:360px;
+    object-fit:cover;
+    transition:box-shadow 0.6s;
+    }
+    .imgs img:hover{
+    box-shadow:0px 0px 20px #ff1100ce;
+}
+/*--------Separador de pan------*/
+.separador2{
+    rotate: 90deg;
+    height:20vh;
+    width: min-content;
+    position: relative;
+    top:20vh;
+    left:50%;
+}
+.separador2 img{
+    height:60vh;
+
+}
+
+/*-----FOOTER------*/
+footer div{
+    width:100%;
+    height:360px;
+    position:relative;
+    overflow:hidden;
+    margin-top:60px;
+    }
+    footer img{
+    width:100%;
+    height: 400px;
+    object-fit: cover;
+    }
+    .tivectus{
+        position: absolute;
+        top: 1em;
+        left:43%;
+    }
+    .tivectus img{
+        width:12em;
+        height:auto;
+        filter: brightness(0.1);
+    }
+    .textofooter{
+    position:absolute;
+    top:6vh;
+    left:22%;
+    font-size:15px;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    line-height:50px;
+    text-align:center;
+    }
+    hr{
+    position:absolute;
+    top:30px;
+    left:370px;
+    width:45%;
+    height:0.2px;
+    margin:auto;
+    
+    }
+    .contacto{
+    position:absolute;
+    top:17em;
+    left:25em;
+    display: inline-block;
+    list-style-type: none;    }
+    
+    .link1{
+    float:left;
+    top:10px;
+    padding-left:80px;
+    font-size:70px;
+    }
+    .link2{
+    float:left;
+    top:10px;
+    padding-left:80px;
+    font-size:70px;
+    }
+    .link3{
+    float:left;
+    top:10px;
+    padding-left:80px;
+    left:120px;
+    font-size:70px;
+    }
+    .link4{
+    float:left;
+    top:10px;
+    padding-left:80px;
+    font-size:70px;
+    }
+    i{
+        color:white;
+    }
