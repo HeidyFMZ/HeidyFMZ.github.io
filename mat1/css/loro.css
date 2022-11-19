@@ -1,0 +1,253 @@
+body{
+    background: url(../imagenes/pas5.jpg);
+    background-size: 100vw;
+  
+}
+
+   
+
+
+
+a img{
+    display: block;
+    width: 50px;
+    position: absolute;
+    top: 100px;
+    background-color: yellow;
+    border-radius: 20px;
+    border: 4px dashed turquoise;
+    animation: vocal 4s infinite alternate;
+}
+.elefante{
+    right: 30px;
+    border: 4px dashed blueviolet;
+    animation: vocal 4s infinite alternate;
+   
+}
+@keyframes vocal{
+    0%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(150px);
+    }
+    100%{
+        transform: translateX(-150px);
+    }
+}
+div{
+    display: inline-block;
+}
+.letras{
+    position: absolute;
+    top: 100px;
+    font-size: 45px;
+    font-family: 'Patrick Hand', cursiva;
+   
+    text-shadow: 0px 0px 6px  cyan;
+    border-radius: 50%;
+    width: 50px;
+    text-align: center;
+    background-color: yellow;
+    color: chocolate;
+    
+}
+@keyframes regla{
+    0%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(50px);
+    }
+}
+@keyframes regalo{
+    0%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(-50px);
+    }
+}
+#letra1{
+    position: absolute;
+    left: 350px;
+    background-color: yellow;
+    animation: 4s regla alternate-reverse infinite;
+   
+}
+#letra2{
+    position: absolute;
+    left: 400px;
+    background-color: yellow;
+    animation: 4s regalo alternate-reverse infinite;
+
+}
+#letra3{
+    position: absolute;
+    left: 450px;
+    animation: 4s regla alternate-reverse infinite;
+}
+#letra4{
+    position: absolute;
+    left: 500px;
+    animation: 4s regalo alternate-reverse infinite;
+}
+
+#letra5{
+    position: absolute;
+    left: 550px;
+    animation: 4s regla alternate-reverse infinite;
+}
+#letra6{
+    position: absolute;
+    left: 600px;
+    animation: 4s regalo alternate-reverse infinite;
+}
+
+#letra7{
+    position: absolute;
+    left: 650px;
+    animation: 4s regla alternate-reverse infinite;
+}
+#letra8{
+    position: absolute;
+    left: 700px;
+    animation: 4s regalo alternate-reverse infinite;
+}
+#letra9{
+    position: absolute;
+    left: 750px;
+    animation: 4s regla alternate-reverse infinite;
+}
+#letra10{
+    position: absolute;
+    left: 800px;
+    animation: 4s regalo alternate-reverse infinite;
+}
+
+#letra11{
+    position: absolute;
+    left: 850px;
+    animation: 4s regla alternate-reverse infinite;
+}
+#letra12{
+    position: absolute;
+    left: 900px;
+    animation: 4s regalo alternate-reverse infinite;
+}
+
+.primero{
+    position: absolute;
+    left: 100px;
+    top: 250px;
+   }
+   .for{
+    position: absolute;
+    top: 700px;
+    right: 100px;
+   }
+   .cuarto{
+   position: absolute;
+   top: 1300px;
+   left: 50px;
+   
+   
+   }
+   
+   
+
+.tercero{
+ position: absolute;
+ top: 1300px;
+ right: 50px;
+}
+.concepto:hover{
+ font-size: 0px;
+ background: url(../imagenes/lentes-que-llevan-del-perro-divertido-listo-ecuaciones-de-la-matemáticas-en-pizarra-fondo-114507067.jpg);
+ background-size: 250px;
+ background-repeat: no-repeat;
+ background-position: center center;
+ animation: cam 3s infinite alternate-reverse;
+ width: 200px;
+ height: 150px;
+ top:350px ;
+ left: 70px;
+}
+.concep{
+ width: 350px;
+ height: 400px;
+ position: absolute;
+ top: 250px;
+ right: 40px;
+ border-radius: 40px;
+ border: 5px ridge navy;
+
+ animation: cami 3s infinite alternate-reverse;
+}
+@keyframes cam{
+ 
+ 0%{
+     transform: scale(0.5,0.5) ;
+ }
+ 50%{
+     transform: scale(1,1) ;
+ }
+ 100%{
+     transform: scale(1.5,1.5) ;
+ }
+ 
+}
+h1{
+ position: absolute;
+ top: 1850px;
+ left: 100px;
+ font-family: 'Fredericka the Great', cursiva;
+ font-size: 30px;
+ animation: girar 3s infinite alternate-reverse;
+ background-image: linear-gradient(to top, #df89b5 0%, #bfd9fe 100%);
+ border-radius: 20px;
+ width: 400px;
+height: 60px;
+ text-align: center;
+ color: navy;
+}
+.uno{
+ top: 700px;
+ line-height: 60px;
+}
+.dado1{
+ position: absolute;
+ top: 850px;
+ left: 100px;
+ width: 500px;
+ border: 5px ridge cyan;
+ animation: cami 3s infinite alternate-reverse;
+}
+
+@keyframes cami{
+ 
+ 0%{
+     transform: scale(0.8,0.8) ;
+ }
+ 50%{
+     transform: scale(0.5,0.5) ;
+ }
+ 100%{
+     transform: scale(1,1) ;
+ }
+ 
+}
+.ti{
+ top: 1300px;
+ line-height: 60px;
+}
+.ni{
+ top: 1300px;
+ line-height: 60px;
+ left: 800px;
+}
+img{
+    width: 50px;
+    border-radius: 50%;
+}
+

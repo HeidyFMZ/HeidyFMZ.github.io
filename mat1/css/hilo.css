@@ -1,0 +1,114 @@
+body{
+    background: url(../imagenes/numeros.jpg);
+   background-size: 1400px;
+   
+    
+    
+    
+  
+}
+
+   
+
+
+.titulo{
+    width: 800px;
+    position: absolute;
+    top: 50px;
+    display: block;
+    left: 250px;
+    border-radius: 20px;
+    animation: cami 3s infinite alternate-reverse;
+}
+a img{
+    display: block;
+    width: 50px;
+    position: absolute;
+    top: 80px;
+    background-color: yellow;
+    border-radius: 20px;
+    border: 4px dashed turquoise;
+    animation: vocal 4s infinite alternate;
+}
+.elefante{
+    right: 30px;
+    border: 4px dashed blueviolet;
+    animation: vocal 4s infinite alternate;
+   
+}
+@keyframes vocal{
+    0%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(150px);
+    }
+    100%{
+        transform: translateX(-150px);
+    }
+}
+.concepto{
+    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+
+    
+    font-family: 'Flavors', cursiva;
+    width: 430px;
+    height: 350px;
+    font-size: 25px;
+    display: block;
+    position: absolute;
+    top: 250px;
+    left: 50px;
+    border: 5px solid white;
+    text-align: center;
+    border: 8px dashed blue;
+    padding: 5px;
+}
+.concepto p{
+    line-height: 30px;
+    
+    color: aliceblue;
+   
+   
+}
+@keyframes vocal{
+    0%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(100px);
+    }
+    100%{
+        transform: translateX(-100px);
+    }
+}
+
+.concepto:hover{
+    background: url(../imagenes/Perro-que-sabe-matematicas-la-rompe-en-redes-228x171.jpg);
+    background-size: 550px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-size: 0px;
+    animation: vocal 4s infinite alternate;
+   
+
+}
+
+.foto1{
+    position: absolute;
+    top: 280px;
+    left: 650px;
+}
+@keyframes cami{
+    
+    0%{
+        transform: scale(0.8,0.8) ;
+    }
+    50%{
+        transform: scale(0.5,0.5) ;
+    }
+    100%{
+        transform: scale(1,1) ;
+    }
+    
+}

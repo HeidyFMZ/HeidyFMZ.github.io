@@ -1,0 +1,124 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+body{
+    background-image: url(https://i.pinimg.com/564x/d2/69/90/d26990347d0e28fa7ec4b4fdbc130b8c.jpg);
+    width: 100%;
+    height: 100%;  
+    display: flex;
+    padding: 0px;
+    min-height: 100vh;
+    
+}
+.titulo{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+   font-family: 'Centers George', sans-serif;
+   position: relative;
+     top: 400px;
+   left: 30px;
+   font-size: 100px;
+   text-shadow: 9pt 9pt 15pt black;
+  
+}
+.menu{
+ position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 100px;
+    font-weight: bold;
+    
+    
+
+}
+ul li{
+    
+   
+    margin: 1em;
+    font-family: 'OPTINaval', sans-serif;
+      letter-spacing: 3px;                                                                               
+    box-shadow: 5px 5px 8px rgb(0, 0, 0);
+    text-align: center;
+   
+    background-color: rgba(0, 0, 0, 0.356);
+    display: inline-block;
+    padding: 0px 20px ;
+}
+a{
+   color: white;
+   text-decoration: none;
+   font-size: 35px;
+}
+a:hover{
+    color: rgb(5, 5, 5);
+}
+.videou{
+    
+    position: absolute;
+    top: 1000px;
+    right: 120px;
+    
+}
+.vi2{
+    position: absolute;
+    top: 1000px;
+    right: 710px;
+}
+.vi3{
+    position: absolute;
+    top: 1000px;
+    left: 10px;
+}
+.uno{
+    left: 45px;
+   font-size: 25px;
+    position: absolute;
+    margin-top: 1330px;
+   margin-right: 100px;
+    background-color: rgba(250, 235, 215, 0.664);
+    text-align: center;
+    font-family: 'Monomod', sans-serif;
+    box-shadow: 5pt 5pt 8pt gray;
+             
+                                                
+}
+.su{
+    font-family: 'Fimlen', sans-serif;
+    color: rgb(124, 65, 124); 
+    text-shadow: 5px 5px 8px wheat;                               
+    left: 45px;
+    font-size: 25px;
+     position: absolute;
+     margin-top: 1930px;
+    margin-right: 100px;
+    font-size: 45px;
+   
+}
+.an{
+    color: brown;
+     font-size: 25px ;
+     font-family: 'Monomod', sans-serif;
+     background: rgba(202, 169, 169, 0.794) ;
+     box-shadow: 5px 4px 9px black;
+}
+img {
+    box-shadow: 6px 6px 10px ;
+    border-radius: 25px;
+    border: solid 5px black;
+    position: relative;
+    margin-left: 695px;
+    margin-top: 185px;
+
+}
+.me{
+    height: 10cm;
+    width: 9cm;
+}
+.img:hover{
+    box-shadow: 10px 15px 16px wheat ;
+}

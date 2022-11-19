@@ -1,0 +1,152 @@
+*{
+padding: 0px;
+margin: 0px;
+}
+.menu{
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+z-index: 2;
+}
+
+.menu ul li a:hover{
+    background-color: rgb(228, 44, 75);
+    border-radius: 25px;
+    color: black;
+    transition: 1s;
+    
+
+}
+
+ .lista{
+        display: inline;
+        padding: 30px;
+    
+    }
+    
+    .enlace{
+        text-decoration: none;
+        color: white;
+        padding: 15px;
+        font-size: 20px;
+        font-weight: 600;
+    
+    }
+
+    nav ul li img{
+        width: 30px;
+        height: 30px;
+    }
+
+    #imagen{
+        width: 300px;
+        height: 250px;
+        margin-top: 40px;
+    }
+
+    .tituloprincipal{
+        margin: auto;
+        color: black;
+        text-shadow: 5px 5px 8px yellow;
+        padding-left: 40%;
+        text-decoration: underline;
+    font-family: 'Rubik Bubbles', cursive;
+        
+    }
+.contenedor{
+    padding-top: 100px;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    background-color: rgb(54, 3, 3)
+    
+}
+td{
+    text-align: center;
+    width: 300px;
+    font-size: 25px;
+    color: white;
+    font-weight: 900;
+    border-radius: 50%;
+   
+}
+
+
+.contenido1{
+    background-color: rgb(3, 3, 97);
+    width: 50%;
+    height: 50%;
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 100px; 
+    margin-bottom: 103px;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+    border: 5px dotted cyan;
+    padding: 5px;
+    
+}
+
+.contenido2{
+    background-color: brown;
+    width: 45%;
+    height: 51%;
+    display: inline-block;
+    position: absolute;
+    top: 38%;
+    right: 0px;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+    border: 5px dotted black;
+    
+    padding: 5px;
+}
+.titulo{
+    color: yellow;
+    font-size: 30px;
+    text-decoration: underline;
+    padding: 40px;
+}
+.footer{
+    background-color: black;
+    margin: 10px;
+}
+#boton1{
+    margin-left: 40%;
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    background-color: rgb(228, 44, 75);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    box-shadow: 5px 5px 5px black;
+    z-index: 1;
+
+}
+#boton1:hover{
+    background-color: yellow;
+    border: 5px dotted orangered;
+    border-radius: 25px;
+    color: black;
+    transition: 1s;
+    text-transform: uppercase;
+    
+}
+.boton{
+    margin: auto;
+    text-decoration: none;
+    color: black;
+    text-shadow: 5px 5px 8px white;
+    font-family: 'Rubik Bubbles', cursive;
+    font-size: 15px;
+}

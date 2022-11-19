@@ -1,0 +1,77 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.menu{
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.menu ul li a:hover{
+    background-color: rgb(228, 44, 75);
+    border-radius: 25px;
+    color: black;
+    transition: 1s;
+}
+
+ .lista{
+        display: inline;
+        padding: 30px;
+    
+    }
+    
+    .enlace{
+        text-decoration: none;
+        color: white;
+        padding: 15px;
+        font-size: 20px;
+        font-weight: 600;
+    
+    }
+
+    nav ul li img{
+        width: 30px;
+        height: 30px;
+    }
+.contenedor {
+    display: grid;
+    column-gap: 20px;
+    row-gap: 20px;
+    grid-template-columns: auto auto auto;
+    background-color: brown;
+    padding: 10px;
+    height: 90vh;
+    line-height: 30vh;
+    
+}
+.ctitulo{
+    padding-top: 5%;
+}
+.contenedor a{
+    color: purple;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Vescona', sans-serif;;
+    text-shadow: 5px 5px 7px black;
+}
+
+.contenedor a:hover{
+    background-color: rgba(247, 247, 133, 0.61);
+    color: red;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.cajas {
+    background-color: cyan;
+    border: 3px dotted rgba(15, 30, 241, 0.8);
+    margin: 10px;
+    font-size: 30px;
+    text-align: center;
+    border-radius:25px;
+}

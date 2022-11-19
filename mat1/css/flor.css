@@ -1,0 +1,195 @@
+body{
+    background-image: url(../imagenes/f09b8164-9267-4975-8034-b565233c189d.jpeg);
+}
+.titulo{
+    width: 500px;
+    position: absolute;
+    top: 50px;
+    display: block;
+    left: 400px;
+    border-radius: 50px;
+    animation: cami 3s infinite alternate-reverse;
+}
+
+
+a img{
+    display: block;
+    width: 50px;
+    position: absolute;
+    top: 100px;
+    background-color: yellow;
+    border-radius: 20px;
+    border: 4px dashed turquoise;
+    animation: vocal 4s infinite alternate;
+}
+.elefante{
+    right: 30px;
+    border: 4px dashed blueviolet;
+    animation: vocal 4s infinite alternate;
+   
+}
+@keyframes vocal{
+    0%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(150px);
+    }
+    100%{
+        transform: translateX(-150px);
+    }
+}
+.concepto{
+    width: 350px;
+    height: 200px; position: absolute;
+    top: 350px;
+    left: 70px;
+    border: 7px solid navy;
+    font-family: 'Fascinate Inline', cursiva;
+    color: white;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    padding: 10px;
+    background-image: linear-gradient(-20deg, #d558c8 0%, #24d292 100%);
+   }
+   .primero{
+    position: absolute;
+    left: 470px;
+    top: 355px;
+   }
+   .for{
+    position: absolute;
+    top: 650px;
+    right: 100px;
+   }
+   .cuarto{
+   position: absolute;
+   top: 2000px;
+   left: 50px;
+   
+   
+   }
+   .tercero{
+    position: absolute;
+    top: 2000px;
+    right: 50px;
+   }
+   .concepto:hover{
+    font-size: 0px;
+    background: url(../imagenes/lentes-que-llevan-del-perro-divertido-listo-ecuaciones-de-la-matemáticas-en-pizarra-fondo-114507067.jpg);
+    background-size: 250px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    animation: cam 3s infinite alternate-reverse;
+    width: 200px;
+    height: 150px;
+    top:350px ;
+    left: 70px;
+   }
+   .concep{
+    width: 300px;
+    position: absolute;
+    top: 320px;
+    right: 100px;
+    border-radius: 40px;
+    border: 5px ridge navy;
+   
+    animation: cami 3s infinite alternate-reverse;
+   }
+   @keyframes cam{
+    
+    0%{
+        transform: scale(0.5,0.5) ;
+    }
+    50%{
+        transform: scale(1,1) ;
+    }
+    100%{
+        transform: scale(1.5,1.5) ;
+    }
+    
+}
+h1{
+    position: absolute;
+    top: 1850px;
+    left: 100px;
+    font-family: 'Fredericka the Great', cursiva;
+    font-size: 30px;
+    animation: girar 3s infinite alternate-reverse;
+    background-image: linear-gradient(to top, #df89b5 0%, #bfd9fe 100%);
+    border-radius: 20px;
+    width: 400px;
+height: 60px;
+    text-align: center;
+    color: navy;
+}
+.uno{
+    top: 700px;
+    line-height: 60px;
+}
+.dado1{
+    position: absolute;
+    top: 850px;
+    left: 100px;
+    width: 500px;
+    border: 5px ridge cyan;
+    animation: cami 3s infinite alternate-reverse;
+}
+.dado2{
+    position: absolute;
+    top: 900px;
+   right: 100px;
+    width: 500px;
+    border: 5px ridge cyan;
+    animation: cami 3s infinite alternate-reverse;
+}
+@keyframes cami{
+    
+    0%{
+        transform: scale(0.8,0.8) ;
+    }
+    50%{
+        transform: scale(0.5,0.5) ;
+    }
+    100%{
+        transform: scale(1,1) ;
+    }
+    
+}
+.ti{
+    top: 1300px;
+    line-height: 60px;
+}
+.ni{
+    top: 1300px;
+    line-height: 60px;
+    left: 800px;
+}
+.ley1{
+    position: absolute;
+    top: 1400px;
+    left: 50px;
+    width: 550px;
+}
+.ley2{
+    position: absolute;
+    top: 1400px;
+    left: 700px;
+    width: 500px;
+    border: 8px yellow solid;
+    background-color: white;
+}
+@keyframes girar{
+    
+    0%{
+        transform: scale(0.5,0.5) rotate(120deg);
+    }
+    50%{
+        transform: scale(1,1) rotate(240deg);
+    }
+    100%{
+        transform: scale(1.5,1.5) rotate(360deg);
+    }
+    
+}

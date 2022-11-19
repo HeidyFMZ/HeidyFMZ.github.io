@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #59C173;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5D26C1, #a17fe0, #59C173);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5D26C1, #a17fe0, #59C173); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+}
+h1{
+    color: rgb(185, 197, 9);
+    text-decoration: underline;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container{
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+
+}
+.card{
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow:hidden;
+    background: rgb(50, 0, 231);
+    box-shadow: 0px 5px 15px rgb(74, 226, 155);
+    transition: 1s;
+}
+
+.card img{
+    width: 100%;
+    height: 210px;
+}
+.card .contenido{
+    pad: 15px;
+    text-align: center;
+}
+.card:hover{
+    box-shadow: 5px 5px 20px rgb(161, 29, 29);
+    transform: translateY(-5%);
+}
+
+a{
+    color: chocolate;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 20px;
+}

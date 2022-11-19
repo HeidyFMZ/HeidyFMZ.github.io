@@ -1,0 +1,174 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(https://static5.depositphotos.com/1034662/508/i/600/depositphotos_5087383-stock-photo-the-engineering-drawing.jpg);
+    object-fit: fill;
+    background-color: #5d4157;
+}
+
+.tec{
+    box-shadow: 9px 8px 8px rgb(0, 0, 0);
+    text-shadow: 6px 5px 5px #c96344;
+    position: absolute;
+    top: 60px;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 50px;
+    text-align: center;
+    line-height: center;
+    color: beige;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    background-image: linear-gradient(to right, #a8caba 0%, #5d4157 100%);
+}
+
+strong{
+    font-family: 'Rubik Bubbles', cursive;
+    font-size: 40px;
+    color: #ffffff;
+    text-shadow: 6px 6px 3px #a8caba;
+}
+
+.what{
+    background-color: black;
+    color: white;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20px;
+    width: 1100px;
+    height: 300px;
+    padding: 10px;
+    border-radius: 30px;
+    position: absolute;
+    top: 200px;
+    left: 180px;
+    box-shadow: 7px 7px 6px #a8caba;
+}
+
+b{
+  font-family: 'Sono', sans-serif;
+}
+
+.ct{
+    color: rgb(27, 22, 22);
+    background-color: aliceblue;
+    position: absolute;
+    left: 0px;
+    top: 550px;
+    font-size: 20px;
+    font-family: 'Shadows Into Light', cursive;
+    padding: 20px;
+    width: 600px;
+    height: 650px;
+    box-shadow: 7px 7px 8px #5d4157;
+}
+
+
+.lin{
+    color: rgb(27, 22, 22);
+    background-color: rgb(224, 168, 104);
+    position: absolute;
+    right: 50px;
+    top: 550px;
+    font-size: 20px;
+    font-family: 'Shadows Into Light', cursive;
+    padding: 20px;
+    width: 600px;
+    box-shadow: 7px 7px 8px #5d4157;
+}
+
+.dibujo{
+    position: absolute;
+    top: 1800px;
+    left: 200px;
+    background-color: black;
+    color: beige;
+    width: 1000px;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 7px 7px 4px #c96344;
+}
+
+.sub{
+    padding: 6px;
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 6px #afafaf;
+}
+
+table tr td{
+    border: 7px dotted chocolate;
+}
+
+td{
+    font-size: 15px;
+    padding: 6px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.tab{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.v1{
+    position: absolute;
+    left: 0px;
+    top: 1300px;
+}
+
+
+.menu{
+    background-color: black;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+
+}
+
+.menu ul li a:hover{
+    background-color: #c96344;
+    border-radius: 25px;
+    color: black;
+    transition: 1s;
+}
+
+.lista{
+    display: inline;
+    padding: 30px;
+}
+
+.enlaces{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 600px;
+}
+
+nav ul li img{
+    width: 30px;
+    height: 30px;
+}
+
+
+.go{
+    position: absolute;
+    top: 4000px;
+    background-color: #cf592a;
+    color: white;
+    right: 800px;
+    border-radius: 50px;
+    padding: 15px 25px;
+    text-decoration: none;
+}
+
+.go:hover{
+    background-color: black;
+}

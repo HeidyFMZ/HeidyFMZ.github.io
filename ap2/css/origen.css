@@ -1,0 +1,90 @@
+*{
+  
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    background: #659999;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f4791f, #659999);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f4791f, #659999); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.eo{
+    color: white;
+    text-shadow: 3pt 4pt 10pt rgb(200, 11, 11);
+    font-size:60px ;
+    text-align: center;
+    letter-spacing: 0.3px;
+    font-family: 'Policing Market', sans-serif;
+     text-decoration: underline;                         
+}
+.p1{
+    position: absolute;
+width: 60%;
+height: 70%;
+    border: 3px solid cyan;
+padding: 0.3em 0.2em;
+border-radius: 30px;
+background-color: blue;
+box-shadow: 3pt 3pt 5pt 5pt;
+text-align: center;
+background: #659999;
+font-family: 'Latin Modern Math', sans-serif;
+font-size: 35px;
+color: rgb(59, 77, 182);
+                                                
+}
+.img1{
+    position: relative;
+    left: 1345px;
+    width: 10cm;
+    height: 12cm;
+    border-radius: 25%;
+    margin-left: 20px;
+    border: 10px double rgb(173, 11, 11);
+}
+.img1:hover{
+    width: 12cm;
+    height: 15cm;
+    border: 10px solid blue;
+    box-shadow: 3pt 5pt 10pt white;
+    
+}
+.img2{
+   top: 300px;
+  width: 10cm;
+  border: double 10px red;
+  transform: rotate(20deg);
+  position: relative;
+  left: 95px;
+
+  
+}
+.video1{
+    position: relative;
+    left: 540px;
+}
+.menu{
+    position: absolute;
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       padding-top: 20px;
+       padding-left: 100px;
+       font-weight: bold;
+       
+       
+   
+   }
+   ul li{
+       
+      
+       margin: 1em;
+       font-family: 'OPTINaval', sans-serif;
+         letter-spacing: 3px;                                                                               
+       box-shadow: 5px 5px 8px rgb(0, 0, 0);
+       text-align: center;
+      
+       background-color: rgba(0, 0, 0, 0.356);
+       display: inline-block;
+       padding: 0px 20px ;
+   }

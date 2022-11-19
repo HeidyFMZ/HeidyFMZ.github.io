@@ -1,0 +1,35 @@
+body{
+    background-image: url(https://i.pinimg.com/564x/e3/39/2c/e3392caa50fe45eda5cafd08feb86d8c.jpg);
+    
+}
+.cla{
+    font-size: 75px;
+    font-family: 'largely define', sans-serif;
+    text-align: center;
+    text-decoration: overline;
+    color: rgb(15, 15, 128);
+    text-shadow: 4pt 5pt 9pt rgb(27, 127, 221);
+    letter-spacing: 5px;
+    background-color: white;
+   
+}
+.tabla{
+    text-align: center;
+  background-color: azure;
+  font-family: 'Monterchi Serif Trial', sans-serif;
+  font-size: 25px;
+  width: 90%;
+  height: 90%;
+  position: relative;   
+  left: 65px;                       
+}
+img{
+    width: 250px;
+    height: 250px;
+}
+.ti{
+    text-shadow: 3pt 3pt 5pt rgb(151, 204, 29);
+    color:olivedrab ;
+    font-size: 35px;
+    font-family: 'largely define', sans-serif;
+}

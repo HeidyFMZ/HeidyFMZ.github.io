@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/297/727/652/drawing-hd-wallpaper-preview.jpg);
+}
+
+.tit{
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    top: 50px;
+    right: 500px;
+    border-radius: 50px;
+    background-color: rgb(224, 166, 89);
+    color: gold;
+    font-size: 50px;
+    font-family: 'Rubik Bubbles', cursive;
+    text-align: center;
+    text-shadow: 4pt 5px 4pt white;
+    border: 10px dotted rgb(40, 189, 169);
+}
+
+.le{
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: #cf592a;
+    text-shadow: 5pt 5pt 5pt rgb(253, 253, 82);
+}
+
+.que{
+    color: rgb(82, 82, 95);
+    width: 1000px;
+    height: 150px;
+    padding: 20px;
+    position: absolute;
+    border-radius: 20px;
+    top: 280px;
+    left: 20px;
+    background-image: linear-gradient(to right, #e4afcb 0%, #b8cbb8 0%, #b8cbb8 0%, #e2c58b 30%, #c2ce9c 64%, #7edbdc 100%);
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20px;
+}
+
+
+.tip{
+    color: rgb(81, 81, 100);
+    width: 1000px;
+    height: 2250px;
+    padding: 20px;
+    position: absolute;
+    border-radius: 20px;
+    top: 500px;
+    right: 220px;
+    background-image: linear-gradient(to right, #e4afcb 0%, #b8cbb8 0%, #b8cbb8 0%, #e2c58b 30%, #c2ce9c 64%, #7edbdc 100%);
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20px;
+}
+
+.ocho{
+    margin:20px;
+    background-color: #d8c036;
+    width: 950px;
+    text-align: center;
+}
+
+table tr td {
+border: 5px dashed rgb(207, 97, 23);
+}
+
+ img{
+     width: 300px;
+     height: 220px;
+ }
+
+ .sub{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 30px;
+    color: firebrick;
+ }
+
+ td{
+     color: white;
+ }
+
+.historia{
+    padding: 20px;
+    background-image: linear-gradient(to right, #e4afcb 0%, #b8cbb8 0%, #b8cbb8 0%, #e2c58b 30%, #c2ce9c 64%, #7edbdc 100%);
+    width: 700px;
+    position: absolute;
+    top: 2900px;
+    left: 100px;
+    border-radius: 25px;
+    height: 850px;
+    font-size: 20px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.epo{
+    font-family: 'Alfa Slab One', cursive;
+    text-transform: uppercase;
+}
+ 
+.art{
+    
+    color: #cf592a;
+    text-shadow: 6px 6px 6px #f5da43;
+    font-size: 30px;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+.v1{
+    position: absolute;
+    right: 0px;
+    top: 3000px;
+    width: 35%;
+}
+
+
+
+.menu{
+    background-color: black;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+
+}
+
+.menu ul li a:hover{
+    background-color: #eccfc6;
+    border-radius: 25px;
+    color: black;
+    transition: 1s;
+}
+
+.lista{
+    display: inline;
+    padding: 30px;
+}
+
+.enlaces{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+nav ul li img{
+    width: 30px;
+    height: 30px;
+}
+
+#imagen{
+    width: 300px;
+    height: 250px;
+    margin-top: 40px;
+}
+
+.go{
+    position: absolute;
+    top: 4000px;
+    background-color: #cf592a;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+}
+
+.go:hover{
+    background-color: black;
+}

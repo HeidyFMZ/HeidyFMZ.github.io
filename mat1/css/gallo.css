@@ -1,0 +1,465 @@
+body{
+    background: url(../imagenes/fondo4.webp);
+    background-size: 100vw;
+  
+}
+
+   
+
+
+.titu{
+    width: 500px;
+    position: absolute;
+    top: 30px;
+    display: block;
+    left: 390px;
+    border-radius: 20px;
+}
+a img{
+    display: block;
+    width: 50px;
+    position: absolute;
+    top: 150px;
+    background-color: yellow;
+    border-radius: 20px;
+    border: 4px dashed turquoise;
+    animation: vocal 4s infinite alternate;
+}
+.elefante{
+    right: 30px;
+    border: 4px dashed blueviolet;
+    animation: vocal 4s infinite alternate;
+   
+}
+@keyframes vocal{
+    0%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(150px);
+    }
+    100%{
+        transform: translateX(-150px);
+    }
+}
+div{
+    display: inline-block;
+
+}
+.letras{
+    position: absolute;
+    top: 200px;
+    font-size: 45px;
+    font-family: 'Irish Grover', cursiva;
+    color: blue;
+    text-shadow: 0px 0px 6px  cyan;
+    border-radius: 50%;
+    width: 50px;
+    text-align: center;
+    background-color: yellow;
+    
+}
+@keyframes regla{
+    0%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(50px);
+    }
+}
+@keyframes regalo{
+    0%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(-50px);
+    }
+}
+#letra1{
+    position: absolute;
+    left: 350px;
+    background-color: yellow;
+    animation: 4s regla alternate-reverse infinite;
+}
+#letra2{
+    position: absolute;
+    left: 400px;
+    background-color:yellow;
+    animation: 4s regalo alternate-reverse infinite;
+
+}
+#letra3{
+    position: absolute;
+    left: 450px;
+    animation: 4s regla alternate-reverse infinite;
+}
+#letra4{
+    position: absolute;
+    left: 500px;
+    animation: 4s regalo alternate-reverse infinite;
+}
+
+#letra5{
+    position: absolute;
+    left: 550px;
+    animation: 4s regla alternate-reverse infinite;
+}
+#letra6{
+    position: absolute;
+    left: 600px;
+    animation: 4s regalo alternate-reverse infinite;
+}
+
+#letra7{
+    position: absolute;
+    left: 650px;
+    animation: 4s regla alternate-reverse infinite;
+}
+#letra8{
+    position: absolute;
+    left: 700px;
+    animation: 4s regalo alternate-reverse infinite;
+}
+#letra9{
+    position: absolute;
+    left: 750px;
+    animation: 4s regla alternate-reverse infinite;
+}
+#letra10{
+    position: absolute;
+    left: 800px;
+    animation: 4s regalo alternate-reverse infinite;
+}
+
+#letra11{
+    position: absolute;
+    left: 850px;
+    animation: 4s regla alternate-reverse infinite;
+}
+#letra12{
+    position: absolute;
+    left: 900px;
+    animation: 4s regalo alternate-reverse infinite;
+}
+
+#letra13{
+    position: absolute;
+    left: 950px;
+    animation: 4s regla alternate-reverse infinite;
+}
+.concepto{
+    width: 450px;
+    height: 300px; position: absolute;
+    top: 350px;
+    left: 70px;
+    border: 7px solid navy;
+    font-family: 'Fascinate Inline', cursiva;
+    color: white;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    padding: 10px;
+    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+   }
+   .concepto:hover{
+    font-size: 0px;
+    background: url(../imagenes/mate1.jpeg);
+    background-size: 250px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    animation: cam 3s infinite alternate-reverse;
+    width: 200px;
+    height: 300px;
+    top:350px ;
+    left: 70px;
+    animation: vocal 4s infinite alternate;
+   
+
+   }
+   .concepto1{
+    position: absolute;
+    top: 365px;
+    right: 70px;
+   }
+   .contenedor{
+    position: absolute;
+    top: 800px;
+    left: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    border: 8px dashed navy;
+    width: 800px;
+    height: 200px;
+    text-align: center;
+
+    background-position: center center;
+    background-size:cover ;
+    border-radius: 20px;
+    padding: 10px;
+    
+    background-image: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);
+
+}
+.contenedor div{
+    background-position: center center;
+    background-size:cover ;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Rubik Bubbles', cursiva;
+    box-shadow: 0px 10px 15px cyan;
+    margin: 10px;
+    color: navy;
+    font-size: 30px;
+    padding: 10px;
+    
+   
+}
+.contenedor div:hover{
+    font-size: 0px;
+   
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+}
+.caja1{
+    background: url(../imagenes/m1.webp);
+    padding-top:30px ;
+}
+.caja2{
+    background: url(../imagenes/m2.jpg);
+    
+}
+.caja3{
+    background: url(../imagenes/m3.webp);
+}
+.caja1:hover{
+    background: url(../imagenes/lunes2.png);
+    
+}
+.caja2:hover{
+    
+    background: url(../imagenes/lunes3.png);
+    
+    
+}
+
+.caja3:hover{
+   
+    background: url(../imagenes/lunes4.png);
+    
+    
+}
+.contenedor1{
+    position: absolute;
+    top: 1100px;
+    right:  50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    border: 8px dashed navy;
+    width: 800px;
+    height: 430px;
+    text-align: center;
+
+    background-position: center center;
+    background-size:cover ;
+    border-radius: 20px;
+    padding: 10px;
+    
+    background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+
+}
+.contenedor1 div{
+    background-position: center center;
+    background-size:cover ;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Rubik Bubbles', cursiva;
+    box-shadow: 0px 10px 15px cyan;
+    margin: 10px;
+    color: navy;
+    font-size: 30px;
+    padding: 10px;
+    
+   
+}
+.caja4{
+    background: url(../imagenes/recreo3.jpg);
+    line-height: 45px;
+}
+.caja5{
+    background: url(../imagenes/recreo3.jpg);
+    
+}
+.caja6{
+    background: url(../imagenes/recreo3.jpg);
+    line-height: 60px;
+}
+.contenedor2{
+    position: absolute;
+    top: 1600px;
+    left: 50px;
+    position: absolute;
+    top: 1600px;
+    left: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    border: 8px dashed crimson;
+    width: 800px;
+    height: 500px;
+    text-align: center;
+
+    background-position: center center;
+    background-size:cover ;
+    border-radius: 20px;
+    padding: 10px;
+    
+    background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
+
+}
+.contenedor2 div{
+    background-position: center center;
+    background-size:cover ;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Rubik Bubbles', cursiva;
+    box-shadow: 0px 10px 15px crimson;
+    margin: 10px;
+    color: rgb(250, 44, 75);
+    font-size: 30px;
+    padding: 10px;
+    
+   
+}
+.caja7{
+    background: url(../imagenes/recreo4.jpeg);
+  
+}
+.caja8{
+    background: url(../imagenes/recreo4.jpeg);
+    line-height: 50px;
+    
+}
+.caja9{
+    background: url(../imagenes/recreo4.jpeg);
+    line-height: 80px;
+}
+h3{
+    position: absolute;
+        top: 650px;
+        left: 100px;
+        font-family: 'Irish Grover', cursiva;
+        font-size: 30px;
+        animation: girar 5s infinite alternate-reverse;
+        background-image: linear-gradient(to top, #df89b5 0%, #bfd9fe 100%);
+        border-radius: 20px;
+        width: 250px;
+
+        text-align: center;
+        color: navy;
+    }
+    @keyframes girar{
+    
+        0%{
+            transform: scale(0.5,0.5) rotate(0deg);
+        }
+        50%{
+            transform: scale(1,1) rotate(20deg);
+        }
+        100%{
+            transform: scale(1.2,1.2) rotate(60deg);
+        }
+        
+    }
+    .lunes1{
+        position: absolute;
+       left: 1000px;
+        top: 800px;
+    }
+    .martes1{
+        position: absolute;
+       left: 100px;
+        top: 1100px;
+    }
+    .mie1{
+        position: absolute;
+       left: 1000px;
+        top: 1650px;
+    }
+    .foto2{
+        position: absolute;
+        left: 50px;
+        top: 1350px;
+        border-radius: 20px;
+        border: 3px solid blueviolet;
+        background: url(../imagenes/martes1.gif);
+        width: 300px;
+        height: 150px;
+        background-size: 300px;
+        animation: cam 3s infinite alternate-reverse;
+        
+    }
+    .foto2:hover{
+        background: url(../imagenes/98.jpg);
+        background-size: 300px;
+        height: 180px;
+    }
+    @keyframes cam{
+    
+        0%{
+            transform: scale(0.5,0.5) ;
+        }
+        50%{
+            transform: scale(1,1) ;
+        }
+        100%{
+            transform: scale(1.2,1.2) ;
+        }
+        
+    }
+    .foto{
+        position: absolute;
+        right: 50px;
+        top: 1850px;
+        border-radius: 20px;
+        border: 3px solid blueviolet;
+        background: url(../imagenes/mie1.gif);
+        width: 300px;
+        height: 180px;
+        background-size: 300px;
+        animation: cam 3s infinite alternate-reverse;
+        
+    }
+    .foto:hover{
+        background: url(../imagenes/Premium\ Vector\ _\ Student\ girl\ illustration.jpeg);
+        background-size: 300px;
+        height: 250px;
+    }
+    @keyframes cam{
+    
+        0%{
+            transform: scale(0.5,0.5) ;
+        }
+        50%{
+            transform: scale(1,1) ;
+        }
+        100%{
+            transform: scale(1.2,1.2) ;
+        }
+        
+    }
+    .primero{
+        position: absolute;
+        top: 2200px;
+        left: 100px;
+
+    }
+    .segundo{
+        position: absolute;
+        top: 2200px;
+        right: 100px;
+
+    }

@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    
+    background-image: url(https://i.pinimg.com/564x/47/df/45/47df45c419862be609d880dbdcc7b889.jpg);
+   /*background-image: url(https://i.pinimg.com/564x/dc/1b/25/dc1b25b9b8324443344fd9b039361331.jpg);*/
+}
+
+.menu{
+    margin-top: 0px ;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.menu ul li a:hover{
+    background-color: rgb(228, 44, 75);
+    border-radius: 25px;
+    color: black;
+    transition: 1s;
+}
+
+ .lista{
+        display: inline;
+        padding: 30px;
+    
+    }
+    
+    .enlace{
+        text-decoration: none;
+        color: white;
+        padding: 15px;
+        font-size: 20px;
+        font-weight: 600;
+    
+    }
+
+    nav ul li img{
+        width: 30px;
+        height: 30px;
+    }
+
+
+.contenedor{
+    padding-top: 80px;
+    border: solid rgb(151, 101, 35) ;
+    max-width: 900px;
+    margin: auto;
+    background-color:rgb(41, 173, 190);
+    font-size: 20px;
+    
+}
+.menu-horizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.menu-horizontal > li > a {
+    text-shadow: 3pt 4pt 6pt rgb(83, 19, 2);
+    letter-spacing: 3px;
+    display: block;
+    padding: 15px 20px ;
+    color: white;
+    font-family: 'Cangste', sans-serif;
+                                                
+    text-decoration: none;
+}
+.menu-horizontal > li:hover{
+    text-shadow: 3pt 4pt 6pt rgb(83, 19, 2);
+    letter-spacing: 3px;
+    background-color:rgb(151, 101, 35);
+}
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+ 
+    background-color:rgba(0,0, 0, .5);
+}
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
+
+}
+.menu-vertical li:hover{
+    background-color: rgb(0, 0, 0);
+}
+.menu-vertical li a {
+    display: block;
+    color: white;
+    padding: 15px 15px 15px 20px ;
+    text-decoration: none;
+}
+
+
+.origami{
+    text-shadow: 15pt 4pt 8pt rgb(7, 4, 0);
+    margin-top: 180px;
+    text-align: center;
+    font-size: 156px;
+    letter-spacing: 3px;
+    font-family: 'Vescona', sans-serif;
+    color: rgba(248, 238, 234, 0.945);
+                                                
+}

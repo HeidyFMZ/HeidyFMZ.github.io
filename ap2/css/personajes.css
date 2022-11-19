@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+}
+.titulo{
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: burlywood;
+    z-index: 1;
+    
+}
+.menu{
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+z-index: 2;
+}
+
+.menu ul li a:hover{
+    background-color: rgb(228, 44, 75);
+    border-radius: 25px;
+    color: black;
+    transition: 1s;
+    
+
+}
+.lista{
+    display: inline;
+    padding: 30px;
+
+}
+
+.enlace{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+nav ul li img{
+    width: 30px;
+    height: 30px;
+}
+
+#contenedorimagen{
+    display: grid;
+    column-gap: 20px;
+    row-gap: 20px;
+    grid-template-columns: auto auto auto;
+    background-color: brown;
+    padding: 20px;
+}
+.cajapersonajes {
+    background-color: white;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+}
+.autores{
+    height: 10%;
+
+}
+.autores:hover{
+    color: orangered;
+    font-size: 40px;
+    cursor: help;
+}
+
+
