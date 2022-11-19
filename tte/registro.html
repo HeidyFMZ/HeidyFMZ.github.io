@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEDICAL INVENTORY</title>
+    <link rel="stylesheet" href="registro.css">
+    <script src="registro.js" defer></script>
+    <link rel="icon" href="https://e7.pngegg.com/pngimages/836/523/png-clipart-inventory-carrying-cost-service-business-others-game-angle.png">
+    <link href="https://fonts.googleapis.com/css2?family=Alkalami&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+
+        <div class="inicio">
+        <img src="https://i.pinimg.com/474x/3d/20/bc/3d20bc8276bd38773e187ecfae3430b3.jpg" alt="" class="logo">
+        <h1>FARMACIA <br>ANGELICA</h1>
+        <h2 class="titulo2">REGISTRO DE MEDICAMENTOS</h2>
+        </div>
+        <div class="navbar">
+            <ul class="menu">
+                <a href="index.html"><li>HOME</li></a>
+                <a href="segunda_pagina.html" class="seccion"><li>TIPOS DE MEDICAMENTOS</li></a>
+                <a href="registro.html" class="regis"><li>REGISTRO</li></a>
+            </ul>
+            <ul class="segundo_menu">
+                <a href="#" class="busqueda_analgesicos"><li>Analgesico</li></a>
+                <a href="#" class="busqueda_antiacidos"><li>Antiacido y antiulceroso</li></a>
+                <a href="#" class="busqueda_antialergicos"><li>Antialergico</li></a>
+                <a href="#" class="busqueda_antidiarreico"><li>Antidiarreico y laxante</li></a>
+                <a href="#" class="busqueda_antiinfeccioso"><li>Antiinfeccioso</li></a>
+                <a href="#" class="busqueda_antiinflamatorio"><li>Antiinflamatorio</li></a>
+                <a href="#" class="busqueda_antipiretico"><li>Antipirético</li></a>
+                <a href="#" class="busqueda_antitusivo"><li>Antitusivo y mucolítico</li></a>
+                <a href="#" class="busqueda_todos"><li>Todos</li></a>
+             </ul>
+            </div>
+        </nav>
+        <article class="fondo">
+            <section>
+                <div class="ingreso">INGRESO</div>
+                <div class="venta">VENTA</div>
+                <div class="formulario">
+                    <form action="" id="transactionForm">
+                        <h4 class="ingre">AÑADE UN <br> MEDICAMENTO</h4>
+<input type="text" name="nombre" id="nombre" list="nombres"placeholder="NOMBRE COMERCIAL" autocomplete="off"> <br>
+<datalist id="nombres">
+</datalist>
+<input type="number" name="cantidad" id="cantidad" placeholder="CANTIDAD" min="1"> <br>
+<select name="lote" id="lote">
+    <option>ANALGESICO</option>
+    <option>ANTIACIDO Y ANTIULCEROSO</option>
+    <option>ANTIALERGICO</option>
+    <option>ANTIDIARREICO Y LAXANTE</option>
+    <option>ANTIINFECCIOSO</option>
+    <option>ANTIINFLAMATORIO</option>
+    <option>ANTIPIRETICO</option>
+    <option>ANTITUSIVO Y MUCOLITICO</option>
+    </select><br>
+<input type="text" name="presentacion" id="presentacion" list="pres" placeholder="PRESENTACION" autocomplete="off" >
+<datalist id="pres">
+    <option value="COMP"></option>
+    <option value="SUSP"></option>
+    <option value="GOTAS"></option>
+    <option value="SUP"></option>
+    <option value="CAP"></option>
+</datalist>
+<input type="date" name="fecha_vencimiento" id="fecha_vencimiento"  placeholder="FECHA DE VENCIMIENTO">
+<input type="submit" value="REGISTRAR" class="registrar">
+                    </form>
+                    </div>
+                    <div class="formulario2">
+                    <form action="" id="transactionForm2">
+                        <h4 class="salid">INGRESA LA VENTA DEL MEDICAMENTO</h4>
+<input type="text" name="nombre2" id="nombre2" placeholder="NOMBRE COMERCIAL" autocomplete="off"> <br>
+<input type="number" name="cantidad2" id="cantidad2" placeholder="CANTIDAD" min="1"> <br>
+<input type="number" name="precio" id="precio" min="0" step="0.50" placeholder="PRECIO EN BS"> <br>
+<input type="submit" value="REGISTRAR" class="registrar2">
+                    </form>
+                </div>
+                <div class="titulo_ingreso">INGRESO</div>
+                <div class="control">CONTROL DE <br> VENCIMIENTO</div>
+                <div class="eliminar"><img src="https://cdn-icons-png.flaticon.com/512/40/40002.png" alt="" width="25px" height="25px"></div>
+                <table id="transactionTable">
+                    <tr>
+                    <td class="nombre">NOMBRE</td>
+                    <td class="cantidad">CANTIDAD</td>
+                    <td class="lote">TIPO</td>
+                    <td class="presentacion">PRESENTACION</td>
+                    <td class="fecha_vencimiento">FECHA DE VENCIMIENTO</td>
+                </tr>
+                </table>
+                <div class="titulo_venta">VENTA</div>
+                <div class="eliminar2"><img src="https://cdn-icons-png.flaticon.com/512/40/40002.png" alt="" width="25px" height="25px"></div>
+                <table id="transactionTable2">
+                    <tr>
+                    <td class="nombre2">NOMBRE</td>
+                    <td class="cantidad2">CANTIDAD</td>
+                    <td class="precio">GANANCIA(BS)</td>
+                    <td class="fecha_v">FECHA DE VENTA</td>
+                </tr>
+                </table>
+    </section>
+    </article>
+    <footer>
+        <div class="caja2">
+            <h4 class="siguenos">Siguenos</h4>
+            <a href="https://www.facebook.com/magda.vidal.944" target="_blank" class="enlace1"><button class="boton1"><img src="https://cdn-icons-png.flaticon.com/512/20/20673.png" alt=""></button></a>
+            <button class="boton2"><img src="https://cdn.icon-icons.com/icons2/614/PNG/512/phone-symbol-of-an-auricular-inside-a-circle_icon-icons.com_56478.png" alt=""></button>
+            <a href="https://mapcarta.com/es/N3666046541" target="_blank" class="enlace3"><button class="boton3"><img src="ubicacion.png" alt=""></button></a>
+            <img src="logotipo_verdadero.png" alt="" class="logotipo_empresa">
+        </div>
+    </footer>
+</body>
+</html>
