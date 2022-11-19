@@ -1,0 +1,241 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body{
+    background-image: url(../imagenes/fondodepagina.jpg);
+    background-size: 150% 100%;
+    background-repeat: no-repeat;
+}
+
+.intro{
+    background-color: orangered;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size:35px;
+    text-shadow: 5px 1px 6px yellow;
+    word-spacing: 50px;
+    text-align: center;
+    letter-spacing: 15px;
+    padding-left: 20px;
+    color: black;
+}
+
+.concepto{
+    height: 210px;
+    width: 50%;
+    margin-top: 6%;
+    margin-left: 5%;
+    margin-bottom: 10%;
+    text-align: justify;
+    font-family: 'Bad Script', cursive;
+    font-size: 30px;
+    background: #8E2DE2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    ;
+    border-radius: 14%;
+    padding: 10px;
+    line-height: 70px;
+    color: yellow;
+    text-shadow: 5px 1px 6px #e74c3c;
+}
+
+hr{
+    width: 90%;
+    height: 0px;
+    border: 1px dashed;
+    margin: auto;
+    color: chartreuse;
+    margin-top: -5%;
+}
+
+.ima{
+    display: block;
+    float: right;
+    margin-right: 15%;
+    margin-top: -25%;
+    height: 200px;
+    width: 300px;
+    border-radius: 2%;
+}
+
+.caja2{
+    color: orangered;
+    height: 320px;
+    line-height: 80px;
+    width: 70%;
+    padding: 10px;
+    margin: auto;
+    border: 5px solid black;
+    font-size:35px;
+    font-family: 'Bad Script', cursive;
+    font-size: 30px;
+    margin-top: 5%;
+    background: #c31432;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+}
+
+img{
+    border-radius: 2%;
+}
+
+.sen1{
+    margin-left: 15%;
+    margin-top: 4%;
+    
+}
+
+.sen2{
+    margin-left:7%;
+    
+}
+
+.sen3{
+    margin-left: 10%;
+
+}
+.segundo{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: yellow;
+}
+
+.caja3{
+    color: cyan;
+    height: 700px;
+    line-height: 80px;
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 5%;
+    float: right;
+    margin-right: 2%;
+    border: 5px solid black;
+    font-size:35px;
+    font-family: 'Bad Script', cursive;
+    font-size: 30px;
+    margin-top: 5%;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.tercero{
+    margin-top: 5%;
+    color: red;
+    margin-bottom: 5%;
+}
+
+.vellasartes{
+    height: 500px;
+    width: 20%;
+    margin-top: 15%;
+    float: left;
+    margin-left: 3%;
+    margin-bottom: 5%;
+}
+
+.box1{
+    margin-top: 5%;
+
+}
+
+.box1 > div{
+    text-align: left;
+    height: 380px;
+    margin-left: 2%;
+    margin-right: 2%;
+    line-height: 30px;
+    width: 93%;
+    padding: 10px;
+    margin-bottom: 5%;
+    float: left;
+    margin-right: 2%;
+    border: 5px solid black;
+    font-size:35px;
+    font-family: 'Bad Script', cursive;
+    font-size: 20px;
+    background: #659999;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f4791f, #659999);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f4791f, #659999); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.art{
+    float: right;
+    padding-top: 20px;
+    padding-left: 3px;
+}
+
+.box2{
+    margin-top: 5%;
+}
+
+.box2 > div{
+    color: white;
+    text-align: left;
+    height: 500px;
+    margin-left: 2%;
+    border-radius: 5%;
+    margin-right: 2%;
+    line-height: 30px;
+    width: 93%;
+    padding: 10px;
+    margin-bottom: 5%;
+    float: left;
+    margin-right: 2%;
+    font-size:35px;
+    font-family: 'Bad Script', cursive;
+    font-size: 20px;
+    background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0f9b0f, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0f9b0f, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+ul{
+    padding-left:20px ;
+}
+
+.cuarto{
+    margin-top: 5%;
+    color: orangered;
+    margin-bottom: 5%;
+
+}
+
+.box3{
+    margin-top: 30%;
+}
+
+h3{
+    text-decoration: underline;
+    color: black;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+b{
+    color: #000000;
+}
+a{
+    display: block;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 2%;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: cyan;
+    font-size: 65px;
+    transition: 3s;
+}
+
+a:active{
+    color: darkslategrey;
+}

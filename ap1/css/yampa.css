@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(../imagenes/fondo\ de\ vania.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    font-size: 100px;
+    font-family: 'Sigmar One', cursive;
+    color: red;
+    position: absolute;
+    top: 5%;
+    right: 13%;
+    animation: pan 4s infinite alternate-reverse;
+}
+
+.POTER{
+    width: 30%;
+    height: 500px;
+    border-radius: 4%;
+    margin-left: 15%;
+    margin-top: 6%;
+}
+
+div{
+    background: #1D2B64;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #F8CDDA, #1D2B64);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #F8CDDA, #1D2B64); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    text-align: center;
+    color: purple;
+    font-family: 'Dancing Script', cursive;
+    font-size: 22px;
+    height: 400px;
+    width: 400px;
+    border: 6px double orangered ;
+    position: absolute;
+    top: 28%;
+    right: 10%;
+    line-height: 36px;
+    padding: 5px;
+}
+
+@keyframes pan{
+    0%{
+        color: yellow;
+     }
+     25%{
+        color: black;
+     }
+     50%{
+        color: white;
+     }
+     75%{
+        color: black;
+     }
+     100%{
+        color: orangered;
+     }
+}
+.prin1 a{
+    color: rgb(235, 58, 14);
+    display: block;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
+    display: block;
+    position: absolute;
+    bottom: 8px;
+    right: 300px;
+}
+.prin1 a:hover{
+    text-decoration: underline;
+    color: rgb(89, 0, 255);
+    font-size: 65px;
+    transition: 3s;
+}
+.prin1 a:active{
+    color: darkslategrey;
+}

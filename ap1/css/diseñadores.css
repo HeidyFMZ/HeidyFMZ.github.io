@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    background-image: url(../imagenes/fondo\ cosmico.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section{
+    margin: auto;
+    margin-top: 7%;
+    width: 1000px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 100px;
+}
+
+div{
+    border-radius: 4%;
+    opacity: 0.25;
+    text-align: center;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20%;
+    border:3px solid black;
+    opacity: 1;
+}
+
+.uno{
+    background: #11998e;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     
+}
+
+.dos{
+    background: #4568DC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.tres{
+    background: #E6DADA;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #274046, #E6DADA);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #274046, #E6DADA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+
+.pan{
+    right: 15.5%;  
+}
+
+.vania{
+    left: 42.5%;
+}
+
+.apex{
+    left: 15.5%;
+}
+
+h2{
+    display: block;
+    position: absolute;
+    top: 64%;
+    font-size: 55px;
+    font-family: 'Caveat', cursive;
+    text-shadow: 8px 8px 8px black;
+    cursor: pointer;
+}
+
+h2:hover{
+    color: yellow;
+    font-size: 57px;
+    text-decoration: underline red;
+    transition: 0.5s;
+}
+
+h2:active{
+    color: white;
+}
+
+.le{
+    left: 16%;
+    color: greenyellow;
+}
+
+.va{
+    left: 45.5%;
+    color: purple;
+}
+
+.sa{
+    right: 18.5%;
+    color: white;
+}
+
+.uno:hover{
+    background-image: url(../IMAGENES/pagina/fondo\ de\ leida\ gif.gif);
+    opacity: 1;
+    background-size: cover;
+}
+
+.dos:hover{
+    background-image: url(../IMAGENES/pagina/fondo\ de\ vania\ gif.gif);
+    opacity: 1;
+    background-size: cover;
+}
+
+.tres:hover{
+    background-image: url(../IMAGENES/pagina/fondo\ de\ pan.gif);
+    opacity: 1;
+    background-size: cover;
+}
+.prin a{
+    color: rgb(235, 58, 14);
+    display: block;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 60px;
+    display: block;
+    position: absolute;
+    bottom: 8px;
+    right: 300px;
+}
+.prin a:hover{
+    text-decoration: underline;
+    color: cyan;
+    font-size: 65px;
+    transition: 3s;
+}
+.prin a:active{
+    color: darkslategrey;
+}

@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    background-image: url(../imagenes/fondo\ pan.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    font-size: 100px;
+    font-family: 'Sigmar One', cursive;
+    color: red;
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    animation: pan 4s infinite alternate-reverse;
+    text-shadow: 1px 1px 3px black;
+}
+
+.blood{
+    width: 40%;
+    height: 500px;
+    border-radius: 4%;
+    margin-left: 5%;
+    margin-top: 5%;
+    border: 5px double black;
+}
+
+div{
+    background: #232526;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    text-align: center;
+    color: white;
+    font-family: 'Josefin Sans';
+    font-size: 22px;
+    height: 400px;
+    width: 400px;
+    border: 6px solid blue ;
+    position: absolute;
+    top: 30%;
+    right: 5%;
+    line-height: 29px;
+    padding: 5px;
+}
+
+.estrella1{
+    width: 60px;
+    position: absolute;
+    top: 100px;
+    right:600px;
+    animation: estrellita 10s infinite alternate-reverse;
+    border-radius: 50%;
+}
+
+.estrella2{
+    width: 60px;
+    position: absolute;
+    bottom: 109px;
+    right:600px;
+    animation: estrellita2 10s infinite alternate-reverse;
+    border-radius: 50%;
+}
+
+@keyframes estrellita{
+    0%{
+       transform: translate(0px, 0px) rotate(0deg);
+    }
+    25%{
+       transform: translate(-60px, 40px) rotate(360deg);
+    }
+    50%{
+        transform: translate(60px, 80px) rotate(0deg);
+    }
+    75%{
+        transform: translate(-60px, 120px) rotate(360deg);
+    }
+    100%{
+        transform: translate(0px, 200px) rotate(0deg);
+    }
+}
+
+@keyframes estrellita2{
+    0%{
+       transform: translate(0px, 0px) rotate(0deg);
+    }
+    25%{
+       transform: translate(-60px, -40px) rotate(360deg);
+    }
+    50%{
+        transform: translate(60px, -80px) rotate(0deg);
+    }
+    75%{
+        transform: translate(-60px, -120px) rotate(360deg);
+    }
+    100%{
+        transform: translate(0px, -200px) rotate(0deg);
+    }
+}
+
+@keyframes pan{
+    0%{
+        color: black;
+     }
+     25%{
+        color: grey;
+     }
+     50%{
+        color: white;
+     }
+     75%{
+        color: grey;
+     }
+     100%{
+        color: black;
+     }
+}
+.prin1 a{
+    color: rgb(235, 58, 14);
+    display: block;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
+    display: block;
+    position: absolute;
+    bottom: 8px;
+    right: 300px;
+}
+.prin1 a:hover{
+    text-decoration: underline;
+    color: rgb(0, 47, 255);
+    font-size: 65px;
+    transition: 3s;
+}
+.prin1 a:active{
+    color: darkslategrey;
+}

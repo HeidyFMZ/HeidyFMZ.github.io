@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(../imagenes/fondoacu2.jpg);
+    background-repeat: calc(6px);
+}
+h1{
+    font-family: 'Rubik Bubbles', cursive;
+    color: rgb(61, 12, 12);
+    text-align: center;
+    font-size: 50px;
+}
+.pez{
+    position: absolute;
+}
+.caja{
+    margin: 20px;
+    border: 6px rgb(228, 86, 4) groove;
+    background-color: rgb(204, 202, 134);
+    border-radius: 50px;
+    left: 80px;
+    padding: 20px;
+    text-align: center;
+}
+.caja1{
+    margin: 20px;
+    border: 6px rgb(66, 119, 31) groove;
+    background-color: rgb(182, 212, 134);
+    border-radius: 50px;
+    right: 20px;
+    padding: 25px;
+    text-align: center;
+}
+.caja2{
+    margin: 20px;
+    border: 6px rgb(54, 55, 99) groove;
+    background-color: rgb(161, 187, 226);
+    border-radius: 50px;
+    right: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.caja3{
+    margin: 20px;
+    border: 6px rgb(54, 33, 77) groove;
+    background-color: rgb(169, 118, 218);
+    border-radius: 50px;
+    right: 15px;
+    padding: 20px;
+    text-align: center;
+}
+.preg{
+    color: brown;
+    font-family: 'Rubik Distressed', cursive;
+}
+.resp{
+    color: rgb(98, 73, 139);
+    font-family: 'Josefin Sans', sans-serif;
+}
+hr{
+    height: 0px;
+    border: 6px dashed;
+    color: rgb(0, 0, 0);
+}
+.arriba{
+    width: 140px;
+    height: 140px;
+    padding: 40px;
+    margin: 10px;
+    animation: prim 4s infinite alternate-reverse;
+}
+.arriba1{
+    width: 140px;
+    height: 140px;
+    padding: 40px;
+    margin: 10px;
+    animation: segu 4s infinite alternate-reverse;
+}
+.arriba2{
+    width: 140px;
+    height: 140px;
+    padding: 40px;
+    margin: 10px;
+    animation: prim 4s infinite alternate-reverse;
+}
+.arriba3{
+    width: 140px;
+    height: 140px;
+    padding: 40px;
+    margin: 10px;
+    animation: segu 4s infinite alternate-reverse;
+}
+.arriba4{
+    width: 140px;
+    height: 140px;
+    padding: 40px;
+    margin: 10px;
+    animation: prim 4s infinite alternate-reverse;
+}
+@keyframes prim{
+    0%{
+        transform: scale(0.5,0.5);
+    }
+    50%{
+        transform: scale(1,1);
+    }
+    100%{
+        transform: scale(1.5,1.5);
+    }
+}
+@keyframes segu{
+    0%{
+        transform: scale(1.5,1.5);
+    }
+    50%{
+        transform: scale(1,1);
+    }
+    100%{
+        transform: scale(0.5,0.5);
+    }
+}
+a{
+    display: block;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 2%;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: cyan;
+    font-size: 65px;
+    transition: 3s;
+}
+
+a:active{
+    color: darkslategrey;
+}

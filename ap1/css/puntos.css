@@ -1,0 +1,101 @@
+body{
+    background-image: url(http://25.media.tumblr.com/tumblr_lz59ktM4hT1qd7m1so1_500.gif);
+    background-repeat: calc(6px);
+}
+
+h1{
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    color: darkslateblue;
+    font-size: 2em;
+    text-shadow: 3px 5px orangered;
+    text-align: center;
+    background: #00416A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E4E5E6, #00416A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E4E5E6, #00416A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 0px 5px 8px 3px black;
+    width: 100%;
+    
+}
+
+div{
+    width: 1000px;
+     height: 800px; 
+     margin: auto;
+     background-color: aliceblue;
+    opacity: 0.9;
+    border-radius: 36px;
+    margin: auto;
+    font-family: 'Jim Nightshade', cursive;
+    font-size: 34px;
+    text-align: center;
+}
+
+.caja1{
+    margin-left: 2%;
+    margin-top: 20px;
+    border-radius: 3%;
+    width: 450px;
+    height: 300px;
+
+}
+
+.puntos{
+    width: 300px;
+    height: 300px;
+}
+
+.izqui{
+    text-align: left;
+}
+
+.caja2{
+    margin-top: 1%;
+    margin-bottom: 2%
+}
+
+.little{
+    font-size: 13px;
+}
+
+.caja3{
+    margin-top: 1%;
+    margin-bottom: 1%
+}
+
+.caja4{
+    margin-top: 1%;
+    margin-bottom: 1%
+}
+
+.lito{
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    color: darkslateblue;
+    font-size: 2em;
+    text-shadow: 3px 5px orangered;
+    text-align: center;
+    background: #00416A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E4E5E6, #00416A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E4E5E6, #00416A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 0px 5px 8px 3px black;
+    width: 100%;
+}
+a{
+    display: block;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 2%;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: cyan;
+    font-size: 65px;
+    transition: 3s;
+}
+
+a:active{
+    color: darkslategrey;
+}
