@@ -513,6 +513,9 @@ body::-webkit-scrollbar-thumb:hover{
 #lote{
 text-align-last: center;
 }
+#fecha_vencimiento{
+    text-align-last: center;
+}
 .formulario2{
     position: absolute;
     left: 50px;
@@ -533,19 +536,16 @@ text-align-last: center;
     #transactionTable{
         position: absolute;
         top: 1350px;
-        font-size: 5px;
+        font-size: 8px;
     }
     #transactionTable2{
         margin-top: 1200px;
-        font-size: 5px;
+        font-size: 8px;
         position: absolute;
         left: 10px;
     }
   table tr td{
-    width: 10px;
-    padding-right:0px;
-    padding-left: 0px;
-    margin: 0px;
+    border-spacing: 0px
   }
 
 .eliminar{
