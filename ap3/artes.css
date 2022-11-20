@@ -1,0 +1,385 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+
+body {
+ background: #E2E2E2;
+}
+
+.nav_menu {
+	text-align: center;
+	line-height: 165px;
+	width: 1300px;
+	height: 165px;
+	margin: 10px auto;
+	background-image: url(img/tabla.png);
+	
+  }
+  
+  .lista2 ul {
+	list-style: none;
+	margin-left: 400px;
+	margin-top: -110px;
+  }
+  
+  .lista2 li {
+	display: inline-block;
+	font-family: 'Luckiest Guy', cursive;	
+  }
+  
+  a {
+	color: black;
+	font-size: 28px;
+	text-decoration: none;
+  }
+  
+  .lista2 li a {
+	padding: 15px;
+  
+  }
+  
+  
+  .lista2 a:hover{
+	color: #E2E2E2;
+  }
+  /*iNFO*/
+  .icon2{
+	width: 30px;
+	height: 30px;
+  }
+
+  .parent {
+	display: grid;
+	grid-template-columns: repeat(2, 4fr) repeat(3, 1fr);
+	grid-template-rows: repeat(5, 16fr);
+	grid-column-gap: 100px;
+	grid-row-gap: 0px;
+	margin-left: 20%;
+	margin-top: -50%;
+}
+
+	.parent p{
+		font-family: 'Syne Mono', monospace;
+		font-size: 20px;
+	}
+	.parent li{
+		font-family: 'Syne Mono', monospace;
+		font-size: 20px;
+		line-height : 40px;
+		padding: 35px;
+		width: 150%;
+		color: black;
+	}
+
+	.parent li:hover{
+    background-repeat: repeat;
+	border-radius: 20px;
+	background-image: url(img/gif1.gif);
+	}
+	
+	.div1 { 
+		grid-area: 2 / 1 / 3 / 2;
+		font-size: 25px;
+		font-family: fantasy;
+		width: 100%;
+		text-align: left;
+	}
+
+	.div2 { 
+		grid-area: 3 / 1 / 4 / 2; 
+		width: 100%;
+		font-family: fantasy;
+		font-size: 25px;
+	}
+
+	.div3 { 
+		grid-area: 4 / 1 / 5 / 2; 
+		
+		
+
+	}
+	.div4 { 
+		grid-area: 2 / 2 / 3 / 3; 
+		
+
+	}
+.div4 img{
+	width: 400px;
+	height: 300px;
+	padding: 20px;
+}
+
+.div4 img:hover{
+	    -webkit-box-shadow:inset 1px 1px 0 10px #000000;
+	    box-shadow:inset 1px 1px 0 10px #000000;
+		-webkit-transform: translateX(-3px);
+		transform: translateX(-3px);
+		transition: .5s ease;
+		}
+
+	.div5 { 
+		grid-area: 3 / 2 / 4 / 3; 
+		width: 100%;
+		font-family: fantasy;
+		font-size: 35px;
+        
+	}
+	.div6 { 
+		grid-area: 4 / 2 / 5 / 3; 
+		
+
+	}
+	.div7 { 
+		grid-area: 2 / 3 / 3 / 4; 
+
+
+	}
+	.div8 { 
+		grid-area: 3 / 3 / 4 / 4; 
+
+	}
+	.div9 { 
+		grid-area: 4 / 3 / 5 / 4; 
+		width: 100%;
+
+	}
+	.div10 { 
+		grid-area: 2 / 5 / 3 / 6; 
+		width: 100%;
+
+	}
+
+
+		/*ANIMACION PARTE 2*/
+		.art{
+			padding: 4%;
+			}
+			
+			  .art img {
+				display: block;
+				width: 100px;
+				height: 100px;
+				height: auto;
+				border-radius: 5%;
+			  }
+			  
+			  .ani {
+				opacity: 0;
+				transition: .5s ease;
+				background-image: url(img/gif2.gif);
+				border-radius: 10%;
+				height: 100px;
+				width: 300px;
+				margin-top: -5%;
+				margin-left: 5%;
+				position: absolute;
+			  }
+			  
+			  .art:hover .ani {
+				opacity: 1;
+			  }
+			  
+			  .text {
+				color: white;
+				font-family: 'Syne Mono', monospace;
+				font-size: 15px;
+				margin: 5px;
+			  }
+			  .ti3{
+               font-size: 35px;
+			   font-family: fantasy;
+
+
+			  }
+/*Parte 2 img*/
+			  .art1{
+				padding: 4%;
+				}
+				
+				  .art1 img {
+					display: block;
+					width: 100px;
+					height: 100px;
+					border-radius: 5%;
+					position: relative;
+					margin-left: 400px;
+				
+				  }
+				  
+				  .ani1 {
+					opacity: 0;
+					transition: .5s ease;
+					background-image: url(img/gif2.gif);
+					border-radius: 10%;
+					height: 100px;
+					width: 300px;
+					margin-top: -5%;
+					margin-left: 5%;
+					position: absolute;
+				  }
+				  
+				  .art1:hover .ani1 {
+					opacity: 1;
+				  }
+				  
+				  .text1 {
+				color: white;
+				font-family: 'Syne Mono', monospace;
+
+				font-size: 15px;
+				margin: 5px;
+				  }
+
+				  .fin li{
+					font-family: 'Syne Mono', monospace;
+					font-size: 15px;
+					line-height: 20px;
+					padding: 20px;
+					width: 80%;
+					color: black;
+				}
+			
+				.fin li:hover{
+				background-image: url(img/gif1.gif);
+				background-repeat: repeat;
+				border-radius: 20px;
+				}
+
+
+	/*Galeria de imagenes final*/		
+
+	.galeria {
+		height:  500px ;
+		width: 400px;
+		margin: auto;
+		border: 10px solid black;
+		position: relative;  
+	  }
+	  
+	  .galeria img {
+		width: 400px;
+		height: 500px;
+		position: absolute;
+		top: 0;
+		left: 0;
+		opacity: 0;
+		transition: opacity 4s;
+	  }
+	  
+	  .galeria input[type=radio] {
+		position: relative;
+		bottom: -520px;
+		left: 36%;
+	  }
+	  
+	  .galeria input[type=radio]:nth-of-type(1):checked ~ img:nth-of-type(1) {
+		opacity: 1;
+	  }
+	  
+	  .galeria input[type=radio]:nth-of-type(2):checked ~ img:nth-of-type(2) {
+		opacity: 1;
+	  }
+	  
+	  .galeria input[type=radio]:nth-of-type(3):checked ~ img:nth-of-type(3) {
+		opacity: 1;
+	  }
+	  
+	  .galeria input[type=radio]:nth-of-type(4):checked ~ img:nth-of-type(4) {
+		opacity: 1;
+	  }
+
+	  .galeria input[type=radio]:nth-of-type(5):checked ~ img:nth-of-type(5) {
+		opacity: 1;
+	  }
+
+	  .galeria input[type=radio]:nth-of-type(6):checked ~ img:nth-of-type(6) {
+		opacity: 1;
+      }
+
+
+	  .fon{
+		position: absolute;
+		margin-top: -60%;
+		margin-left: 30%;
+	  }
+
+	  .galeria1 {
+		height:  600px ;
+		width: 800px;
+		margin: auto;
+		border: 10px solid black;
+		position: relative;  
+	  }
+	  
+	  .galeria1 img {
+		width: 800px;
+		height: 600px;
+		position: absolute;
+		top: 0;
+		left: 0;
+		opacity: 0;
+		transition: opacity 4s;
+	  }
+	  
+	  .galeria1 input[type=radio] {
+		position: relative;
+		bottom: -700px;
+		left: 40%;
+	  }
+	  
+	  .galeria1 input[type=radio]:nth-of-type(1):checked ~ img:nth-of-type(1) {
+		opacity: 1;
+	  }
+	  
+	  .galeria1 input[type=radio]:nth-of-type(2):checked ~ img:nth-of-type(2) {
+		opacity: 1;
+	  }
+	  
+	  .galeria1 input[type=radio]:nth-of-type(3):checked ~ img:nth-of-type(3) {
+		opacity: 1;
+	  }
+	  
+	  .galeria1 input[type=radio]:nth-of-type(4):checked ~ img:nth-of-type(4) {
+		opacity: 1;
+	  }
+
+	  .galeria1 input[type=radio]:nth-of-type(5):checked ~ img:nth-of-type(5) {
+		opacity: 1;
+	  }
+
+	  .galeria1 input[type=radio]:nth-of-type(6):checked ~ img:nth-of-type(6) {
+		opacity: 1;
+      }
+
+	  .gal{
+       font-size: 30px;
+       font-family: fantasy;
+	   text-align: center;
+	   padding: 40px;
+	  }
+
+	  
+	  /*footer*/
+	  footer {
+		background: rgb(156, 128, 91);
+	  }
+	  
+	  footer .titulo_redes h2 {
+		padding-top: 50px;
+		font-size: 40px;
+	  }
+	  
+	  footer img {
+		width: 50px;
+		height: 50px;
+	  }
+	  
+	  .redes {
+		display: grid;
+		padding: 50px;
+		grid-template-columns: 33% 33% 33%;
+		grid-template-areas: "uno dos tres";
+	  }
+	  

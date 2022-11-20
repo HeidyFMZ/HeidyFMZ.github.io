@@ -1,0 +1,183 @@
+body{
+    background: url(https://i.pinimg.com/originals/4f/d5/10/4fd51052fc5887b8f456451a9eb76ad0.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+} 
+::selection{
+    background: rgb(182, 182, 182);
+    color: rgb(0, 0, 0);
+}
+.arriba{
+    background-color: rgb(255, 0, 0);
+    width: 100%;
+    height: 100px;
+}
+
+.arriba:hover{
+    height: 130px;
+    transition: 1s;
+}
+
+nav ul{
+   text-align: right;
+   line-height: 80px;
+
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0px 30px ;
+}
+
+nav ul li a{
+    color: white;
+    text-transform: uppercase;
+    font-family: fantasy;
+    font-size: 20px;
+
+}
+nav ul li a:hover{
+    background-color: rgb(211, 211, 211);
+    padding: 10px 15px ;
+    transition: 0.7s;
+    border-radius: 10px;
+    color: black;
+}
+ 
+.medio{
+    background: url('https://wallup.net/wp-content/uploads/2018/10/02/909985-nazi-history-adolf-hitler-dark-evil-military-anarchy-war.jpg');
+    background-size: cover;
+    height:calc(110vh - 90px);
+    background-position: center center;
+}
+
+.medio:active{
+    background: url('https://www.todofondos.net/wp-content/uploads/3840x2160-Gaming-Wallpaper-Desktop-H-Games-HD-Wallpaper-en-2020.-Dios-de-la-guerra-1024x576.jpg') no-repeat;
+    background-size: cover;
+    height:calc(100vh - 90px);
+    background-position: center center;
+}
+
+img{
+    width: 35px;
+}
+
+.icono{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+#boton{
+    display: none;
+}
+
+@media(max-width:650px){
+    nav ul li a{
+        font-size: 12px;
+    }
+}
+
+@media(max-width:600px){
+    .icono{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 62%;
+        background-color: rgb(250, 88, 88);
+        opacity:0.7;
+        height: 55vh;
+        text-align: right;
+        left: -100px;
+    }
+
+
+    nav ul li{
+    display: block;
+    }
+
+    nav ul li a:hover{
+    background: none;
+    color:red
+    }
+
+    
+}
+
+section h1{
+    text-align: center;
+    line-height: 600px;
+
+    font-size: 70px;
+    font-family: 'Anton', sans-serif;;
+    color:red ;
+    text-shadow: 5px 5px 3px white;
+}
+
+@media(max-width:650px){
+    section h1{
+        position: absolute;
+        font-size: 25px;
+        left:60px;
+    }
+}
+h1{
+    font-size: 65px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 189, 0);
+    text-shadow: 5px 5px 5px yellow;
+}
+h2{
+    font-size: 35px;
+    color: blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    text-shadow: 3px 3px 3px cyan;
+    text-align: center;
+}
+ 
+.aliados{
+    display: block;
+    float: left;
+    width: 48%;
+}
+.potencias{
+    display: block;
+    float: right;
+    width: 48%;
+}
+.ali{
+    font-size: 18px;
+    border: 4px solid red;
+    border-radius: 30%;
+    background-color: rgb(255, 255, 0);
+    padding: 10px;
+    text-align: center;
+    font-weight: 800;
+    color: orangered;
+    text-shadow: 1px 1px 2px black;
+ 
+}
+.eje{
+    font-size: 25px;
+    border: 4px solid purple;
+    border-radius: 50%;
+    background-color: plum;
+    padding: 10px;
+    text-align: center;
+    font-weight: 800;
+    color: purple;
+    text-shadow: 1.5px 1.5px 5px black;
+    width: 50%;
+    margin: auto;
+}

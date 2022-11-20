@@ -1,0 +1,211 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.pie{
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    border: solid 7px  black;
+    width: 100vw;
+    position: absolute;
+    top: 152%;
+    background: #948E99;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2E1437, #948E99);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2E1437, #948E99); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    letter-spacing: 75px;
+    font-family: 'Rubik Glitch', cursive;
+    text-shadow: 5px 5px 0px rgb(10, 10, 10), -5px -5px 0px grey;
+}  
+
+section{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 25px;
+    gap: 10px;
+    
+}
+
+img{
+    width: 50%;
+    height:30%;
+    position: relative;
+    left: 20%;
+    top: 1%;
+}
+
+.ft{
+    top: 80px;
+}
+.f1{
+    grid-column: 1/2 ;
+    background: #004FF9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFF94C, #004FF9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFF94C, #004FF9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.f2{
+    background: #00bf8f;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #001510, #00bf8f);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #001510, #00bf8f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.f3{
+    grid-column: 3/4;
+    background: #833ab4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.f4{
+    height: 100%;
+    grid-column: 1/4;
+    background: url('../imagenes/equipo-de-futbol.png') no-repeat ;
+    background-color: lightcoral;
+    background-position: right;
+    background-size: 20%;
+
+}
+
+h3{
+    font-size: 25px;
+    font-family: 'Rubik Glitch', cursive;
+    color: rgb(140, 7, 184);
+    animation: tit  2s  infinite;
+    text-align: center;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+@keyframes tit{
+    0%{ transform: rotate(0deg); }
+    33%{ transform: rotate(1deg);}
+    66%{transform: rotate(-1deg);}
+    100%{ transform: rotate(0deg);}
+}
+
+h1{
+    font-size: 25px;
+    font-family: 'Rubik Dirt', cursive;
+    color: hsl(242, 70%, 35%);
+    text-decoration: underline;
+    padding-left: 15px;
+}
+p{
+    font-family: 'Poor Story', cursive;
+    font-size: 30px;
+    color: whitesmoke;
+    padding-left: 15px;
+}
+
+.f1, .f2, .f3{
+    padding-top: 10px;
+    padding-right: 10px;
+}
+@media(max-width:600px){
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    body{
+        background: url('../imagenes/fondo\ futbol.jpg');
+    }
+
+    footer{
+        font-size: 50px;
+        
+    }
+
+    .pie{
+        letter-spacing: 35px ;
+        position: absolute;
+        top: 250%;
+    }
+
+    img{
+        width: 45%;
+        height: 40%;
+        position: absolute;
+        animation: mov5 2s infinite reverse;
+    }
+
+    @keyframes mov5{
+        0%{
+            width: 45%;
+            height: 40%;
+        }
+        50%{
+            width: 46%;
+            height: 41%;
+        }
+        100%{
+            width: 45%;
+            height: 40%;
+        }
+    }
+
+    h3{
+        font-size: 15px;
+    }
+
+    h1{
+        font-size:15px ;
+    }
+
+    p{
+        font-size: 20px;
+        color: black;
+        font-family: 'Poor Story', cursive;
+    }
+    
+    .f4{
+        height: 50%;
+        width: 100%;
+        position: absolute;
+        top: 200%;
+        font-weight: 100;
+        background: url('../imagenes/f12.png') no-repeat ;
+        background-color: aqua;
+        background-position: right;
+        background-size: 100px;
+    }
+    .f1, .f2, .f3{
+        height: 50%;
+        padding-top: 10px;
+        overflow: scroll;
+    }
+
+    .f1,.f2,.f3,.f4{
+        padding-right: 5px;
+       
+    }
+
+    section{
+        padding-left: 5px;
+    }
+
+    .f1{
+        
+        font-size: 30px;
+    }
+
+    .ft{
+        top: 140%;
+        left: 50%;
+    }
+
+    #ft1{
+        top: 140%;
+        position: absolute;
+        left: 0%;
+    }
+
+}

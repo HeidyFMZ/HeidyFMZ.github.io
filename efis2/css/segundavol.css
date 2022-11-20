@@ -1,0 +1,171 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-size: 100%;
+}
+
+body{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    height: 63px;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.navbar{
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo{
+    margin-left: 30px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: azure;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: beige;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover{
+    background: black;
+
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+.header{
+    height: 60vh !important;
+    background: url(https://cdn.todamateria.com/imagenes/voleibol-og.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.title{
+    margin-bottom: 40px;
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: blanchedalmond;
+}
+
+p{
+    margin-bottom: 40px;
+    font-size: 15px;
+    color: white;
+    padding: 0 100px;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px ;
+    border: 2px solid yellow;
+    color: rgb(40, 150, 150);
+    text-decoration: none;
+    background: yellow;
+}
+
+.btn:hover{
+    background: none;
+}
+
+.btn-home{
+    display: flex;
+}
+
+.btn-homr a {
+    margin: 0 10px;
+}
+
+.content{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau{
+    padding: 30px;
+    background: black;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.box-container .box {
+    height: 11rem;
+    width: 17rem;
+    background-color: blue;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow:  0 .3rem 5rem black;
+    margin: 2rem;
+}
+
+.box-container .box i{
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: lightblue;
+    background: yellow;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.box-container .box h3 {
+    font-size: 15px;
+    color: black;
+}
+
+.box-container .box p{
+    font-size: 16px;
+    padding: 0 15px;
+}
+
+.about{
+    background: url(https://efmurgi.files.wordpress.com/2020/01/masculinos-voleibol-generica-2-new.jpg?w=1200) center no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.price{ 
+    background: black;
+    text-align: center;
+}
+
+.contact {
+    padding-top: 20px;
+    background-color: black;
+    padding-bottom: 0;
+}
+
+#logo{
+    width: 60px;
+    position: absolute;
+    right: 1300px;
+}

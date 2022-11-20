@@ -1,0 +1,349 @@
+body{
+    background: #c31432;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.mit{
+    width: 12vw;
+    height: 25vh;
+    position: absolute;
+    top: 4.2em;
+    right: 6em;
+    animation: mitosis 5s infinite alternate-reverse;
+    border: none;
+}
+
+@keyframes mitosis{
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(90deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    75%{
+        transform: rotate(270deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+
+}
+
+
+h1{
+    text-align: center;
+    font-size: 6em;
+    text-decoration: underline;
+    color: limegreen;
+    animation: titulo 5s infinite alternate-reverse;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2{
+    font-size: 4em;
+    color: orange;
+    animation: subtitulos 4s infinite alternate-reverse;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@keyframes subtitulos{
+    0%{
+        transform: translateX(0em);
+    }
+    50%{
+        transform: translateX(4em);
+    }
+    100%{
+        transform: translateX(7em);
+    }
+}
+
+@keyframes titulo{
+    0%{
+        transform: scale(0.5,0.5);
+    }
+
+    50%{
+        transform: scale(1,1);
+    }
+    70%{
+        transform: scale(1.5,1.5);
+    }
+    100%{
+        transform: scale(1,1);
+    }
+}
+
+p{
+    font-size: 2em;
+    color: white;
+    border: 0.3em solid white;
+    background-color: black;
+    height: 20vh;
+    width: 40vw;
+    padding: 0.5em;
+    text-align: justify;
+    animation: recorrer 2s infinite alternate-reverse;
+    box-shadow: 0.5em 0.5em 0.5em 0.5em black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+img{
+    height: 40vh;
+    width: 20vw;
+    border: 1em dotted white;
+    animation: mover 5s infinite alternate-reverse;
+}
+
+@keyframes mover{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(200deg);
+    }
+    100%{
+        transform: rotate(290deg);
+    }
+}
+
+h4{
+    font-size: 2.5em;
+    color: yellow;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3{
+    font-size: 3em;
+    color: chartreuse;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+b{
+    color:dodgerblue;
+}
+
+.I{
+    border:0.5em  solid green;
+    background-color: yellow;
+    color: green;
+    font-size: 1.5em;
+    height: 35vh;
+    width: 20vh;
+    position: relative;
+    left: 2.5vw;
+    padding: 0.5em;
+}
+
+.II{
+    border: 0.5em solid green;
+    background-color: yellow;
+    color: green;
+    font-size: 1.5em;
+    height: 35vh;
+    width: 20vh;
+    position: relative;
+    left: 20vw;
+    top: -40vh;
+    padding: 0.5em;
+}
+
+.III{
+    border: 0.5em solid green;
+    background-color: yellow;
+    color: green;
+    font-size: 1.5em;
+    height: 35vh;
+    width: 20vh;
+    position: relative;
+    left: 40vw;
+    top: -80vh;
+    padding: 0.5em;
+}
+
+.IV{
+    border: 0.5em solid green;
+    background-color: yellow;
+    color: green;
+    font-size: 1.5em;
+    height: 35vh;
+    width: 20vh;
+    position: relative;
+    left: 60vw;
+    top: -120vh;
+    padding: 0.5em;
+}
+
+.V{
+    border: 0.5em solid green;
+    background-color: yellow;
+    color: green;
+    font-size: 1.5em;
+    height: 35vh;
+    width: 20vh;
+    position: relative;
+    left: 80vw;
+    top: -160vh;
+    padding: 0.5em;
+}
+
+.cie{
+    border: 0.3em solid cyan;
+    position: absolute;
+    top: 172vh;
+    left: 21vw;
+    width: 10vw;
+    height: 20vh;
+}
+.nti{
+    border: 0.3em solid cyan;
+    position: absolute;
+    top: 172vh;
+    left: 41vw;
+    width: 10vw;
+    height: 20vh;
+}
+.fi{
+    border: 0.3em solid cyan;
+    position: absolute;
+    top: 172vh;
+    left: 61vw;
+    width: 10vw;
+    height: 20vh;
+}
+.cos{
+    border: 0.3em solid cyan;
+    position: absolute;
+    top: 172vh;
+    left: 81vw;
+    width: 10vw;
+    height: 20vh;
+}
+
+.cel{
+    position: absolute;
+    top: 50vh;
+    right: 20vw;
+}
+
+.rei{
+    position: absolute;
+    top: 230vh;
+    right: 50em;
+}
+
+.mon{
+    border: 0.3em solid blue;
+    border-radius: 25%;
+    background-color: cyan;
+    height: 15vh;
+    width: 10vw;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 0.5em;
+    position: relative;
+    left: 3em;
+}
+.pro{
+    border: 0.3em solid blue;
+    border-radius: 25%;
+    background-color: cyan;
+    height: 15vh;
+    width: 10vw;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 0.5em;
+    position: relative;
+    left: 15em;
+    top: -19vh;
+}
+.fun{
+    border: 0.3em solid blue;
+    border-radius: 25%;
+    background-color: cyan;
+    height: 15vh;
+    width: 10vw;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 0.5em;
+    position: relative;
+    left: 27em;
+    top: -38vh;
+}
+.pla{
+    border: 0.3em solid blue;
+    border-radius: 25%;
+    background-color: cyan;
+    height: 15vh;
+    width: 10vw;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 0.5em;
+    position: relative;
+    left: 39em;
+    top: -57vh;
+}
+.ani{
+    border: 0.3em solid blue;
+    border-radius: 25%;
+    background-color: cyan;
+    height: 15vh;
+    width: 10vw;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 0.5em;
+    position: relative;
+    left: 51em;
+    top: -76vh;
+}
+
+.azul{
+    position: absolute;
+    top: 225em;
+    right: 20vh;
+}
+.huevo{
+    position: absolute;
+    top: 350em;
+    right: 20vh;
+}
+.form{
+    position: absolute;
+    top: 390em;
+    right: 20vw;
+}
+.esp{
+    position: absolute;
+    top: 305em;
+    left: 40em;
+}
+
+.boton{
+    border: 0.3em solid red;
+    border-radius: 25%;
+    color: red;
+    background-color: yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 10vh;
+    width: 20vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5em;
+    padding: 0.5em;
+    text-align: center;
+    position: relative;
+    left: 75vw;
+}
+
+a{
+    text-decoration: none;
+}
+
+.boton:hover{
+    text-shadow: 0.5em 0.5em 0.5em greenyellow;
+    box-shadow: 0em 0em 1em 1em white;
+}

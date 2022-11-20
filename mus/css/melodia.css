@@ -1,0 +1,155 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+div{
+    text-align: center;
+    color: black;
+    font-family: 'Indie Flower', cursive;
+    font-size: 60px  ;
+    text-justify: newspaper;
+
+}
+h2{
+    text-align: center;
+    color: peru;
+    font-family: 'Oswald', sans-serif;
+
+}
+html{
+    vertical-align: baseline ;
+}
+
+#uno{
+    
+    background-size: auto;
+    background-size:cover;
+    background-position: center center; 
+    height: 961px;
+    background: #800080;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffc0cb, #800080);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffc0cb, #800080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#dos{
+    background-size: auto;
+    background-size: cover;
+    height: 961px   ;
+    background: #FC466B;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+#l1{
+    width: 130px;
+    height: 50px;
+    background-color: transparent;
+    position: absolute;
+    left: 880px;
+    top: 500px;
+    background-color: black;
+    opacity: 70%;
+    border: 3px solid;
+    line-height: 45px;
+    border-color: azure;
+    border-radius: 50px;
+    font-family: 'Merienda One', cursive;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    transition: 3s;
+}
+.l1{
+    width: 130px;
+    height: 50px;
+    background-color: transparent;
+    position: absolute;
+    left: 880px;
+    top: 500px;
+    background-color: black;
+    opacity: 70%;
+    border: 3px solid;
+    line-height: 45px;
+    border-color: azure;
+    border-radius: 50px;
+    font-family: 'Merienda One', cursive;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    transition: 3s;
+}
+.link1:hover{
+    background: rgb(22,70,97);
+    background: linear-gradient(0deg, rgba(22,70,97,1) 0%, rgba(0,94,167,1) 100%);;
+}
+.punto1{
+    color: black;
+    position: absolute;
+    font-size: 50px;
+    width: 600px;
+    left: 650px;
+    font-family: 'Merienda One', cursive;
+}
+.punto2{
+    font-family: 'Indie Flower', cursive;
+    top: 170px;
+    color: bisque;
+    position: absolute;
+    font-size: 25px;
+    width: 600px;
+    left: 650px;
+}
+
+.centro{
+    color: black;
+    position: absolute;
+    font-size: 50px;
+    width: 600px;
+    left: 650px;
+    font-family: 'Merienda One', cursive;
+}
+
+.caso1{
+    color: black;
+    width: 500px;
+    position: absolute;
+    font-size: 50px;
+    width: 600px;
+    top: 1250px;
+    left: 250px;
+    font-family: 'Merienda One', cursive;
+}
+.caso2{
+    color: black;
+    width: 500px;
+    position: absolute;
+    font-size: 50px;
+    width: 600px;
+    top: 1200px;
+    left: 1050px;
+    font-family: 'Merienda One', cursive;
+}
+.texto1{
+    position: absolute;
+    top: 1400px;
+    left: 250px;
+    text-align: center;
+    color: bisque;
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px  ;
+    width: 600px;
+}
+.texto2{
+    left: 1050px;
+    width: 600px;
+    position: absolute;
+    top: 1400px;
+    text-align: center;
+    color: bisque;
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+}

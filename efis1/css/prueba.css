@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none; 
+    list-style: none;
+    box-sizing: border-box;
+    
+ }
+ 
+ .arriba{
+     background-color: rgb(255, 254, 254);
+     width: 100%;
+     height: 80px;
+     
+ }
+ 
+ .menu{
+     float: right;
+     line-height: 80px;
+     
+ }
+ 
+ nav ul li{
+     display: inline-block;
+     margin: 0px 16px;
+ }
+ 
+ nav ul li a{
+     color: darkolivegreen;
+     font-size: 20px;
+     font-family:'Poor Story', cursive;
+     text-transform: uppercase; 
+     padding: 10px 15px ;
+     border-radius: 15px;
+ }
+ 
+ nav ul li a:hover{
+     background-color: lightgreen;
+     transition: 0.9s;
+    
+ }
+ 
+ .medio{
+     background: url('../imagenes/fondo.jpg') no-repeat;
+     height: calc(100vh - 80px);
+     background-size: cover;
+     background-position: center center;
+     font-family: 'Rubik Bubbles', cursive;
+     font-size: 70px;
+     margin: auto;
+     animation: titulo 2s infinite reverse;
+     text-shadow: 5px 5px 0px skyblue, -5px -5px 0px  darkcyan;
+     color: rgb(62, 62, 233);
+ }
+
+ @keyframes titulo {
+     0%{
+         font-size: 70px;
+     }
+     50%{
+        font-size: 80px;
+     }
+     100%{
+         font-size: 70px;
+     }
+ }
+ 
+ img{
+     width: 40px;
+ }
+ 
+ .icono{
+     position: absolute;
+     left: 10px;
+     top: 10px;
+     cursor: pointer;
+     display: none;
+ }
+ 
+ #boton{
+     display: none;
+ }
+
+ .central{
+    margin: auto;
+    width: 300px;
+    position: relative;
+    top: 50%;
+    float: right;
+ }
+ 
+ 
+ @media(max-width:700px){
+     nav ul li a{
+         font-size: 15px;
+     }
+ }    
+ 
+ @media(max-width:600px){
+     .icono{
+         display: block;
+     }
+     ul{
+         position: fixed;
+         width: 50%;
+         background-color: rgb(252, 236, 236);
+         height: 100vh;
+         top: 80px;
+         opacity: 0.5;
+         text-align: center;
+         left: -100%;
+         transition: 1s;
+     }
+ 
+     nav ul li{
+         display: block;
+     }
+ 
+     nav ul li a{
+         color: rgb(4, 114, 4);
+         font-size: 20px;
+     }
+ 
+     nav ul li:hover{
+         color: lightgreen;
+         transition: 1s;
+     }
+ 
+     #boton:checked ~ul{
+         left: 0px;
+    }
+
+    .central{
+        position: relative;
+        top: 40px;
+    }
+
+}
+ 
+ 
+ 
+ 
+ 
+ 

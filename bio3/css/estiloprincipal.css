@@ -1,0 +1,467 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: url(../imagenes/fondodepagina2.jpg);
+}
+
+header{
+    width: 100%;
+    height: 12vh;
+    
+}
+
+nav{
+    height:100px ;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(24, 19, 27);
+}
+
+.imgnav{
+    margin:auto;
+    text-align: center;
+    color: azure;
+    font-weight: 600;
+    
+}
+header nav img{
+    height: 70px;
+    
+}
+.logo{
+    width: 140px;
+    margin-left: 20px;
+}
+
+.menu{
+    font-size: 25px;
+    color: aliceblue;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.nav-menu{
+    position: fixed;
+    width: 100%;
+    height: 0vh;
+    top: 100px;
+    background: black;
+    opacity: 0.8;
+    text-align: center;
+    transition: all .5s;
+}
+
+ .nav-menu li{
+    display: none;
+    line-height: 30px;
+    margin: 50px 0;
+    transition: all .5s;
+}
+
+.nav-menu li a{
+    color: aliceblue;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.nav-menu li a.active, .nav-menu li a:hover{
+    color: rgb(226, 3, 226);
+    transition: .3s;
+}
+
+#check{
+    display: none;
+}
+
+#check:checked ~ .nav-menu{
+    height: 100vh;
+}
+
+#check:checked ~ .nav-menu li{
+    display: block;
+} 
+
+@media screen and (min-width: 768px){
+    .logo{
+        margin-left: 50px;
+    }
+
+    nav{
+        height: 100px;
+    }
+
+    .imgnav{
+        margin-left: 0px;
+        letter-spacing: 5px;
+        font-weight: 800;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .nav-menu{
+        position: relative;
+        height: 100px;
+        top: 0;
+        background: none;
+        transition: none;
+        text-align: right;
+        margin-right: 50px;
+    }
+
+    .nav-menu li{
+        display: inline-block;
+        line-height: 100px;
+        margin: 0px 20px;
+        transition: none;
+    }
+
+    .nav-menu li a{
+        font-size: 13px;
+
+    }
+
+    .nav-menu li a:hover{
+        font-size: 18px;
+        background-color: gold;
+        padding: 20px;
+        border-radius: 30px;
+
+    }
+}
+
+@media screen and (min-width: 1130px){
+    .logo{
+        margin-left: 50px;
+    }
+
+    nav{
+        height: 100px;
+    }
+
+    .imgnav{
+        margin-left: 200px;
+        letter-spacing: 15px;
+        font-weight: 800;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .nav-menu{
+        position: relative;
+        height: 100px;
+        top: 0;
+        background: none;
+        transition: none;
+        text-align: right;
+        margin-right: 50px;
+    }
+
+    .nav-menu li{
+        display: inline-block;
+        line-height: 100px;
+        margin: 0px 20px;
+        transition: none;
+    }
+
+    .nav-menu li a{
+        font-size: 18px;
+
+    }
+
+    .nav-menu li a:hover{
+        font-size: 18px;
+        background-color: gold;
+        padding: 20px;
+        border-radius: 30px;
+
+    }
+}
+
+
+
+
+/*seccion 1*/
+
+.secciontitulo{
+    height: 60vh;
+    width: 100%;
+    background-image: url(../imagenes/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.textotitulo{
+    padding: 0px 30px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.textotitulo h1{
+    margin-top: 30px;
+    font-size: 50px;
+    color: rgb(3, 236, 166);
+    font-family: 'Righteous', cursive;
+    text-shadow: 2px 2px red,-2px -2px red;
+}
+
+.textotitulo h6{
+    font-size: 20px;
+    font-weight: 800;
+    padding-top: 30px;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px black,-2px -2px black;
+    
+}
+
+.textotitulo h2{
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 80px;
+    text-shadow: 2px 2px black,-2px -2px black;
+    
+}
+.boton1{
+    padding: 10px 30px;
+    background-color: rgb(226, 3, 226); 
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+
+.boton1:hover{
+    background-color: aliceblue;
+    color: rgb(226, 3, 226);
+    transition: 0.5s;
+}
+
+@media screen and (min-width: 768px){
+    .textotitulo h1{
+        font-size: 100px;
+        margin-bottom: 10px;
+        font-weight: 900;
+    }
+
+    .textotitulo h2,h6{
+        font-size: 40px;
+    }
+    .boton1{
+        padding: 10px 30px;
+        background-color: rgb(226, 3, 226); 
+        color: white;
+        text-align: center;
+        border-radius: 10px;
+        font-weight: 600;
+        font-size: 40px;
+        letter-spacing: 10px;
+    }
+}
+
+/*CUERPO */
+
+.cuerp1{
+    padding: 15px;
+}
+
+/*CUERPO1*/
+
+.cuerpo1{
+    margin: auto;
+    width: 90%;
+    min-height: 50px;
+    margin-bottom: 2px;
+}
+
+.cuerpo1 .c1{
+    padding: 20px;
+    width: 100%;
+   font-weight: 500;
+   background-color: rgb(24, 19, 27) ;
+}
+
+.cuerpo1 .c1 h2{
+    color: rgb(3, 236, 166);
+    font-family: 'Acme', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 9px;
+}
+
+.cuerpo1 .c1 p{
+    text-align: center;
+    color: white;
+    word-spacing: 5px;
+    font-size: 20px;
+}
+
+.cuerpo1 .c2{
+    width: 100%;
+
+}
+
+.cuerpo1 .c2 img{
+    width: 100%;
+    height: 100%;
+}
+
+/*CUERPO2*/
+
+.cuerp2{
+    padding: 15px;
+}
+.cuerpo2{
+    margin: auto;
+    width: 90%;
+    min-height: 50px;
+}
+
+.cuerpo2 .c2{
+    padding: 20px;
+    width: 100%;
+   font-weight: 500;
+   background-color: rgb(24, 19, 27) ;
+}
+
+.cuerpo2 .c2 h2{
+    color: rgb(3, 236, 166);
+    font-family: 'Acme', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 9px;
+}
+
+.cuerpo2 .c2 p{
+    text-align: center;
+    color: white;
+    word-spacing: 8px;
+    font-size: 25px;
+}
+
+.cuerpo2 .c1{
+    width: 100%;
+    float: left;
+    
+}
+
+.cuerpo2 .c1 img{
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (min-width: 768px){
+    /*CUERPO1*/
+
+.cuerpo1{
+    margin: auto;
+    width: 90%;
+    min-height: 50px;
+    margin-bottom: 50px;
+}
+
+.cuerpo1 .c1{
+    padding: 20px;
+    width: 50%;
+   font-weight: 500;
+   background-color: rgb(24, 19, 27) ;
+   float: left;
+}
+
+.cuerpo1 .c1 h2{
+    color: rgb(3, 236, 166);
+    font-family: 'Acme', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 9px;
+}
+
+.cuerpo1 .c1 p{
+    text-align: center;
+    color: white;
+    word-spacing: 5px;
+    font-size: 20px;
+}
+
+.cuerpo1 .c2{
+    width: 50%;
+    float: right;
+
+}
+
+.cuerpo1 .c2 img{
+    width: 100%;
+    height: 100%;
+}
+
+/*CUERPO2*/
+
+.cuerpo2{
+    margin: auto;
+    width: 90%;
+    min-height: 50px;
+    
+}
+
+.cuerpo2 .c2{
+    padding: 20px;
+    width: 50%;
+   font-weight: 500;
+   background-color: rgb(24, 19, 27) ;
+   float: left;
+   
+}
+
+.cuerpo2 .c2 h2{
+    color: rgb(3, 236, 166);
+    font-family: 'Acme', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 9px;
+}
+
+.cuerpo2 .c2 p{
+    text-align: center;
+    color: white;
+    word-spacing: 8px;
+    font-size: 25px;
+    
+}
+
+.cuerpo2 .c1{
+    width: 49%;
+    float: right;
+}
+
+.cuerpo2 .c1 img{
+    width: 100%;
+    height: 100%;
+}
+}
+.boton2{
+    display: block;
+padding: 10px 30px;
+    background-color: rgb(226, 3, 226); 
+    color: white;
+    text-align: center;
+    border-radius: 10px;}
+
+    .boton2:hover{
+        background-color: aliceblue;
+        color: rgb(226, 3, 226);
+        transition: 0.5s;
+        font-weight: 600;
+        letter-spacing: 5px;
+    }

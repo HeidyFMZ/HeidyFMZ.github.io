@@ -1,0 +1,179 @@
+* {
+	margin: 0;
+	padding: 0;
+  box-sizing: border-box;
+  
+}
+ .contenido{
+	width: 100%;
+	position: relative;
+	background: #ebebeb;
+	height: 3000px;
+ }
+
+.cabeza{
+  margin: 0 auto;
+width: 800px;
+
+}
+
+.cabeza h2{
+  text-align: center;
+  font-family: 'Pacifico';
+  font-size: 60px;
+  color: #64c27b;
+}
+
+
+.cabeza p{
+  font-size: 35px;
+  color: black;
+  padding: 50px;
+  line-height: 1.2; 
+
+}
+header {
+position: fixed;
+height: 100px;
+background: #64c27b;
+width: 100%;
+z-index: 10;
+}
+
+.logo{
+width: 30%;
+float: left;
+line-height: 100px;
+}
+
+.logo img{
+ width: 100px;
+ height: 100px;
+ margin-left: -70%; 
+}
+
+nav{
+float: right;
+line-height: 100px;
+margin-right: -500px;
+}
+
+nav a{
+text-decoration: none;
+font-family: 'Pacifico', cursive;
+letter-spacing: 6px;
+font-size: 20px;
+margin: 10px;
+color: #fff;
+}
+
+nav a:hover {
+  color: #d0fdd7;
+  text-shadow: 0 0 8px white;
+}
+
+header img {
+width: 50px;
+height: 50px;
+float: left;
+}
+
+/*Parte 1*/
+
+
+.Partetres{
+  width: 70%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  margin-left: 15%;
+}
+
+
+.boxx{
+  width: 33%;
+  height: 50%;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  margin: 1.5%;
+}
+
+.boxx img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+}
+
+.boxx .hover{
+  width: 0%;
+  height: 100%;
+  background-color: #64c27b;
+  position: absolute;
+  top: 0;
+  font-display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition-duration: .2s;
+}
+
+.hover h1{
+  color: aliceblue;
+  font-size: 25px;
+  text-transform: capitalize;
+
+}
+
+.boxx:hover .hover{
+  width: 100%;
+}
+
+.f{
+  position: absolute;
+  margin-bottom: 35%;
+  color: #64c27b;
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+
+}
+
+/*Footer*/
+
+.footeruno {
+  background-color: #052216;
+  width: 100%;
+  text-align: left;
+  padding: 45px 50px;
+  margin-top: 63px;
+  box-sizing: border-box;
+
+}
+
+.footeruno .footercorreo p {
+  color: #d0fdd7;
+  font-size: 14px;
+  margin: 0;
+}
+
+
+
+.footeruno .footerredes {
+  float: right;
+  margin-top: 6px;
+  max-width: 180px;
+}
+
+.footeruno .footerredes a img{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 35px;
+  margin-left: 40px;
+}
+
+
+

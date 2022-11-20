@@ -1,0 +1,106 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    background: #DBE6F6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #C5796D, #DBE6F6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #C5796D, #DBE6F6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+h1{
+    text-align: center;
+    font-family: 'Leckerli One', cursive;
+    color: darkslategrey;
+    text-shadow: 10px 10px 5px white;
+    padding: 20px;
+}
+div{
+    width: 50%;
+    max-width: 750px;
+    height: 230px;
+    margin: 20px;
+    font-size: 35px;
+    font-weight: bolder;
+    
+}
+.caja1{
+    background-color: rgb(175, 108, 175);
+
+    border: 10px ridge rgb(255, 0, 255) ;
+    font-family: 'Nerko One', cursive;
+    float: right;
+    background-image: url(imagenes/libro-de-lectura.png);
+    background-repeat: no-repeat;
+    background-size: 35%;
+    text-align: right;
+    color: rgb(47, 0, 92);
+}
+.caja1:hover{
+    background-color: blueviolet;
+    border: 10px groove  rgb(255, 0, 255);
+    font-family: 'Nerko One', cursive;
+    float: right;
+    background-image: url(imagenes/libro-de-lectura.png);
+    background-repeat: no-repeat;
+    background-size: 180px;
+    text-align: left;
+    color:rgb(0, 0, 0) ;
+    background-position: right;
+    letter-spacing: 10px;
+
+}
+.caja2{
+    background-color: crimson;
+    border: 10px inset yellow;
+    float: left;
+    font-family: 'Nerko One', cursive;
+    background-image: url(imagenes/meditacion.png);
+    background-repeat: no-repeat;
+    background-size: 35%;
+    text-align: right;
+    color: coral;
+}
+.caja2:hover{
+    background-color:cora ;
+    border: 10px outset yellow;
+    float: left;
+    font-family: 'Nerko One', cursive;
+    background-image: url(imagenes/meditacion.png);
+    background-repeat: no-repeat;
+    background-size: 180px;
+    letter-spacing: 15px;
+    background-position: right;
+    text-align:left;
+    color:rgb(164, 6, 38) ;
+
+}
+div::first-letter{
+    color: rgb(59, 0, 56);
+    font-size: 60px;
+    text-shadow: -5px 5px 5px  rgb(255, 255, 255);
+}
+.caja3{
+    background-color: rgb(125, 185, 121);
+    border: 10px dotted green ;
+    float: left;
+    font-family: 'Nerko One', cursive;
+    background-image: url(imagenes/quedarse-en-casa.png);
+    background-repeat: no-repeat;
+    background-size: 35%;
+    text-align: right;
+    color: coral;
+}
+.caja3:hover{
+    background-color:rgb(101, 141, 111) ;
+    border: 10px dashed green;
+    float: left;
+    font-family: 'Nerko One', cursive;
+    background-image: url(imagenes/quedarse-en-casa.png);
+    background-repeat: no-repeat;
+    background-size: 180px;
+    letter-spacing: 15px;
+    background-position: right;
+    text-align:left;
+    color:rgb(164, 6, 38) ;
+
+}

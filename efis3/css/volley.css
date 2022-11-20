@@ -1,0 +1,204 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+h1{
+    text-align: center;
+    background: #1a2a6c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #fdbb2d, black, #1a2a6c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #fdbb2d,black, #1a2a6c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    padding:50px ;
+    font-family: 'Rubik Wet Paint', cursive;
+    text-shadow: 6px 6px 2px rgba(255, 255, 0, 0.514);
+    font-size: 100px;
+    
+}
+
+header{
+    background-color: black;
+}
+p{
+    font-size:  1.25em;
+}
+h2,h3,h4{
+    font-size:60px ;
+}
+
+nav ul{
+    background-color: black;
+    width: 50%;
+    list-style-type: none;
+    float: right;
+    
+    text-align: center;
+    
+    
+}
+nav li{
+    display: inline-flex;
+    
+}
+
+nav a{
+    color: white;
+    width: 188px;
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Cormorant', serif;
+    font-size: 20px;
+    
+}
+nav li:hover{
+    background-color: rgb(255, 174, 0);
+    color: black;
+    transition: 1s;
+    text-align: center;
+}
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 20px 30px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 10px black;
+    background-color: #1a2a6c;
+}
+
+button:hover{
+    background-color: #36416d;
+}
+
+.cont{
+    max-width: 2000px;
+    margin: auto;
+}
+header .cont{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+     
+}
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#historia{
+    margin: auto;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image:url("../imagenes/fondov.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+#historia {
+    padding: 400px;
+    padding-top: 0px;
+    
+}
+#en {
+    margin: auto;
+    max-width: 1000px;
+    height: 600px;
+    background-color: rgb(30, 30, 30);
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+}
+#en .cont{
+        padding: 150px 12px;
+}
+#en h3{
+    margin-top: 0px;
+    
+}
+#en p{
+    display: none;
+}
+#en .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 220px 40px;
+    margin: 20px;
+    color: rgb(30, 30, 30);
+    margin: auto;
+}
+.carta{
+    background-image:url("../imagenes/env.jpg") ;
+    
+}
+.para{
+    padding: 100px 100px;
+    padding-bottom: 100px;
+    font-size: 20px;
+    color: azure;
+}
+main{
+    
+    padding-top: 500px;
+    padding-bottom: 100px;
+    
+    
+}
+#regla H4{
+    color: white;
+    background-color: #fdbb2d;
+    max-height: 400px;
+    padding: 10px 10px ;
+    font-family: 'Alumni Sans Inline One', cursive;
+}
+#regla p{
+    color: white;
+    padding: 100px;
+    font-size: 30px;
+}
+#regla .cont{
+    background-color: #1a2a6c;
+    padding-top: 100px; 
+}
+.ireg{
+    background-image: url("../imagenes/reglas.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 900px;
+    height: 600px;
+    margin: auto;
+}
+#ima .imagen1, .imagen2, .imagen3{
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    display: inline-block;
+    
+}
+.imagen1{
+    background-image: url("../imagenes/imagen1.jpg");
+   position: relative;
+   top: 300px;
+    
+}
+.imagen2{
+    background-image: url("../imagenes/jugadores.jpg");
+    position: absolute;
+    right: 10px;
+}
+.imagen3{
+    background-image: url("../imagenes/balon.jpg");
+    position: absolute;
+    left:700px;
+    
+}
+

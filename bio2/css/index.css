@@ -1,0 +1,115 @@
+body{
+    background: #FDFC47;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24FE41, #FDFC47);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24FE41, #FDFC47); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    
+}
+p{
+    font-family: Copperplate Gothic Light;
+    text-shadow: 10px 10px 10px black;
+}
+#hola{
+    background-color: darkgreen ;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+#re{
+    font-size: 25px;
+}
+#hola:hover{
+    padding: 5px 10px;
+    transition: 0.7s;
+    border-radius: 10px;
+}
+a{
+    color: lawngreen;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+div{
+    text-align: center;
+    border-radius: 20px;
+    font-size: 25px;
+}
+img{
+    width: 400px;
+    height: 290px;
+}
+img:hover{
+    background-color: white;
+    padding: 2.5px 5px;
+    transition: 0.7s;
+    border-radius: 10px;
+}
+section{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2,1fr) ;
+}
+ 
+.re1{
+    background-color: darkgreen;
+    color: white;
+}
+.re1:hover{
+    box-shadow: 0px 0px 20px rgb(27, 102, 27);
+    padding: 10px 15px;
+    transition: 0.7s;
+}
+.re3{
+    background-color: darkred;
+    color: white;
+}
+.re3:hover{
+    box-shadow: 0px 0px 20px rgb(187, 44, 44);
+    padding: 10px 15px;
+    transition: 0.7s;
+}
+#uno:hover{
+    color: brown;
+    background-color: white;
+    padding: 2.5px 5px;
+    transition: 0.7s;
+    border-radius: 10px;
+}
+#dos:hover{
+    color: brown;
+    background-color: white;
+    padding: 2.5px 5px;
+    transition: 0.7s;
+    border-radius: 10px;
+}
+#tres:hover{
+    color: brown;
+    background-color: white;
+    padding: 2.5px 5px;
+    transition: 0.7s;
+    border-radius: 10px;
+}
+@media(max-width:650px){
+    section{
+        gap: 10px;
+        grid-template-rows: repeat(2,1fr) ;
+        display: grid;
+    }
+    .re1{
+        background-color: darkgreen;
+        color: white;
+        display: grid;
+        grid-row: 1;
+    }
+    .re3{
+        background-color: darkred;
+        color: white;
+        display: grid;
+        grid-row: 2;
+    }
+}

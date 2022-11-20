@@ -1,0 +1,393 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.firs{
+    width: 400px;
+    height: 100px;
+    background-color: transparent;
+    position: absolute;
+    left: 1200px;
+    top: 300px;
+    font-family: 'Merienda One', cursive;
+    font-size: 80px;
+    text-align: center;
+    transition: 2s;
+}
+.firs:hover{
+    left: 1100px;
+}
+.seco{
+    width: 400px;
+    height: 100px;
+    background-color: transparent;
+    color: bisque;
+    font-family: 'Merienda One', cursive;
+    font-size: 25px;
+    position: absolute;
+    text-align: center;
+    left: 1200px;
+    top: 425px;
+    transition: 2s;
+}
+.seco:hover{
+    left: 1300px;
+}
+#uno{
+    height: 961px;
+    background: rgb(22,70,97);
+    background: linear-gradient(0deg, rgba(22,70,97,1) 0%, rgba(0,94,167,1) 100%);
+}
+.ritmo1{
+    width: 400px;
+    height: 100px;
+    background-color: transparent;
+    position: absolute;
+    left: 400px;
+    top: 1300px;
+    font-family: 'Merienda One', cursive;
+    font-size: 80px;
+    text-align: center;
+}
+.ritmo2{
+    width: 400px;
+    height: 100px;
+    background-color: transparent;
+    position: absolute;
+    left: 400px;
+    top: 1425px;
+    color: bisque;
+    font-family: 'Merienda One', cursive;
+    font-size: 25px;
+    text-align: center;
+}
+.ritmo3{
+    width: 400px;
+    height: 100px;
+    background-color: transparent;
+    position: absolute;
+    left: 400px;
+    top: 2300px;
+    font-family: 'Merienda One', cursive;
+    font-size: 80px;
+    text-align: center;
+}
+.ritmo4{
+    width: 400px;
+    height: 100px;
+    background-color: transparent;
+    position: absolute;
+    left: 400px;
+    top: 2425px;
+    color: bisque;
+    font-family: 'Merienda One', cursive;
+    font-size: 25px;
+    text-align: center;
+}
+.conocer2{
+    width: 130px;
+    height: 50px;
+    background-color: transparent;
+    position: absolute;
+    left: 530px;
+    top: 2525px;
+    background-color: black;
+    opacity: 70%;
+    border: 3px solid;
+    line-height: 45px;
+    border-color: azure;
+    border-radius: 50px;
+    font-family: 'Merienda One', cursive;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    transition: 3s;
+}
+.conocer2:hover{
+    background: rgb(22,70,97);
+    background: linear-gradient(0deg, rgba(22,70,97,1) 0%, rgba(0,94,167,1) 100%);;
+}
+.imag2{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    left: 1200px;
+    top: 2200px;
+}
+.ritmo5{
+    width: 400px;
+    height: 100px;
+    background-color: transparent;
+    position: absolute;
+    left: 400px;
+    top: 3200px;
+    font-family: 'Merienda One', cursive;
+    font-size: 80px;
+    text-align: center;
+}
+.ritmo6{
+    width: 400px;
+    height: 100px;
+    background-color: transparent;
+    position: absolute;
+    left: 400px;
+    top: 3325px;
+    color: bisque;
+    font-family: 'Merienda One', cursive;
+    font-size: 25px;
+    text-align: center;
+}
+.conocer3{
+    width: 130px;
+    height: 50px;
+    background-color: transparent;
+    position: absolute;
+    left: 530px;
+    top: 3420px;
+    background-color: black;
+    opacity: 70%;
+    border: 3px solid;
+    line-height: 45px;
+    border-color: azure;
+    border-radius: 50px;
+    font-family: 'Merienda One', cursive;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    transition: 3s;
+}
+.conocer3:hover{
+    background: rgb(22,70,97);
+    background: linear-gradient(0deg, rgba(22,70,97,1) 0%, rgba(0,94,167,1) 100%);;
+}
+.imag3{
+    height: 400px;
+    width: 600px;
+    position: absolute;
+    left: 1100px;
+    top: 3150px;
+    border-radius: 35px;
+}
+.faq11{
+    width: 500px;
+    height: 100px;
+    background-color: transparent;
+    position: absolute;
+    left: 350px;
+    top:4050px;
+    font-family: 'Merienda One', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+.faq12{
+    width: 400px;
+    height: 100px;
+    background-color: transparent;
+    position: absolute;
+    left: 400px;
+    top: 4200px;
+    color: bisque;
+    font-family: 'Merienda One', cursive;
+    font-size: 25px;
+    text-align: center;
+}
+.faq13{
+    width: 130px;
+    height: 50px;
+    background-color: transparent;
+    position: absolute;
+    left: 530px;
+    top: 4400px;
+    background-color: black;
+    opacity: 70%;
+    border: 3px solid;
+    line-height: 45px;
+    border-color: azure;
+    border-radius: 50px;
+    font-family: 'Merienda One', cursive;
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+    transition: 3s;
+}
+.faq13:hover{
+    background: rgb(22,70,97);
+    background: linear-gradient(0deg, rgba(22,70,97,1) 0%, rgba(0,94,167,1) 100%);;
+}
+.imag4{
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    left: 1150px;
+    top: 4050px;
+    border-radius: 35px;
+}
+a:link{
+    color: white;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+.conocer1{
+    width: 130px;
+    height: 50px;
+    background-color: transparent;
+    position: absolute;
+    left: 530px;
+    top: 1525px;
+    background-color: black;
+    opacity: 70%;
+    border: 3px solid;
+    line-height: 45px;
+    border-color: azure;
+    border-radius: 50px;
+    font-family: 'Merienda One', cursive;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    transition: 3s;
+}
+.conocer1:hover{
+    background: rgb(22,70,97);
+    background: linear-gradient(0deg, rgba(22,70,97,1) 0%, rgba(0,94,167,1) 100%);;
+}
+.imag1{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    left: 1200px;
+    top: 1250px;
+}
+#dos{
+    height: 961px;
+    background: #000046;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#tres{
+    height: 961px;
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,49,130,1) 53%, rgba(0,0,0,1) 100%);
+}
+#cuatro{
+    height: 961px;
+    background: rgb(0,5,69);
+background: linear-gradient(90deg, rgb(3, 13, 148) 19%, rgba(0,116,255,1) 80%, rgba(0,150,164,1) 100%);
+}
+.arriba{
+    background-color: transparent;
+    width: 14%;
+    height: 100vh;
+    position: fixed;
+}
+.menu{
+    float: left;
+    line-height: 80px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0px 50px ;
+}
+nav ul li a{
+    color: rgb(255, 255, 255);
+    size: 20px;
+   font-family: 'Indie Flower', cursive;
+   font-size: 25px;
+    border-radius: 20px;
+}
+#medio{
+    background: url("../images/beach1.gif")no-repeat;
+    background-size: auto;
+    background-size:cover;
+    background-position: center center; 
+    height: 961px;
+}
+.home1{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 50px;
+}
+.tambor3{
+    position: absolute;
+    left: 10px;
+    top: 80px;
+    width: 50px;
+}
+.claveG{
+    position: absolute;
+    left: 15px;
+    top: 150px;
+    width: 35px;
+}
+.fa1{
+    position: absolute;
+    left: 7px;
+    top: 220px;
+    width: 50px;
+}
+.faq1{
+    position: absolute;
+    left: 10px;
+    top: 290px;
+    width: 50px;
+}
+img{
+    width: 35px;
+}
+.icono{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    cursor: pointer;
+    display: none;
+}
+#boton{
+    display: none;
+}
+@media (max-width:700px){
+    nav ul li a{
+        font-size: 15px;
+    }
+}
+@media (max-width:600px){
+    .icono{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 30%;
+        background-color: transparent;
+        height: 100vh;
+        top: 80px;
+        text-align: center;
+        left: -100%;
+        transition: 1s;
+    }
+    nav ul li{
+        display: block;
+    }
+
+    nav ul li a{
+        color: white;
+         font-family: 'Indie Flower', cursive;
+         font-weight: bold;
+         font-size: 25px;
+    }
+    nav ul li a:hover{
+        color:darkcyan;
+    }
+   #boton:checked ~ul{
+    left: 0px;
+   }
+}

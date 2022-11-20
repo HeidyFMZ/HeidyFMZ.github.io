@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.arriba{
+    background-color: rgb(0, 219, 0);
+    width: 100%;
+    height: 80px;
+}
+
+nav ul{
+   float: right;
+   line-height: 80px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0px 30px;
+}
+
+nav ul li a{
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+
+}
+
+nav ul li a:hover{
+    background-color: darkgray;
+    padding: 10px 15px;
+    transition: 0.7s;
+}
+
+.medio{
+    height: calc(100vh - 80px);
+    background: url('../imagenes/fondo\ 1.jpg') no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+img{
+    width: 35px;
+}
+
+.icono{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+#boton{
+    display: none;
+}
+
+@media(max-width:650px){
+  nav ul li a{
+      font-size: 15px;
+  }
+}
+
+@media(max-width:600px){
+    .icono{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 50%;
+        background-color: chocolate;
+        opacity: 0.5;
+        height: 100vh;
+        top:80px;
+        text-align: center;
+        left: -100%;
+    }
+}
+nav ul li {
+    display: block;
+}
+ nav ul li a:hover{
+     background: none;
+     color: rgb(251, 255, 0);
+ }
+  #boton:checked ~ ul{
+      left: 0px;
+  } 

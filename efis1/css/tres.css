@@ -1,0 +1,178 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
+}
+footer{
+    background: #C33764;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+    color: white;
+    font-family: 'Rubik Glitch', cursive;
+    font-size: 75px;
+    position: absolute;
+    bottom: -220px;
+    width: 100%;
+    height: 15%;
+    text-align: center;
+    border: 7px double orangered;
+    border-radius: 25pt;
+    line-height: 100pt;
+    text-shadow: 5px 5px 0px darkblue, -5px -5px 0px darkmagenta;
+    position: absolute;
+    top: 130%;
+}
+h3{
+    font-size: 35px;
+    font-family: 'Rubik Dirt', cursive;
+    color: crimson;
+    border: 5px darkmagenta double;
+    position: relative;
+    border-radius: 25pt;
+    padding-left: 10px;
+    text-align: center;
+}
+h1{
+    font-family: 'Rubik Glitch', cursive;
+    color: purple;
+    padding-left: 10px;
+}
+p{
+    font-family: 'Lobster', cursive;
+    font-size:15px;
+    color: blueviolet;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.caja2{
+   width: 50%;
+   height: 50%;
+   background-position: center;
+   background-size: 50%;
+   border: #1D2671 9px double;
+   border-radius: 25pt;
+   background:url('../imagenes/fondobasket.gif') no-repeat;
+   background-position: center;
+   background-size: 50%;
+}
+
+.caja1{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0px;
+   
+}
+
+.i1{
+    width: 50%;
+    height: 100%;
+}
+
+.i2{
+    width: 50%;
+    height: 50%;
+    float: right;
+}
+
+.i3{
+    width: 50%;
+    height: 50%;
+    float: right;
+    position: absolute;
+    top: 50%;
+}
+
+.caja3{
+    width: 50%;
+    height: 30%;
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Rubik Dirt', cursive;
+    background: lightgreen;
+    border-radius: 25px;
+    position: absolute;
+    top: 100%;
+    right: 0%;
+    line-height: 200pt;
+}
+
+img{
+    border-radius: 25px;
+}
+
+h5{
+    animation: ilu 2s infinite ;
+}
+
+@keyframes ilu{
+    0%{
+        font-size: 100px;
+    }
+    50%{
+        font-size: 110px;
+        background-color: crimson;
+        transition: 2s;
+        border-radius: 25pt;
+    }
+    100%{
+        font-size: 100px;
+    }
+}
+
+@media(max-width:600px){
+    .caja2{
+        width: 100%;
+    }
+
+    .caja1{
+        width: 100%;
+        position: absolute;
+        top: 350%;
+        border: solid 9px orangered;
+        border-radius: 25pt;
+    }
+
+    .caja3{
+        
+        width: 100%;
+        position: absolute;
+        top: 300%;
+    }
+
+    h5{
+        font-size: 35px;
+        animation: ilu 2s infinite ;
+    }
+    
+    @keyframes ilu{
+        0%{
+            font-size: 35px;
+        }
+        50%{
+            font-size: 45px;
+            background-color: crimson;
+            transition: 2s;
+            border-radius: 25pt;
+        }
+        100%{
+            font-size: 35px;
+        }
+    }
+
+    h4{
+        line-height: 75pt;
+        font-size: 55px;
+    }
+
+    footer{
+        position: absolute;
+        top: 450%;
+    }
+    
+}
+
+
+

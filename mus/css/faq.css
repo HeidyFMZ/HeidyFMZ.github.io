@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#mija{
+    background: url("../images/geome.gif")no-repeat;
+    background-size: auto;
+    background-size:cover;
+    background-position: center center; 
+    height: 961px;
+}
+
+#gabo{
+    background: url("../images/future.gif")no-repeat;
+    background-size: auto;
+    background-size:cover;
+    background-position: center center; 
+    height: 961px;
+}
+
+.titu1{
+    font-family: 'Nerko One', cursive;
+    font-size: 70px;
+    position: absolute;
+    top: 300px;
+    left: 1300px;
+    color: rgb(255, 255, 255);
+}
+.bio1{
+    font-family: 'Handlee', cursive;
+    font-size: 50px;
+    position: absolute;
+    top: 400px;
+    left: 1100px;
+    color: blanchedalmond;
+}
+.mrt img{
+    border-radius: 25px;
+    position: absolute;
+    height: 500px;
+    top: 250px;
+    left: 200px;
+}
+.titu2{
+    font-family: 'Nerko One', cursive;
+    font-size: 70px;
+    position: absolute;
+    top: 1200px;
+    left: 270px;
+    color: rgb(255, 255, 255);
+}
+.bio2{
+    font-family: 'Handlee', cursive;
+    font-size: 50px;
+    position: absolute;
+    width: 700px;
+    top: 1350px;
+    left: 100px;
+    color: blanchedalmond;
+}
+.slash img{
+    border-radius: 25px;
+    position: absolute;
+    height: 500px;
+    top: 1250px;
+    left: 1200px;
+}

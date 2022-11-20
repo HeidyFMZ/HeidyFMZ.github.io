@@ -1,0 +1,174 @@
+body{
+    background-color: darkred;
+}
+a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: orangered;
+}
+a:hover{
+    background-color: white;
+    padding: 2.5px 5px;
+    transition: 0.7s;
+    border-radius: 10px;
+}
+img{
+    width: 400px;
+    height: 290px;
+}
+section{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+div{
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+}
+div:hover{
+    padding: 15px 20px;
+    transition: 0.4s;
+}
+.datos1{
+    background-color: black;
+    text-align: left;
+    padding: 10px;
+}
+.datos2{
+    background-color: darkgreen;
+    text-align: center;
+    padding: 10px;
+}
+.datos3{
+    background-color: blue;
+    text-align: right;
+    padding: 10px;
+}
+.datos4{
+    background-color: cornflowerblue;
+    text-align: left;
+    padding: 10px;
+}
+.datos5{
+    background-color: coral;
+    text-align: center;
+    padding: 10px;
+}
+.datos6{
+    background-color: darkblue;
+    text-align: right;
+    padding: 10px;
+}
+.datos7{
+    background-color: darkgoldenrod;
+    text-align: left;
+    padding: 10px;
+}
+.datos8{
+    background-color: chocolate;
+    text-align: center;
+    padding: 10px;
+}
+.datos9{
+    background-color: green;
+    text-align: right;
+    padding: 10px;
+}
+.datos10{
+    background-color: blueviolet;
+    text-align: left;
+    padding: 10px;
+}
+.datos11{
+    background-color: goldenrod;
+    text-align: center;
+    padding: 10px;
+}
+.datos12{
+    background-color: mediumseagreen ;
+    text-align: right;
+    padding: 10px;
+}
+@media(max-width:650px){
+    section{
+        gap: 10px;
+        grid-template-rows: repeat(12,1fr) ;
+        display: grid;
+    }.datos1{
+        background-color: black;
+        text-align: left;
+        padding: 10px;
+        grid-row: 1;
+    }
+    .datos2{
+        background-color: darkgreen;
+        text-align: center;
+        padding: 10px;
+        grid-row: 2;
+    }
+    .datos3{
+        background-color: blue;
+        text-align: right;
+        padding: 10px;
+        grid-row: 3;
+    }
+    .datos4{
+        background-color: cornflowerblue;
+        text-align: left;
+        padding: 10px;
+        grid-row: 4;
+    }
+    .datos5{
+        background-color: coral;
+        text-align: center;
+        padding: 10px;
+        grid-row: 5;
+    }
+    .datos6{
+        background-color: darkblue;
+        text-align: right;
+        padding: 10px;
+        grid-row: 6;
+    }
+    .datos7{
+        background-color: darkgoldenrod;
+        text-align: left;
+        padding: 10px;
+        grid-row: 7;
+    }
+    .datos8{
+        background-color: chocolate;
+        text-align: center;
+        padding: 10px;
+        grid-row: 8;
+    }
+    .datos9{
+        background-color: green;
+        text-align: right;
+        padding: 10px;
+        grid-row: 9;
+    }
+    .datos10{
+        background-color: blueviolet;
+        text-align: left;
+        padding: 10px;
+        grid-row: 10;
+    }
+    .datos11{
+        background-color: goldenrod;
+        text-align: center;
+        padding: 10px;
+        grid-row: 11;
+    }
+    .datos12{
+        background-color: mediumseagreen ;
+        text-align: right;
+        padding: 10px;
+        grid-row: 12;
+    }
+    
+}

@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #E2E2E2;
+  width: 100%;
+  text-align: center;
+}
+
+.nav_menu {
+  text-align: center;
+  line-height: 165px;
+  width: 1300px;
+  height: 165px;
+  margin: 30px auto;
+  background-image: url(img/tabla.png);
+}
+
+ul {
+  list-style: none;
+}
+
+.lista li {
+  display: inline-block;
+}
+
+header a {
+  color: black;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+.lista li a {
+  padding: 35px;
+
+}
+.lista a:hover{
+	color: #E2E2E2;
+  }
+
+.separador img {
+  width: 800px;
+  height: 60px;
+}
+
+main {
+  padding-right: 15%;
+  padding-left: 15%;
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+main img {
+  width: 200px;
+  height: 300px;
+  padding-bottom: 30px;
+}
+
+main .personas {
+  padding-bottom: 40px;
+  display: grid;
+  gap: 80px;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: "uno dos"
+    "tres cuatro";
+}
+
+main .personas div {
+  padding-right: 80px;
+  padding-left: 80px;
+}
+
+main .personas div h3 {
+  padding-bottom: 20px;
+  font-size: 30px;
+
+}
+
+main .titulo h1 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  font-size: 60px;
+}
+
+main .parrafo p {
+  font-size: 40px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 80px;
+}
+
+
+footer {
+  margin-top: -35px;
+  background: rgb(156, 128, 91);
+}
+
+footer .titulo_redes h2 {
+  padding-top: 60px;
+  font-size: 40px;
+
+}
+
+footer img {
+  width: 50px;
+  height: 50px;
+}
+
+.redes {
+  display: grid;
+  padding: 50px;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-areas: "uno dos tres";
+}
+
+.ws {
+  grid-area: uno;
+}
+
+.fc {
+  grid-area: dos;
+}
+
+.ig {
+  grid-area: tres;
+}

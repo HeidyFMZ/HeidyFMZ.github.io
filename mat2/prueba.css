@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.arriba{
+    background-color: rgb(22, 20, 24);
+    width: 100%;
+    height: 80px;
+}
+nav ul{
+    float: right;
+    line-height: 80px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0px 15px;
+}
+
+nav ul li a{
+    color: rgb(134, 146, 111);
+    font-size: 20px;
+    font-family: 'Shrikhand', cursive;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border-radius: 20px;
+
+}
+nav ul li a:hover{
+    background-color: rgb(255, 118, 221);
+    transition: 1s;
+    font-family: 'Shrikhand', cursive;
+    color: rgb(255, 255, 255);
+}
+.medio{
+    background:url('imagenes/INICIO.jpg') no-repeat ;
+    height: calc(100vh - 80px);
+    background-size:cover ;
+    background-position:center center ;
+    
+}
+
+img{
+    width: 50px;
+}
+.icono{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    cursor: pointer;
+    display: none;
+   
+}
+#boton{
+    display: none;
+}
+
+@media(max-width:700px){
+    nav ul li a{
+        font-size: 15px;
+    }
+}
+@media(max-width:600px){
+    .icono{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 50%;
+        background-color: rgb(0, 0, 0);
+        height: 100vh;
+        top: 80px;
+        opacity: 0,5;
+        text-align:center;
+        left: -100%;
+
+
+    }
+    nav ul li{
+        display: block;
+        margin:50px ;
+        line-height: 30px;
+    }
+    nav ul li a{
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+    font-weight: 550px;
+    }
+
+    nav ul li a:hover{
+        color: rgb(255, 0, 0);
+    }
+    #boton:checked ~ul{
+        left: 0px;
+    }
+    
+}
+h1{
+text-align: center;
+    font-family: 'Righteous', cursive;
+    font-size: 3em;
+   color: white;
+   text-shadow: 10px 10px 10px  red,-10px -10px 10px black;
+   position: absolute;
+   display: block;
+   margin-left: 80px;
+ 
+
+    
+}
+h1:hover{
+    text-shadow: 10px 10px 10px  rgb(0, 0, 0),-10px -10px 10px yellow;
+}
+.abajo{
+    background-color: rgb(22, 20, 24);
+    height: 100px;
+}
+
+.c1{
+    width:400px ;
+    height: 400px;
+   
+    
+}
+
+
+  
+
+
+

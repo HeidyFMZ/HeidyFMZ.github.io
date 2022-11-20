@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+h1{
+    font-family: 'Merienda One', cursive;
+    font-size: 100px;
+    color:peru;
+    text-align: center;
+
+}
+body{
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+summary{
+    font-family: 'Merienda One', cursive;
+    font-size: 60px;
+    color: bisque;
+    
+}
+details,p{
+    width: fit-content;
+    margin: auto;
+}
+summary:hover{
+    cursor: pointer;
+    color: black;
+    transition: 1s;
+}
+#ritmo{
+    font-family: 'Indie Flower', cursive;
+    color: sandybrown;
+    font-size: 25px ;
+    /* border: red 1px solid; */
+    width: 750px ;
+    height: 10vh;
+    margin: 40px;
+}
+#elementos{
+    font-family: 'Indie Flower', cursive;
+    color: sandybrown;
+    font-size: 25px ;
+    /* border: red 1px solid; */
+    width: 750px ;
+    height: 10vh;
+    margin: 40px;
+}
+#pulso{
+    font-family: 'Indie Flower', cursive;
+    color: sandybrown;
+    font-size: 25px ;
+    /* border: red 1px solid; */
+    width: 750px ;
+    height: 10vh;
+    margin: 65px;
+}
+#acento{
+    font-family: 'Indie Flower', cursive;
+    color: sandybrown;
+    font-size: 25px ;
+    /* border: red 1px solid; */
+    width: 750px ;
+    height: 10vh;
+    margin: 40px;   
+}
+#compas{
+    font-family: 'Indie Flower', cursive;
+    color: sandybrown;
+    font-size: 25px ;
+    /* border: red 1px solid; */
+    width: 750px ;
+    height: 10vh;
+    margin: 40px;   
+}
+details {
+    transition:height 3s ease-in;
+    text-align: center;
+  }

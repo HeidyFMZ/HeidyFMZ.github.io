@@ -1,0 +1,337 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-decoration: none;
+margin: 0;
+outline: none;
+text-transform: capitalize;
+padding: 0;
+box-sizing: border-box;
+}
+*::selection{
+    background: red;
+    color: azure;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+.heading{
+    font-family: 'Neucha', cursive;
+    font-size: 4rem;
+    color: rgb(255, 179, 0);
+    text-align: center;
+    padding: 6rem 1rem 0 0;
+    letter-spacing: .2rem;
+    font-weight: 600;
+}
+
+.heading::first-letter{
+    color: rgb(255, 242, 0);
+    font-size: 60px;
+    text-shadow: -5px 5px 5px  yellowgreen;
+}
+.title{
+    padding: 0 1rem;
+font-size: 2rem;
+text-align: center;
+font-weight: 400;
+color: rgb(255, 255, 255);
+}
+header{
+    width: 100%;
+    background: rgb(3, 3, 3);
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    z-index: 1000;
+    transition: .2s;
+
+}
+ header .navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+header .navbar ul li{
+    margin: 0 1rem;
+
+}
+
+
+ header .navbar ul li a{
+    font-size: 2rem;
+    color: white;
+    transition: .2s;
+
+}
+header .navbar ul li .active,
+header .navbar ul li a:hover{
+    color: rgb(255, 0, 0);
+
+}
+header .logo{
+    font-size: 2.5rem;
+    color: write;
+    text-transform: uppercase;
+
+}
+header .fa-bars{
+    font-size: 3rem;
+    color: rgb(192, 130, 15);
+    cursor: pointer;
+    display: none;
+    transition: .2s;
+
+}
+.home {
+    min-height: 50vh;
+    background:linear-gradient(red,blue),url(imagenes/Captura-de-pantalla-2022-03-11-a-las-10.51.35.png) no-repeat;
+background-size:cover ;
+background-position: center;
+background-attachment: fixed;
+z-index: 0;
+overflow: hidden;
+position: relative;
+
+}
+.home .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    padding-top: 25rem;
+    text-align: center;
+}
+.home .content h1{
+    font-family: 'Merienda One', cursive;
+    font-size: 5rem;
+    color: aliceblue;
+    padding: 0 1rem;
+    text-shadow: 0 .3rem .1rem rgb(2, 2, 2);
+    text-transform: uppercase;
+}
+
+.home .content p {
+    font-family: 'Neucha', cursive;
+    font-size: 2rem;
+    color: rgb(126, 113, 113);
+    padding: 1rem 25rem;
+
+}
+
+.home .content button{
+    height: 5rem;
+    width: 20rem;
+    border-radius: 1rem;
+    background: red;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    cursor: pointer;
+    transition: .2s;
+    box-shadow: 0 .3rem 1rem black;
+    margin: 4rem;
+    border-color: rgb(255, 123, 0);
+}
+.home .content button:hover {
+background: none;
+border: .2rem solid red;
+}
+.product{
+    text-align: center;
+    margin: 100px 0;
+    
+}
+.imagenes{
+    height: 20rem;
+    width: 20rem;
+}
+.imagen{
+    height: 18rem;
+    width: 18rem;
+}
+.product .box-container {
+   display: inline-block;
+    text-align: center;
+}
+.product .box-container .box {
+    height: 25rem;
+    width: 25rem;
+    background: gray;
+    text-align: center;
+    border-radius: 1rem,;
+    box-shadow: 0 .3rem 5rem rgb(65, 65, 143);
+    margin: 2rem;
+    cursor: pointer;
+}
+.product .box-container .box i{
+    height: 6rem;
+    width: 6rem;
+    line-height: 6rem;
+    text-align: center;
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+    background: #d3900c;
+    font-size: 3rem;
+    margin: 2rem 0;
+    transition: .2s;
+
+}
+.product .box-container .box h3{
+    font-family: 'Neucha', cursive;
+    font-size: 2rem;
+    color: rgb(255, 0, 0);
+    transition: .2s;
+}
+.product .box-container .box p{
+    font-family: 'Neucha', cursive;
+    font-size: 1.3rem;
+    padding: .7rem 2rem;
+    color: rgb(255, 247, 247);
+
+}
+.product .box-container .box:hover i{
+    background: red;
+}
+.product .box-container .box:hover h3{
+    font-family: 'Neucha', cursive;
+    color: rgb(255, 251, 0);
+}
+
+
+
+.about{
+    background: black;
+
+}
+
+.about .title{
+    margin-bottom: 3rem;
+}
+.about .row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+    
+.about .row .image img{
+    height: 40vh;
+    width: 50vw;
+    margin: 100px;
+}
+.about .row .content{
+    padding-left: 5rem;
+    margin: 5rem 0;
+}
+.about .row .content h3{
+    font-family: 'Neucha', cursive;
+    font-size: 3rem;
+    color: rgb(194, 150, 69);}
+    .about .row .content p{
+        font-family: 'Neucha', cursive;
+        font-size: 1.6rem;
+        color: rgb(255, 255, 255);
+        padding: 1rem 0;}
+
+.course .box-container{
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 4rem 0;
+    flex-wrap: wrap;
+}
+.course .box-container .box{
+    background-color: antiquewhite;
+    height: 25rem;
+    width: 25rem;
+    margin: 3.5rem 2rem;
+    text-align: center;
+    border-radius: 1rem;
+}
+.course .box-container .box i{
+    height: 10rem;
+width: 10 rem;
+line-height: 8rem;
+text-align: center;
+color: rgb(184, 12, 0);
+background: none;
+margin-top: 2rem;
+font-size: 5rem;
+}
+.course .box-container .box h3{
+    font-family: 'Neucha', cursive;
+    font-size: 1;
+    color: #948107;
+}
+
+.course .box-container .box p{
+    font-family: 'Neucha', cursive;
+    font-size: 1.5rem;
+    color: white;
+    padding: 1rem 0;
+}
+
+
+@media (max-width:768px) {
+    html{
+        font-size: 55%;
+    }
+    header .fa-bars {
+        display: block;
+    }
+    header .navbar{
+        position: fixed;
+        top: -100rem;
+        left: 0;
+        width: 100%;
+        background: black;
+        border-radius: 1rem;
+        opacity: 0;
+        transition: .2s linear;
+    }
+    header .navbar ul{
+        flex-flow: column;
+        padding: 2rem 0;
+    }
+    header .navbar ul li{
+        margin: 1rem 0;
+        width: 100%;
+        text-align: center;
+    }
+    header .navbar ul li a {
+        font-size: 3rem;
+        display: block;
+    }
+    header .nav-toggle{
+        top: 5.5rem;
+        opacity: 1;
+    }
+    .home .content p{
+        padding:1.5rem 2rem ;
+
+    }
+    .about .row{
+        flex-direction: column-reverse;
+    }
+    .about .row .image img{
+        height: 30vh;
+        width: 90vw;
+    }
+    .about .row .content{
+        padding: 0 2.5rem;
+    }
+    .course .box-container{
+        width: 100%;
+    }
+    
+    
+}

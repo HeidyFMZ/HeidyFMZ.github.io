@@ -1,0 +1,219 @@
+body{
+    background: linear-gradient(rgb(37, 37, 37), rgb(148, 149, 141));  
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+::selection{
+    background: rgb(182, 182, 182);
+    color: rgb(0, 0, 0);
+}
+.arriba{
+    background-color: rgb(255, 0, 0);
+    width: 100%;
+    height: 100px;
+}
+
+.arriba:hover{
+    height: 130px;
+    transition: 1s;
+}
+
+nav ul{
+   text-align: right;
+   line-height: 80px;
+
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0px 30px ;
+}
+
+nav ul li a{
+    color: white;
+    text-transform: uppercase;
+    font-family: fantasy;
+    font-size: 20px;
+
+}
+nav ul li a:hover{
+    background-color: rgb(211, 211, 211);
+    padding: 10px 15px ;
+    transition: 0.7s;
+    border-radius: 10px;
+    color: black;
+}
+ 
+.medio{
+    background: url('https://wallup.net/wp-content/uploads/2018/10/02/909985-nazi-history-adolf-hitler-dark-evil-military-anarchy-war.jpg');
+    background-size: cover;
+    height:calc(110vh - 90px);
+    background-position: center center;
+}
+
+.medio:active{
+    background: url('https://www.todofondos.net/wp-content/uploads/3840x2160-Gaming-Wallpaper-Desktop-H-Games-HD-Wallpaper-en-2020.-Dios-de-la-guerra-1024x576.jpg') no-repeat;
+    background-size: cover;
+    height:calc(100vh - 90px);
+    background-position: center center;
+}
+
+img{
+    width: 35px;
+}
+
+.icono{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+#boton{
+    display: none;
+}
+
+@media(max-width:650px){
+    nav ul li a{
+        font-size: 12px;
+    }
+}
+
+@media(max-width:600px){
+    .icono{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 62%;
+        background-color: rgb(250, 88, 88);
+        opacity:0.7;
+        height: 55vh;
+        text-align: right;
+        left: -100px;
+    }
+
+
+    nav ul li{
+    display: block;
+    }
+
+    nav ul li a:hover{
+    background: none;
+    color:red
+    }
+
+    
+}
+
+h1{
+    color: rgb(255, 0, 0);
+    font-size: 40px;
+    text-align: center;
+    font-family: monospace;
+    text-shadow: 5px 4px 3px white;
+    text-decoration: underline;
+}
+
+.titulo{
+    font-size: 20px;
+    background-color: rgb(0, 247, 255);
+    width: 60%;
+    padding: 10px;
+    height: 180px;
+    margin-top: 40px;
+   
+}
+
+.img1{
+    width: 200pt;
+    height: 200pt;
+    margin-right: 100px;
+    margin-top: 10px;
+    
+
+ 
+    
+
+}
+
+.peri{
+    width: 20%;
+    height: 50px;
+    position: absolute;
+    right: 40px;
+    top: 200px;
+    color: white;
+}
+h2{
+    font-family: 'Oswald', sans-serif;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    
+}
+.desa1{
+    font-size: 20px;
+    background-color: rgb(0, 255, 255);
+    
+    width: 60%;
+    left: 300px;
+    padding: 10px;
+    height: 200px;
+    margin-top: 15px;
+  
+}
+
+.desa2{
+    font-size: 20px;
+    background-color: rgb(0, 255, 234);
+    
+    width: 98%;
+
+    left: 300px;
+    padding: 10px;
+    height: 240px;
+    margin-top: 15px;
+  
+}
+.img2{
+    width: 500pt;
+    height: 500pt;
+    margin-left: 20%;
+    margin-top: 10px;
+    
+}
+.desa3{
+    font-size: 20px;
+    background-color: rgb(0, 255, 234);
+    float: left;
+    width: 45%;
+
+    left: 300px;
+    padding: 10px;
+    height: 290px;
+    margin-top: 15px;
+}
+
+.desa4{
+    font-size: 20px;
+    background-color: rgb(0, 255, 213);
+    float: right;
+    width: 45%;
+
+    left: 300px;
+    padding: 10px;
+    height: 290px;
+    margin-top: 15px;
+    
+}
+.img4{
+    width: 600pt;
+    height: 500pt;
+    margin-left: 20%;
+    margin-top: 40px;
+}
