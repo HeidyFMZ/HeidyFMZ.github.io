@@ -1,0 +1,226 @@
+body{
+    background-image: url(Imágenes/fondo\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas: a b
+                         c d
+                         e f
+                         g h 
+                         i j
+                         k l
+                         m n
+                         o p
+                         q r;
+    gap: 15px;
+}
+
+
+img{
+    width: 400px;
+    height: 400px;
+    border: dashed red;
+    border-radius: 20%;
+}
+img:hover{
+    border-radius: 50%;
+    border-color: solid brown;
+    transition: 1s;
+}
+.inicio{
+    width: 96.5%;
+    height: 200px;
+    border: double 15px whitesmoke;
+    background-image: url(Imágenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-top: 0%;
+    margin-left: 8px;
+}
+h1{
+    font-family: "Ga Maamli", sans-serif;
+    font-weight: 400;
+    font-style: 400;
+    text-align: center;
+    font-size: 100px;
+    animation: titulo 2s alternate-reverse infinite;
+    margin-top: 20px;
+}
+@keyframes titulo{
+    0%{
+        transform: scale(1.5);
+        color: rgb(234, 107, 52);
+    }
+    100%{
+        transform: scale(1);
+        color: rgb(200, 165, 125);
+    }
+}
+hr{
+    border: 2px solid black;
+}
+.ti{
+    font-size: 25px;
+    text-align: center;
+    font-family: "Roboto Flex", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0,
+      "wdth" 100,
+      "GRAD" 0,
+      "XOPQ" 96,
+      "XTRA" 468,
+      "YOPQ" 79,
+      "YTAS" 750,
+      "YTDE" -203,
+      "YTFI" 738,
+      "YTLC" 514,
+      "YTUC" 712;;
+      color: darkred;
+}
+h3{
+    font-size: 27px;
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: blue;
+  }
+  
+p{
+    font-size: 25px;
+    font-family: "Rasa", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: darkcyan;
+}
+
+@media(max-width:800px){
+    section{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-areas: a b
+                             c d
+                             e f
+                             g h 
+                             i j
+                             k l
+                             m n
+                             o p
+                             q r;
+        gap: 10px;
+}
+.inicio{
+        width: 96.5%;
+        height: 200px;
+        border: double 10px whitesmoke;
+        background-image: url(Imágenes/fondo.jpg);
+        background-repeat: no-repeat;
+        background-size: auto;
+        margin-top: 0%;
+        margin-left: 8px;
+}
+h1{
+    font-family: "Ga Maamli", sans-serif;
+    font-weight: 400;
+    font-style: 400;
+    text-align: center;
+    font-size: 65px;
+    animation: titulo 2s alternate-reverse infinite;
+    margin-top: 20px;
+}
+.ti{
+    font-size: 20px;
+    text-align: center;
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: rgb(65, 53, 6);
+}
+img{
+    width: 300px;
+    height: 300px;
+}
+h3{
+    font-size: 22px;
+    font-family: "Chelsea Market", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(9, 9, 68);
+  }
+p{
+    font-family: "Special Elite", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(117, 144, 74);
+}
+
+}
+@media(max-width:600px){
+    section{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: a b
+                             c d
+                             e f
+                             g h 
+                             i j
+                             k l
+                             m n
+                             o p
+                             q r;
+        gap: 5px;
+    }
+    .inicio{
+        width: 96.5%;
+        height: 200px;
+        border: double 5px whitesmoke;
+        background-image: url(Imágenes/fondo.jpg);
+        background-repeat: no-repeat;
+        background-size: auto;
+        margin-top: 0%;
+        margin-left: 8px;
+}
+h1{
+    font-family: "Ga Maamli", sans-serif;
+    font-weight: 400;
+    font-style: 400;
+    text-align: center;
+    font-size: 60px;
+    animation: titulo 2s alternate-reverse infinite;
+    margin-top: 20px;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+.ti{
+    font-size: 15px;
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(27, 55, 21);
+}
+h3{
+    font-size: 17px;
+    font-family: "Pangolin", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(68, 9, 39);
+  }
+p{
+    font-size: 15px;
+    font-family: "Slabo 27px", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: darkorchid;
+  } 
+}
+

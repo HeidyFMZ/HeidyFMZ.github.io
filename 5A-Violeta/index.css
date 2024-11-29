@@ -1,0 +1,53 @@
+div{
+    text-align: center;
+}
+img{
+    width: 500px;
+    height: 500px;
+    border-radius: 25%;
+    border: double violet;
+}
+.inicio{
+    background: #8E2DE2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.nosotros{
+    background: #FF0099;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #493240, #FF0099);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #493240, #FF0099); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+h1{ 
+    font-size: 120px;
+    color: #b11111;
+    font-style: normal;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    text-shadow: #FF0099 250px;
+    text-decoration: double;
+}
+h1:hover{
+    font-size: 150px;
+    color: #630606c2;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    text-shadow: #FF0099 250px;
+    text-decoration: double;
+    transition: 2s;
+}
+img:hover{
+    width: 600px;
+    height: 600px;
+    border-radius: 45%;
+    border: dotted rgb(124, 8, 134);
+    transition: 1s;
+}

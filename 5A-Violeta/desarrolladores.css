@@ -1,0 +1,153 @@
+body{
+  background-color: #ffe5f0;
+}
+div {
+text-align: center;
+} 
+h1{ 
+color: #8f7193;
+font-family: "Rowdies", sans-serif;
+font-weight: 300;
+font-style: normal;
+font-size: 50px;
+}
+h2{
+  font-size: 30px;
+  font-family: "Parkinsans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+li{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+.Avril{
+font-family: "EB Garamond", serif;
+font-optical-sizing: auto;
+font-weight: 300;
+font-style: normal;
+color:#64638c;
+}
+.Juan {
+font-family: "EB Garamond", serif;
+font-optical-sizing: auto;
+font-weight: 300;
+font-style: normal;
+color:#26469A;
+}
+.Lukazz{ 
+font-family: "EB Garamond", serif;
+font-optical-sizing: auto;
+font-weight: 300;
+font-style: normal;
+color:#95b8f6;
+}
+
+img{
+  width: 300px;
+  height: 300px;
+  border-radius:80px;
+  padding: 60px;
+  border: dashed 4px #AA4465;
+  opacity: 0;
+  animation: fadeInOut 6s infinite;
+}
+@keyframes fadeInOut {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0,5;
+  }
+100%{
+    opacity: 1;
+}
+}
+img:hover{
+  Border-radius: 40%;
+  transition: 1s;
+  border: solid 3px #8f7193;
+}
+.contenedor {
+display:grid;
+grid-template-columns: repeat(3,1fr);
+gap: 20px;
+margin: 10px;
+justify-content: space-between;
+}
+
+@media (max-width:800px){
+.Avril{
+  font-family: "Gloria Hallelujah", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color:#d1052a;
+}
+
+.Juan{
+  font-family: "Gloria Hallelujah", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color:#79792E;
+}
+.Lukazz{
+  font-family: "Gloria Hallelujah", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color:#79cfcc;
+}
+h1{ 
+  color: #3B2C35;
+  font-family: "Rubik Bubbles", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+img{
+  width: 200px;
+  height: 200px;
+  border-radius:95px;
+  padding: 50px;
+}
+.contenedor{ 
+grid-template-columns: repeat(2,1fr);
+}
+}
+@media (max-width:600px){
+.Avril{
+  font-family: "Shadows Into Light", cursive;
+font-weight: 400;
+font-style: normal;
+color:#5E183A;
+}
+.Juan{
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color:#1A1A4A;
+}
+.Lukazz{
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color:#AA4465;
+}
+h1{ 
+  color: #BF3779;
+  font-family: "VT323", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+img{
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  padding: 40px;
+}
+.contenedor{ 
+  grid-template-columns: repeat(1,1fr);
+}
+}

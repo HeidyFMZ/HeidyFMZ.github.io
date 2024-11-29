@@ -1,0 +1,131 @@
+body {
+    background-color:#78909C;
+}
+h1 {
+    color:#D9D8D9;
+    font-family: "Bokor", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+    text-align: center;
+    text-shadow: -4px 4px 3px black;
+}
+h1:hover{
+    color:#000000;
+    font-family: "Bokor", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    text-align: center;
+    text-shadow: -4px 4px 3px black;
+    transition: 2s;
+}
+.vc{
+    width: 360px;
+    height: 640px;
+    text-align: center;
+}
+img{
+    width: 700px;
+    height: 350px;
+}
+.tcc{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: a b
+                         c d
+                         e f
+                         g h 
+                         i j
+                         k l
+                         m n
+                         o p
+                         q r
+                         s t
+                         u v;
+    gap: 15px;
+}
+h2{
+    font-family: "Galada", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+p{
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    font-size: 25px;
+}
+li{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+  }
+
+@media (max-width:800px){
+    body {
+        background-color:#7ea5b8;
+    }
+    h1 {
+        color:#d4bcd4;
+        font-family: "Merienda", cursive;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 60px;
+        text-align: center;
+        text-shadow: -4px 4px 3px rgb(53, 55, 55);
+}
+    h2{
+        font-family: "Delius Swash Caps", cursive;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 40px;
+    }
+    p{
+        font-family: "Itim", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 20px;
+}
+    img{
+        width: 400px;
+        height: 200px;
+}
+}
+@media (max-width:600px){
+    body{
+        background-color:#48606c;
+    }
+    h1{
+        color:#ba9eba;
+        font-family: "Mogra", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 50px;
+        text-align: center;
+        text-shadow: -4px 4px 3px rgb(65, 58, 58);
+}
+    h2{
+        font-family: "Merriweather", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 30px;
+    }
+    p{
+        font-family: "Delius", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 15px;
+}
+    img{
+        width: 350px;
+        height: 150px;
+}
+}
