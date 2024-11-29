@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color:lavender;
+    color: rgb(88, 88, 122);
+    line-height: 1.6;
+    padding: 20px;
+}
+
+
+header {
+    background-color: rgb(174, 174, 245);
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #fff;
+}
+
+
+.intro {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Sour Gummy", sans-serif;
+}
+
+
+section h2 {
+    color: #333;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+ul, ol {
+    margin-left: 20px;
+}
+
+ul li, ol li {
+    margin-bottom: 8px;
+    font-size: 1.1em;
+    font-family: "Neucha", cursive;
+}
+
+
+.ingredientes {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+
+.instrucciones {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}

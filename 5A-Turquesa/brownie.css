@@ -1,0 +1,117 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #d6a762;
+    color:#563f22;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header {
+    background-color: #c98b4d;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    animation: header 3s;
+}
+
+header h1 {
+    font-size: 3.5em;
+    color: white;
+    font-family: "Knewave", serif;
+    font-weight: 400;
+    font-style: normal;
+  font-optical-sizing: auto;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(80, 22, 22);
+    font-size: 40px;
+    font-family: "Knewave", serif;
+    font-weight: 400;
+    font-style: normal;
+  font-optical-sizing: auto;
+}
+
+div h2 {
+    color:rgb(138, 36, 36);
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    font-family: "Knewave", serif;
+    font-weight: 400;
+    font-style: normal;
+  font-optical-sizing: auto;
+}
+
+ul, ol {
+    margin-left: 20px;
+}
+
+ul li, ol li {
+    margin-bottom: 8px;
+    font-size: 1.7em;
+}
+
+.ingredientes {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-family: "Knewave", serif;
+    font-weight: 400;
+    font-style: normal;
+    animation: sombras 3s alternate infinite;
+    animation: reversa 3s;
+}
+
+.instrucciones {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    font-family: "Knewave", serif;
+    font-weight: 400;
+    font-style: normal;
+    animation: sombras 3s alternate infinite;
+    animation: reversa 3s;
+}
+
+header:hover{
+    background-color: #be752c;
+    font-size: 20px;
+    transition: 2s;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px;
+    text-shadow: 1px 1px 1px;
+
+}
+@keyframes header{
+0%{transform: scale(0,0);}
+100%{
+    transform: scale(1,1);
+}
+}
+*::selection{
+    background-color: brown;
+    color: white;
+
+}
+@keyframes sombras{
+    0%{
+        box-shadow: 10px 10px 10px brown;
+    }
+    100%{
+        box-shadow: 0px 0px 0px brown;
+    }
+}
+@keyframes reversa{
+0%{
+    transform: scaleX(-1);
+}
+100%{
+    transform: scaleX(1);
+}
+
+}
+

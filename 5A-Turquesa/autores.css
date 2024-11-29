@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #3d4675;
+}
+body:hover{
+    background-color: rgb(49, 1, 49);
+    transition: 20s;
+}
+
+header {
+    background-color: lightblue;
+    color: rgb(245, 190, 190);
+    padding: 20px;
+    text-align: center;
+}
+header:hover{
+    background-color: lightgreen;
+    color: rgb(30, 156, 30);
+    transition: 3s;
+    border-radius: 25px;
+}
+
+h1 {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    display: inline-block;
+
+}
+.pauno{
+    animation: titulo 5s;
+}
+.pados{
+    animation: titulodos 5s;
+}
+.autores {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+
+}
+.autor {
+    background-color: rgb(161, 235, 225);
+    color:white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    width: 250px;
+    text-align: center;
+    height: 400px;
+    animation: vuelta 5s;
+}
+
+#brenda:hover{
+    transform: translateY(-10px);
+    color: rgb(140, 238, 228);
+    background-color: rgb(153, 102, 240);
+    font-size: 19px;
+    transition: 2s;
+    height: 450px;
+}
+#rodrigo:hover{
+    transform: translateY(-10px);
+    color: rgb(44, 131, 41);
+    background-color: rgb(117, 231, 123);
+    font-size: 19px;
+    transition: 2s;
+    height: 450px;
+}
+#michelle:hover{
+    transform: translateY(-10px);
+    color: rgb(75, 212, 199);
+    background-color: lightpink;
+    font-size: 19px;
+    transition: 2s;
+    height: 450px;
+}
+
+.autor img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    animation: imagen 3s;
+}
+
+.autor h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.infoo {
+    font-size: 15px;
+    color: #3d4675;
+    margin-bottom: 15px;
+    font-family: "Knewave", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.hoby {
+    font-family: "Knewave", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.hoby li {
+    font-size: 0.9em;
+    color:#3d4675;
+}
+
+@keyframes titulo{
+0% {
+    transform: translateX(-100%);
+    color: #3d4675;
+}
+100% {
+    transform: translateX(0%);
+    
+}}
+@keyframes titulodos{
+    0% {
+        transform: translateX(100%);
+        color: #3d4675;
+        
+    }
+    100% {
+        transform: translateX(0%);
+        
+    }
+
+}
+@keyframes vuelta{
+    0%{transform: translateY(-10%);
+        transform: scaleY(-1);
+       
+    }
+    100%{transform: translateY(10%);
+         transform: scaleY(1);
+    }
+}
+@keyframes imagen{
+    0%{transform: rotate(360deg);   
+    }
+    100%{transform: rotate(0deg);
+    }
+}

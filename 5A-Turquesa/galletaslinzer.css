@@ -1,0 +1,112 @@
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ed7676;
+    color:rgb(114, 12, 12);
+    line-height: 1.6;
+    padding: 20px;
+}
+
+
+header {
+    background-color: #f93636;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    animation: header 3s;
+}
+
+header h1 {
+    font-size: 3.5em;
+    color: white;
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+}
+
+
+.intro {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(93, 17, 17);
+    font-size: 40px;
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+}
+
+
+div h2 {
+    color:rgb(115, 6, 6);
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+}
+
+ul, ol {
+    margin-left: 20px;
+}
+
+ul li, ol li {
+    margin-bottom: 8px;
+    font-size: 1.7em;
+}
+
+.ingredientes {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+    animation: sombras 3s alternate infinite , reversa 3s;
+}
+
+
+.instrucciones {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+    animation: sombras 3s alternate infinite , reversa 3s;
+}
+header:hover{
+    background-color:#ff0000;
+    font-size: 20px;
+    transition: 2s;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px;
+    text-shadow: 1px 1px 1px;
+
+}
+@keyframes header{
+0%{transform: scale(0,0);}
+100%{
+    transform: scale(1,1);
+}
+}
+*::selection{
+    background-color:rgb(162, 5, 5);
+    color: white;
+
+}
+@keyframes sombras{
+    0%{
+        box-shadow: 10px 10px 10px orangered;
+    }
+    100%{
+        box-shadow: 0px 0px 0px rgb(120, 1, 1);
+    }
+}
+@keyframes reversa{
+0%{
+    transform: scaleX(-1);
+}
+100%{
+    transform: scaleX(1);
+}
+}
