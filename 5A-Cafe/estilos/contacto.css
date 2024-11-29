@@ -1,0 +1,156 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+#encabezado {
+    background-color: #4a148c;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.titulo {
+    font-size: 28px;
+    margin: 0;
+}
+
+#menu .navegacion {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#menu .navegacion a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+#menu .navegacion a:hover {
+    color: #b39ddb;
+}
+
+#contenido-contacto {
+    padding: 40px;
+    text-align: center;
+}
+
+#informacion-general, #ubicacion-tiendas, #horarios, #formulario-contacto {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #4a148c;
+    margin-bottom: 20px;
+}
+
+.informacion {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.detalle-contacto h3 {
+    color: #4a148c;
+    font-size: 20px;
+}
+
+.detalle-contacto p {
+    font-size: 16px;
+    color: #555;
+}
+
+#redes-sociales a {
+    margin: 0 10px;
+}
+
+#redes-sociales img {
+    width: 40px;
+    height: 40px;
+}
+
+#ubicacion-tiendas {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.mapa {
+    width: 1000px;
+    
+    border: 2px solid black;
+}
+
+.horarios-detalle ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.horarios-detalle li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#contacto-formulario {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+
+#contacto-formulario label {
+    font-size: 16px;
+    color: #4a148c;
+    margin-top: 10px;
+    display: block;
+}
+
+#contacto-formulario input, #contacto-formulario textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+#contacto-formulario .boton-enviar {
+    background-color: #4a148c;
+    color: white;
+    padding: 12px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#contacto-formulario .boton-enviar:hover {
+    background-color: #6a1b9a;
+}
+
+#pie-de-pagina {
+    background-color: #4a148c;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#pie-de-pagina p {
+    margin: 0;
+}

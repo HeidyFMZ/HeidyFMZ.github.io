@@ -1,0 +1,154 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #f8f8f8;
+    color: #333;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+body:hover {
+    background-color: #acacac;
+}
+
+#encabezado {
+    background-color: #4a148c;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+     position: sticky;
+    top: 0;
+    z-index: 1000;
+    animation: slide-down 1s ease-in-out;
+}
+@keyframes slide-down {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+.titulo {
+    font-size: 28px;
+    margin: 0;
+}
+
+#menu .navegacion {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 20px;
+    gap: 20px;
+    padding: 0;
+    
+}
+
+#menu .navegacion a {
+    text-decoration: none;
+    color: white;
+       font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+#menu .navegacion a:hover {
+    color: #b39ddb;
+    transform: scale(1.1);
+}
+
+
+h1 {
+  margin: 0;
+  font-size: 2.5rem;
+    animation: fade-in 1s ease-in-out;
+}
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+p {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.encabezado-biografias{
+  text-align: center;
+}
+
+.contenedor-biografias {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 20px;
+}
+
+.biografia {
+  background-color: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  max-width: 450px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.biografia:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.imagen-biografia {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease;
+}
+.imagen-biografia:hover {
+    transform: rotate(10deg);
+}
+
+.contenido-biografia {
+  text-align: left;
+     animation: fade-up 0.8s ease;
+}
+
+@keyframes fade-up {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.nombre-biografia {
+  color: #8e44ad;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+blockquote.frase {
+  font-style: italic;
+  color: #555;
+  margin-top: 15px;
+  border-left: 4px solid #8e44ad;
+  padding-left: 10px;
+  transition: border-color 0.3s ease;
+}
+blockquote.frase:hover {
+    border-color: #b39ddb;
+}
+

@@ -1,0 +1,155 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+#encabezado {
+    background-color: #4a148c;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.titulo {
+    font-size: 28px;
+    margin: 0;
+    font-family: "Dela Gothic One", sans-serif;
+}
+
+#menu .navegacion {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#menu .navegacion a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+#menu .navegacion a:hover {
+    color: #b39ddb;
+}
+
+#contenido-principal {
+    padding: 30px;
+}
+
+.seccion-intercalada {
+    display: flex;
+    align-items: center;    
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.seccion-intercalada.inversa {
+    flex-direction: row-reverse;
+}
+
+.seccion-intercalada .texto {
+    flex: 1;
+    padding: 10px;
+}
+
+.seccion-intercalada .texto h2, 
+.seccion-intercalada .texto h3 {
+    color: #4a148c;
+    margin-bottom: 10px;
+}
+
+.seccion-intercalada .texto p {
+    line-height: 1.8;
+    font-size: 16px;
+    color: #555;
+}
+
+.seccion-intercalada .imagen {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion-intercalada .imagen img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#pie-de-pagina {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#redes-sociales img {
+    width: 30px;
+    margin: 0 10px;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+#redes-sociales img:hover {
+    opacity: 1;
+}
+
+
+#galeria-descubre img {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.seccion-galeria{
+  text-align: center;
+  
+}
+
+@media (max-width: 768px) {
+    .seccion-intercalada {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .seccion-intercalada.inversa {
+        flex-direction: column;
+    }
+
+    .seccion-intercalada .imagen img {
+        width: 100%;
+        height: auto;
+        max-width: 300px;
+    }
+
+    .seccion-intercalada .texto {
+        padding: 0;
+    }
+
+    #menu .navegacion {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
