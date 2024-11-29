@@ -1,0 +1,377 @@
+body{
+    margin: 0;
+}
+/*video de fondo*/
+.video{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    width: auto;
+    min-height: 100%;
+    height: auto;
+    transform: translate(-50%, -50%);
+    opacity: 0.3;
+    margin: 0px;
+}
+.prin{
+  margin: 0px;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: auto;
+}
+ /*indice*/
+nav{
+  height: 110px ;
+  width: 100%;
+  text-align: center;
+  background-color:#E1C8A6;
+}
+nav ul{
+  float:right;
+  list-style:none;
+}
+.enlace img{
+width: 130px;
+height: 100px;
+position:absolute;
+left: 20px;
+top: 5px;
+border: none;
+box-shadow: transparent 0px 0px 0px;
+}
+nav ul li{
+  display: inline-block;
+  height: 26pt;
+  margin: 26px;
+  border-radius: 40px;
+}
+.ton{
+font-size: 40px;
+color: white;
+float: right;
+line-height: 110px;
+margin-right: 20px;
+cursor: pointer;
+display: none;
+}
+#check{
+display: none;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #1C1C1C;
+  text-transform: none;
+  transition: 0.3s ease;
+  font-family: "Lilita One", sans-serif;
+  color: #5b7d87;
+}
+
+a:hover{
+  color: black;
+  text-decoration: underline;
+}
+
+/*historia y origen del futbol mundial titulo principal*/
+h1{
+  font-family: "Lilita One", sans-serif;
+  font-size: 70pt;
+  text-align: center;
+  text-shadow:#ed5761 5px 5px 0px, white 7px 7px 0px;
+  margin-top: 40px;
+}
+
+h1:hover{
+  font-family: "Lilita One", sans-serif;
+  font-size: 90pt;
+  text-align: center;
+  text-shadow: black  10px 10px 0px, burlywood 13px 13px 0px;
+  transition: 3s ease;
+  background:#ed5761;
+  background: linear-gradient( salmon, white );
+  -webkit-text-fill-color:transparent;
+-webkit-background-clip: text;    
+font-family: "Lilita One", sans-serif;
+      font-weight: 400;  
+}
+/*subtitulo "origenes y competiciones importantes"*/
+h3{
+  font-family: "Anton", sans-serif;
+    font-size: 30pt;
+    text-align: center;
+    color: #d4a017;
+    text-shadow: #5b7d87 4px 4px 0px;
+    text-transform: uppercase;
+}
+/*texto del origen del futbol*/
+.tex{
+    font-size: 20pt;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    color: black;
+    font-family: "Geist", sans-serif;
+}
+/*copa mundial y champions league titulos de las competiciones*/
+h4{
+    font-size: 30pt;
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    text-transform: uppercase;
+    color: #d4a017;
+    text-shadow: #5b7d87 4px 4px 0px;
+}
+/*linea del tiempo de las 2 competiciones*/
+.linea {
+    position: relative;
+    width: 90%;
+    margin: 50px auto;
+    padding: 20px 0;
+  }
+  .linea .años{
+    font-size: 25px;
+    font-family: "Geist", sans-serif;
+  }
+  .linea .ganador{
+    font-size: 1.6em;
+    font-family: "Geist", sans-serif;
+
+  }
+      /*esta es la linea que esta en el medio*/
+  .linea::before {
+    content: '';
+    position: absolute;
+    width: 4px;
+    background-color: #ed5761 ;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+  }
+
+  .linea-mun {
+    position: relative;
+    margin: 20px 0;
+    width: 50%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+  }
+
+  .linea-mun.izquierda {
+    left: 0;
+    text-align: right;
+    color: red;
+    font-size: 21pt;
+    font-weight: 600;
+    font-family: 'lilita one';
+    text-shadow: white 3px 3px 0px;
+  }
+
+  .linea-mun.derecha {
+    left: 50%;
+    color: black;
+    font-size: 21pt;
+    font-weight: 600;
+    font-family: 'lilita one';
+    text-shadow: white 3px 3px 0px;
+  }
+    /*las imagene de la linea del tiempo*/
+  .linea-mun img {
+    
+    width: 50%;
+    margin: 10px auto;
+    display: block;
+    border-radius: 60px;
+    animation: ani both;
+    view-timeline-name: --ani; /* Define el nombre de la línea de tiempo de la vista */
+animation-timeline: --ani; /* Asocia la animación a la línea de tiempo '--reveal' */
+animation-range: entry 10% cover 60%; /* Define el rango de la animación desde que el elemento entra un 20% hasta que cubre el 70% */
+  }
+  @keyframes ani{
+    0%{
+        opacity: 0.1;
+        transform: scale(0.5);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+    
+}
+
+  .linea-mun .año {
+    font-size: 1.5em;
+  }
+
+  .linea-mun .anfitrion, .linea-mun .ganador {
+    margin: 5px 0;
+  }
+        /*este es el punto que esta sobre la linea del tiempo*/
+  .linea-mun::before {
+    content: '';
+    position: absolute;
+    top: 15px;
+    width: 15px;
+    height: 15px;
+    background-color: #E1C8A6 ;
+    border: 3px solid #000;
+    border-radius: 50%;
+  }
+
+  .linea-mun.izquierda::before {
+    right: -7px;
+  }
+
+  .linea-mun.derecha::before {
+    left: -7px;
+  }
+  @media(max-width:800px){
+   
+  .ton{
+    display: block;
+  }
+
+  ul li a{
+    font-size: 17pt;
+    color: #5b7d87;
+   }
+  ul{
+    position: absolute;
+    width: 40%;
+    height: 100vh;
+    background-color:#1C1C1C;
+    opacity: 0.9;
+    top: 94px;
+    left: -150%;
+    text-align: center;
+    transition: all 0.5s;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    z-index: 2;
+
+  } 
+  ul:hover a:hover{
+    color: white;
+  }
+  li{
+    display: flex ;
+    flex-wrap: wrap;
+  }
+  
+  #check:checked ~ ul{
+    left: 0%;
+  }
+
+  h1{
+    font-size: 50pt;
+  }
+
+  h1:hover{
+    font-size: 63pt;
+  }
+
+  h3{
+    font-size: 26pt;
+    color: red;
+    text-shadow: #000 4px 4px 0px;
+  }
+  h4{
+    font-size: 26pt;
+    color: red;
+    text-shadow: #000 4px 4px 0px;
+  }
+  .tex{
+    font-size: 20pt;
+    margin-left: 90px;
+    margin-right: 90px;
+  }
+  .linea-mun.izquierda {
+    color: blue;
+    font-size: 16pt;
+  }
+  .linea-mun.derecha {
+    color: orangered;
+    font-size: 16pt;
+     
+  }
+  }
+  @media(max-width:600px){
+   
+   
+  .ton{
+    display: block;
+  }
+ ul li a{
+  font-size: 13pt;
+  color: #5b7d87;
+ }
+
+
+  ul{
+    background-color: #1C1C1C;
+    position: absolute;
+    width: 30%;
+    height: 100vh;
+    top: 94px;
+    left: -150%;
+    opacity: 0.9;
+    text-align: center;
+    transition: all 0.5s;
+    flex-direction: column;
+    margin-left: 0px;
+    z-index: 1; 
+  } 
+
+ a:hover{
+color: white;
+}
+
+  li{
+    display: flex ;
+    flex-wrap: wrap;
+  }
+  
+  #check:checked ~ ul{
+    left: 0%;
+  }
+
+  h1{
+    font-size: 30pt;
+  }
+
+  h1:hover{
+    font-size: 44pt;
+  }
+    h3{
+      font-size: 20pt;
+      color: rgb(4, 184, 4);
+      text-shadow: #000 4px 4px 2px;
+    }
+    h4{
+      font-size: 20pt;
+      color: rgb(4, 184, 4);
+      text-shadow: #000 4px 4px 2px;
+    }
+    .tex{
+      font-size: 16pt;
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+    .linea-mun img{
+      width: 130pt;
+    }
+
+    
+  .linea-mun.izquierda {
+    color:crimson;
+    font-size: 11pt;
+  }
+  .linea-mun.derecha {
+    color:darkkhaki;
+    font-size: 11pt;
+  }
+  }
+

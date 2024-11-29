@@ -1,0 +1,300 @@
+body{
+margin: 0px;
+background: #000000;
+background-color: black;
+background: linear-gradient(90deg, black,rgba(51,68,69,0.8419816901369923) 72%);
+}
+
+/*VIDEO DE FONDO*/
+.video{
+position: fixed;
+top: 50%;
+left: 50%;
+z-index: 1;
+width: auto;
+min-height: 100%;
+height: auto;
+transform: translate(-50%, -50%);
+opacity: 0.3;
+margin: 0px;
+}
+
+/*CONTENEDOR DE LA PAGINA*/
+.prin{
+position: relative;
+z-index: 2;
+width: 100%;
+height: auto;
+}
+
+/*IMAGENES DE LOS PARTIDOS*/
+img{
+border: 10px rgb(11, 11, 11) solid;
+box-shadow: rgb(255, 254, 250) 4px 4px 0px;
+border-radius: 20px; width: 45vw;
+height: 60vh;
+width: 55vw;
+margin: auto;
+display: block;
+padding: 8px;
+animation: ani both;
+view-timeline-name: --ani; /* Define el nombre de la línea de tiempo de la vista */
+animation-timeline: --ani; /* Asocia la animación a la línea de tiempo '--reveal' */
+animation-range: entry 10% cover 60%; /* Define el rango de la animación desde que el elemento entra un 20% hasta que cubre el 70% */
+}
+
+/*INDICE*/
+nav{
+height: 110px ;
+width: 100%;
+text-align: center;
+background-color:#E1C8A6;
+}
+
+nav ul{
+float:right;
+list-style:none;
+}
+
+/*LOGO EN EL INDICE*/
+.enlace img{
+width: 140px;
+height: 100px;
+position:absolute;
+left: 5px;
+top: 0px;
+border: none;
+box-shadow: transparent 0px 0px 0px;
+}
+
+nav ul li{
+display: inline-block;
+height: 26pt;
+margin: 26px;
+border-radius: 40px;
+}
+
+.ton{
+font-size: 40px;
+color: white;
+float: right;
+line-height: 110px;
+margin-right: 20px;
+cursor: pointer;
+display: none;
+}
+
+#check{
+display: none;
+}
+
+nav ul li a{
+text-decoration: none;
+color: #1C1C1C;
+text-transform: none;
+transition: 0.3s ease;
+font-family: "Lilita One", sans-serif;
+color:#d4a017;
+}
+
+a:hover{
+color: black;
+text-decoration: underline;
+}
+
+/*TITULO*/
+h1{
+font-family: "Lilita One", sans-serif;
+font-size: 100pt;
+text-align: center;
+text-shadow:#ed5761 5px 5px 0px, white 7px 7px 0px;
+margin-top: 40px;
+color: white;
+}
+
+h1:hover{ 
+font-size: 120pt;
+text-shadow: black  10px 10px 0px, burlywood 13px 13px 0px;
+transition: 3s ease;
+background:#ed5761;
+background: linear-gradient( salmon, white );
+-webkit-text-fill-color:transparent;
+-webkit-background-clip: text;    
+font-weight: 400;  
+}
+
+/*ANIMACION DE APARICION DE IMAGENES*/
+@keyframes ani{ 
+0%{
+opacity: 0.1;
+transform: scale(0.5);
+}
+
+100%{
+opacity: 1;
+transform: scale(1);
+}
+}
+
+/*SUBTITULO*/
+h2{
+font-size: 40pt;
+font-family:  "Lilita One", sans-serif;
+color: #d4a017;
+padding: 10px;
+text-align: center;
+margin-left: 150px;
+margin-right: 150px;
+}
+
+/*DESARROLLO Y/O CONCEPTO*/
+h3{
+font-family: "Passion One", sans-serif;
+color: white;
+padding: 10px;
+text-align: center;
+font-size: 30pt;
+margin-left: 150px;
+margin-right: 150px;
+}
+
+/*RESPONSIVE DE TABLET*/
+@media(max-width:800px){ 
+.ton{
+display: block;
+}
+.enlace img{
+left: 5px;
+top: 0px;
+}
+ul li a{
+font-size: 13pt;
+color: #5b7d87;
+}
+
+ul{
+position: absolute;
+width: 40%;
+height: 100vh;
+background-color:#1C1C1C;
+opacity: 0.9;
+top: 94px;
+left: -150%;
+text-align: center;
+transition: all 0.5s;
+display: flex;
+flex-direction: column;
+margin-left: 0px;
+z-index: 2;
+} 
+
+ul:hover a:hover{
+color: #c3b1e1;
+}
+
+li{
+display: flex ;
+flex-wrap: wrap;
+}
+
+#check:checked ~ ul{
+left: 0%;
+}
+
+img{
+width:70vw;
+height:45vh;
+}
+ 
+h1{
+font-size: 60pt;
+}
+
+h2{
+font-size:28pt ;
+margin-left: 50px;
+margin-right:50px ;
+}
+
+h3{
+font-size: 22pt;
+}
+
+h1:hover{
+font-family: "Lilita One", sans-serif;
+font-size: 73pt;
+}
+}
+
+/*RESPONSIVE DE CELULAR*/
+@media(max-width:600px){ 
+
+.enlace img{
+left: 5px;
+top: 0px;
+}
+
+.ton{
+display: block;
+}
+
+ul li a{
+font-size: 13pt;
+color: #5b7d87;
+}
+
+ul{
+background-color: #1C1C1C;
+position: absolute;
+width: 30%;
+height: 100vh;
+top: 94px;
+left: -150%;
+opacity: 0.9;
+text-align: center;
+transition: all 0.5s;
+flex-direction: column;
+margin-left: 0px;
+z-index: 1; 
+} 
+
+ul:hover a:hover{
+color: white;
+}
+
+li{
+display: flex ;
+flex-wrap: wrap;
+}
+
+#check:checked ~ ul{
+left: 0%;
+}
+img{
+width:65vw ;
+height:40vh ;
+}
+h2{
+font-size:24pt ;
+margin-left:40px ;
+margin-right: 40px;
+}
+h3{
+font-size: 18pt;
+margin-left:40px ;
+margin-right: 40px;
+}
+
+ul li a{
+font-size: 11pt;
+color: #5b7d87;
+}
+  
+h1{
+font-size: 40pt;
+}
+  
+h1:hover{
+font-size: 53pt;
+}
+}
