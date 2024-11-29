@@ -1,0 +1,531 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    line-height: 1.6;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: fadeInBody 1s ease;
+}
+h1{
+    font-family: "Shrikhand", serif;
+    font-size: 50px;
+    color: #a21552;
+ }
+a{
+    font-family: "Shrikhand", serif;
+    color: #b0416b;
+}
+h2{
+    color: #ce3b7d;
+    font-family: "Lilita One", sans-serif;
+
+}
+p{font-family: "Chewy", system-ui;
+    color: #ffffff;
+}
+.pp{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color:  #e19faa9e;
+    padding: 2%;
+}
+@keyframes fadeInBody {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.cab {
+    background-color: #e19faa;
+    width: 100%;
+    height: 13%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    animation: slideIn 0.6s ease;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+.cab img{
+    height:70px ;
+
+}
+.cab img:hover{
+    height: 75px;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    margin: 0;
+    list-style: none;
+    animation: fadeIn 1.2s ease;
+}
+
+.menu li {
+    margin: 35px 40px;
+    opacity: 0;
+    animation: fadeInItem 0.8s ease forwards;
+}
+
+.menu li:nth-child(1) {
+    animation-delay: 0.2s;
+}
+
+.menu li:nth-child(2) {
+    animation-delay: 0.4s;
+}
+
+.menu li:nth-child(3) {
+    animation-delay: 0.6s;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #9e1b32;
+    font-size: 25px;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.menu a:hover {
+    font-size: 30px;
+    color: #ac4a4a;
+    transform: translateY(-5px);
+}
+
+.menu a:active {
+    color: white;
+    transform: translateY(3px);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInItem {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0;
+}
+
+#nos {
+    background-image: url(fondito.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+
+.des h1 {
+    font-size: 60px;
+    animation: fadeInDown 1.2s ease;
+    text-align: center;
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.des p {
+    font-size: 18px;
+    line-height: 1.5;
+    animation: fadeIn 1.2s ease;
+    text-align: center;
+}
+
+.mivi {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 3%;
+    color: white;
+    justify-items: center;
+}
+
+.mivi nav {
+    padding: 2%;
+    border-radius: 25px;
+    text-align: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    animation: bounceIn 0.8s ease;
+}
+
+.mivi nav:hover {
+    transform: scale(1.05);
+    background-color: #f57eb1cd;
+    color: bisque;
+}
+
+.mivi .mi {
+    background-color:#d57ba0a8;
+}
+
+.mivi .vi {
+    background-color:#d57ba0a8 ;
+}
+
+@keyframes bounceIn {
+    0% {
+        transform: scale(0);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+#ser {
+    padding: 0 10%;
+}
+
+.tser {
+    display: grid;
+    grid-template-columns: repeat(2, 500px);
+    gap: 20px;
+    margin: 20px;
+    justify-items: center;
+}
+
+.tser div {
+    padding: 2%;
+    text-align: center;
+    border-radius: 25px;
+    background-color: #e19faa;
+    animation: fadeInUp 0.8s ease;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.tser div:hover {
+    transform: scale(1.05);
+    background-color: #9f405a;
+    color: bisque;
+ }
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#bene {
+    background-image: url(gio.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+
+#bene .tbe {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 5%;
+    justify-items: center;
+}
+
+.tbe div {
+    margin: 10px;
+    padding: 2% 2%;
+    text-align: center;
+    border-radius: 25px;
+    background-color: #ea87a3a6;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.tbe div:hover {
+    transform: scale(1.05);
+    background-color: #e673a5b0;
+    color: bisque;
+ }
+.tbe h2 {
+    padding: 5px;
+    animation: slideInUp 0.8s ease;
+}
+
+@keyframes slideInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+#opo{
+margin: 0 20px;
+}
+#opo .top {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding: 5%;
+    justify-items: center;
+   
+}
+
+.top nav {
+    border-radius: 25px;
+    background-color: #da8d9a;
+    text-align: center;
+    padding: 2%;
+    transition: transform 0.3s ease;
+}
+
+.top nav:hover {
+    transform: scale(1.1);
+    background-color: #dc808f;
+}
+
+#cur {
+    background-image: url(com.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    padding: 3% 20%;
+    text-align: center;
+}
+.az{
+    background-color: #24606f8a;
+    padding: 2%;
+    border-radius: 25px;
+    transition: background-color 0.5s ease, transform 0.5s ease;
+}
+.az:hover{
+    background-color: #5ebad1bd;
+    padding: 4%;
+}
+.boton {
+    display: inline-block;
+    background-color: #09adaf;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 15px;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin: 20px;
+    animation: BOTON 1s infinite;
+}
+
+.boton:hover {
+    background-color: #5482ae;
+    transform: translateY(-5px);
+}
+
+@keyframes BOTON {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+}
+
+#contac {
+    text-align: center;
+    animation: fadeIn 1.2s ease;
+}
+
+#contac img {
+    width: 250px;
+    border-radius: 50%;
+    padding: 2%;
+    line-height: center;
+    margin: 20px;
+    transition: transform 0.3s ease;
+}
+
+#contac img:hover {
+    width: 300px;
+    transform: rotate(10deg);
+}
+
+.ima {
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    gap: 30px;
+    justify-items: center;
+}
+
+footer {
+    background-color: #204953;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    bottom: 0;
+    animation: fadeInFooter 1s ease;
+}
+
+@keyframes fadeInFooter {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .cab {
+        height: auto;
+    }
+
+    .cab img{
+        display: none;
+    }
+
+    .menu li {
+        margin: 5px 0;
+    }
+
+    .menu a {
+        font-size: 22px;
+    }
+    .menu a:hover {
+        font-size: 25px;
+    }
+    h1{
+        font-size: 30px;
+    }
+     .tbe{
+        grid-template-rows: repeat(3,1fr);
+     }
+    .menu {display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    
+    }
+
+    .top {
+        grid-template-columns: 1fr;
+    }
+
+    .tbe {
+        grid-template-columns: 1fr;
+    }
+
+    .tser {
+        grid-template-columns: 1fr;
+    }
+
+    .des h1 {
+        font-size: 50px;
+    }
+
+    .des p {
+        font-size: 16px;
+    }
+
+    .boton {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .cab h2 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 600px) {
+    .des h1 {
+        font-size: 40px;
+    }
+
+    .menu a {
+        font-size: 20px;
+    }
+
+    .top nav {
+        font-size: 14px;
+    }
+
+    .mivi {
+        padding: 2%;
+    }
+
+    .tser {
+        grid-template-columns: 1fr;
+    }
+
+    .tbe {
+        grid-template-columns: 1fr;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+
+    .cab h2 {
+        font-size: 35px;
+    }
+
+    .menu a {
+        font-size: 18px;
+    }
+
+    .boton {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    #contac img {
+        width: 220px;
+    }
+}
+
