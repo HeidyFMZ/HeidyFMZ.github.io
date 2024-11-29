@@ -1,0 +1,132 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+  overflow-x: hidden;
+  background-image: url(imagenes/fon.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.header {
+  text-align: center;
+  padding: 50px 20px;
+  color: white;
+  background-image: url(imagenes/fon.jpeg);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.header h1 {
+  font-size: 3em;
+  animation: fadeIn 2s ease-out;
+  font-family: "Climate Crisis", sans-serif;
+  text-shadow: 3px 4px 3px #333;
+
+}
+
+.header p {
+  font-size: 1.2em;
+  animation: fadeIn 3s ease-out;
+  color: #823a3a;
+}
+
+
+.authors {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 50px;
+  flex-wrap: wrap;
+  animation: slideIn 2s ease-out;
+}
+
+.author-card {
+  background-color: white;
+  width: 250px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1.5s forwards;
+}
+
+.author-card img {
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease;
+}
+
+.author-card h2 {
+  font-size: 1.5em;
+  color: #7a1f1f;
+}
+
+.author-card p {
+  color: #777;
+  font-size: 1em;
+}
+
+
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+      opacity: 0;
+      transform: translateY(50px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  0% {
+      transform: translateX(-100%);
+  }
+  100% {
+      transform: translateX(0);
+  }
+}
+
+
+.author-card img:hover {
+  transform: scale(1.1);
+}
+
+.auto1 div{
+  background-image: url(imagenes/auto1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.auto2 div{
+  background-image: url(imagenes/auto2.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.auto3 div{
+  background-image: url(imagenes/auto3.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

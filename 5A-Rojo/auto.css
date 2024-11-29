@@ -1,0 +1,525 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f5f5f5, #d9d9d9);
+    color: #333;
+    background-size: cover;
+    background-color: rgb(225, 225, 178);
+
+}
+div{
+    background-color: rgb(166, 166, 166);
+}
+#conclusion{
+    background-color: rgb(166, 166, 166);
+}
+/* Fondo de pantalla completa */
+#inicio {
+    height: 100vh; /* Ocupa el 100% de la altura de la pantalla */
+    background-image: url('imagenes/fondo4.gif'); /* Coloca aquí tu imagen de fondo */
+    background-size: cover; /* Asegura que la imagen cubra todo el fondo */
+    background-position: center; /* Centra la imagen */
+    display: flex; /* Usamos flexbox para centrar el contenido */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    text-align: center; /* Texto centrado */
+    color: #fff; /* Texto en blanco para contraste */
+}
+
+/* Contenedor del contenido en el inicio */
+.contenido-inicio h1 {
+    font-size: 3rem; /* Tamaño del título */
+    margin-bottom: 10px;
+}
+
+.contenido-inicio p {
+    font-size: 1.2rem; /* Tamaño del párrafo */
+    margin-bottom: 20px;
+}
+
+/* Botón Aprende Más */
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ff5733;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.boton:hover {
+    transform: scale(1.1);
+    background-color: #c70039;
+}
+
+/* Suavizado de scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Fondo para la segunda sección */
+#tipos-autos {
+    padding: 50px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+.container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .img-fluid{
+    width: 86px;
+    height: 86px;
+    border-radius: 50%;
+  }
+  .par{
+    text-align: center;
+  }
+  .row {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .box {
+    width: 20%;
+    height: 150px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    text-align: center;
+    line-height: 150px;
+    /* Aquí irán las animaciones */
+    transition: all 0.5s ease;
+  }
+  
+  .box:hover {
+    /* Efectos al pasar el mouse */
+    border-radius: 50%;
+    transform: scale(1.1);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  @keyframes animation {
+    0% {
+      background-color: #f0f0f0;
+      transform: scale(1);
+    }
+    50% {
+      background-color: #007bff;
+      transform: scale(1.2);
+    }
+    100% {
+      background-color: #f0f0f0;
+      transform: scale(1);
+    }
+  }
+  
+  .box {
+    animation: animation 3s infinite;
+  }
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1); /* Sombra alrededor del contenido */
+    background: #fff;
+    border-radius: 10px;
+}
+img {
+    max-width: 80%; /* Las imágenes ocuparán máximo el 80% del contenedor */
+    height: auto; /* Mantendrá la proporción original */
+    display: block;
+    margin: 0 auto; /* Centra las imágenes */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Sombra para un efecto flotante */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animación suave */
+}
+
+img:hover {
+    transform: scale(1.05); /* Amplía un poco al pasar el mouse */
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4); /* Sombra más intensa */
+}
+h1, h2, h3 {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 20px 0;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Efecto de sombra suave */
+}
+.img-fluid2{
+   
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  .img-fluid3{
+    
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  .img-fluid4{
+    
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+  }
+
+p {
+    font-size: 34px;
+    line-height: 1.6; /* Espaciado cómodo para lectura */
+    color: #555;
+    text-align: justify;
+    margin: 10px auto;
+    max-width: 80%;
+    transition: 2s;
+}
+p:hover{
+    color: rgb(86, 249, 243);
+    font-size: 38px;
+
+}
+h1{
+
+      font-family: "Honk", system-ui;
+      font-weight: 800;
+      font-style: normal;
+      font-size: 18vh;
+    
+
+    
+}
+h1:hover{
+    font-size: 19vh;
+    transition: 2s;
+}
+h2 {
+
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 2rem;
+    
+      
+}
+h2:hover{
+    font-size: 2.5rem;
+    transition: 2s;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-family: "Bungee Tint", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h3:hover{
+    font-size: 2rem;
+    transition: 2s;
+}
+.animate-on-scroll {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.8s ease;
+}
+
+.animate-on-scroll.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    max-width: 100%;
+}
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    img {
+        max-width: 100%; /* Imágenes ocupan todo el ancho en pantallas pequeñas */
+    }
+}
+.threeholder {
+	position: relative;
+	margin-top: 0px;
+	width: 800px;
+	height:280px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.threeholder {
+	position: relative;
+	margin-top: 0px;
+	width: 800px;
+	height:280px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.threeone {
+	display: inline-block;
+	width: 33.33333333333%;
+	height: 100%;
+	background: #363636;
+	border-bottom: 15px solid #f5cb22;
+	text-align: center;
+	transition: all 0.25s;
+}
+.threetwo {
+	display: inline-block;
+	width: 33.333333333%;
+	height: 100%;
+	background: #333333;
+	border-bottom: 15px solid #f5cb22;
+	transition: all 0.25s;
+}
+.threethree {
+	display: inline-block;
+	width: 33.333333333%;
+	height: 100%;
+	background: #363636;
+	border-bottom: 15px solid #f5cb22;
+	transition: all 0.25s;
+}
+.threeone:hover {
+	background: #f5cb22;
+}
+.threeone:hover .circlepic {
+	background: #5c5c5c;
+}
+.threeone:hover .circleborder{
+		background: #333333;
+}
+.threeone:hover svg{
+	fill:#f5cb22;
+}
+.threeholder h4 {
+	width: 200px;
+	text-align: center;
+	font-size: 13px;
+	margin-left: -55px;
+	font-weight: bold;
+	margin-top: 45px;
+	text-align: center;
+	color: white;
+}
+.threeholder p {
+	display: inline-block;
+	width:200px;
+	text-align: center;
+	margin-left: -55px;
+	margin-top: 20px;
+	font-size: 12px;
+	color:#8a8a8a;
+	letter-spacing: 1px;
+}
+.threeone:hover h4 {
+	color: black;
+}
+.threetwo:hover h4 {
+	color: black;
+}
+.threethree:hover h4 {
+	color: black;
+}
+.threeone:hover svg, .threetwo:hover svg, .threethree:hover svg {
+	transition: all 0.65s;
+	transform: rotateY(360deg);
+}
+.threetwo:hover {
+	background: #f5cb22;
+}
+.threetwo:hover .circleborder{
+		background: #333333;
+}
+.threetwo:hover svg{
+	fill:#f5cb22;
+}
+.threethree:hover {
+	background: #f5cb22;
+}
+.threethree:hover .circleborder{
+		background: #333333;
+}
+.threethree:hover svg{
+	fill:#f5cb22;
+}
+.circleborder {
+	position: absolute;
+	top: 23px;
+	width: 90px;
+	height: 90px;
+	background: #f5cb22;
+	margin-left: 88.33333px;
+	border-radius: 50%;
+}
+.circlepic {
+	position:absolute;
+	top:-20px;
+	margin-top: 30px;
+	width: 110px;
+	height: 110px;
+	background: #5c5c5c;
+	margin-left: 78.33333px;
+	border-radius: 50%;
+}
+.tipos-autos {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f5f5f5;
+    transition: background-color 0.5s;
+  }
+  
+  .tipos-autos:hover {
+    background-color: #e3f2fd;
+  }
+  
+  .tipos-autos h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    position: relative;
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  .tipos-autos h2::after {
+    content: "";
+    width: 80px;
+    height: 4px;
+    background-color: #ff6600;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .auto {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 0;
+    position: relative;
+  }
+  
+  .auto img {
+    width: 45%;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.5s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 102, 0, 0.2);
+  }
+  
+  .auto img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 102, 255, 0.2);
+  }
+  
+  .auto .info {
+    width: 50%;
+    text-align: left;
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  .auto .info h3 {
+    font-size: 1.8rem;
+    color: #ff6600;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    transition: color 0.5s, transform 0.5s;
+  }
+  
+  .auto .info h3:hover {
+    color: #000;
+    transform: rotate(-5deg) scale(1.1);
+  }
+  
+  .auto .info p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    transition: font-size 0.5s, background-color 0.5s;
+  }
+  
+  .auto .info p:hover {
+    font-size: 1.2rem;
+    background-color: #ffedcc;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .auto.tipo-1, .auto.tipo-3, .auto.tipo-5 {
+    flex-direction: row;
+  }
+  
+  .auto.tipo-2, .auto.tipo-4, .auto.tipo-6 {
+    flex-direction: row-reverse;
+  }
+  
+  .auto::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #ff6600;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    animation: bounce 2s infinite;
+  }
+  
+  .auto.tipo-1::after, .auto.tipo-3::after, .auto.tipo-5::after {
+    right: -30px;
+  }
+  
+  .auto.tipo-2::after, .auto.tipo-4::after, .auto.tipo-6::after {
+    left: -30px;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateX(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(-10px);
+    }
+    50% {
+      transform: translateY(10px);
+    }
+  }
