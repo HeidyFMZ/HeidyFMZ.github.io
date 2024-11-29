@@ -1,0 +1,43 @@
+body{
+    background-color:#a9d3e6;
+   
+    }
+ 
+ h1{
+     text-align:center;
+     
+     font-family: "Lexend Zetta", sans-serif;
+     font-weight:800;
+     text-shadow:2px 2px 15px,0 0 25px yellow,0 0 15px purple ;
+     border:2px solid violet;
+     letter-spacing:5px;
+     Animation:color 2s infinite alternate;
+     }
+     @keyframes color{
+         0% {
+     color: purple;
+   }
+   50% {
+     color:#4f6d7a;
+   }
+   100% {
+     color: purple;
+   }
+     }
+  h2{
+      color:#b57edc;
+      font-family: "Parkinsans", sans-serif;
+  }   
+ ul{
+    color:#c8a2c8;
+    font-family: "Prosto One", sans-serif; 
+ }
+ h3{
+     font-size:20px;
+     color:purple;
+ }
+ p{
+     text-align:center;
+     font-size:25px;
+     font-family: "Alumni Sans Pinstripe", sans-serif;
+ }

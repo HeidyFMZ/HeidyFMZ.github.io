@@ -1,0 +1,282 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1E1E2F;
+    margin: 0px;
+    padding: 0px;
+}
+* {
+    scrollbar-color:  rgb(98, 178, 218)   #1E1E2F;
+}
+header {
+    
+    background-color: #ffffff;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+img{
+    width: 80%;
+    
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #535468;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    font-family: "Mogra", system-ui;
+    text-align: center;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    background-color: #304d74;
+   border-radius: 5px;
+    color: aliceblue;
+}
+ul{
+    color: #222b5a;
+}
+.intro{
+    width: 95%;
+}
+h1 {
+    font-size: 2.5em;
+    background: linear-gradient(rgb(98, 178, 218), rgb(83, 84, 104));
+    line-height: 100px;
+    color: white;
+height: 100px;
+text-shadow: 0px 0px 5px rgb(40, 40, 53);
+margin-top: 0px;
+font-family: "Coiny", system-ui;
+}
+
+  strong::after {
+    content: '|';
+    animation: blinki 1s infinite;
+  }
+
+  @keyframes blinki {
+    0%, 50% {
+      opacity: 1;
+    }
+    51%, 100% {
+      opacity: 0;
+    }
+  }
+
+main {
+    padding: 20px;
+    width: 93%;
+    margin: 20px auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color:#64abce;
+    font-size: 1.8em;
+    font-family: "Shrikhand", serif;
+}
+
+h3 {
+    color:  #533c37;
+    font-size: 1.5em;
+    font-family: "Jua", sans-serif;
+    text-transform: capitalize;
+}
+
+p, table {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color:  #533c37;
+    
+    font-family: "Patrick Hand", cursive;
+
+}
+p{
+    font-family: "Jua", sans-serif;
+    color:  #6d5b5b;
+
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    
+}
+
+.grid-item {
+    background-color: #d8edf7;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #ffffff;
+}
+
+table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    font-family: "Patrick Hand", cursive;
+}
+.video{
+    display: grid;
+    margin: auto;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+video{
+    width: 400px;
+   
+}
+table td:first-child {
+    font-weight: bold;
+    width: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    color: rgb(10, 21, 51);
+    margin: 200px 0px 0px 0px;
+}
+
+
+
+
+@media (max-width: 800px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+    h1{
+        font-size: 30px;
+    }
+
+    h2, h3 {
+        font-size: 1.5em;
+    }
+    * {
+        scrollbar-color: #a5b4ff #222b5a;
+     overflow-x: hidden;
+     }
+
+    p, table {
+        font-size: 1em;
+    }
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+        padding: 0px;
+    }
+
+    nav ul li {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    nav ul li a {
+        width: 100%;
+        text-align: left;
+        padding: 10px 20px;
+    }
+    nav ul li a:hover {
+        padding: 15px;
+        width: 93%;
+
+    }}
+ 
+
+@media (max-width: 500px) {
+    nav ul li a {
+        padding: 15px;
+        text-align: left;
+
+    }
+    nav ul li a:hover {
+        padding: 15px;
+        width: 95%;
+      
+    }
+    main {
+        width: 100%;
+    }
+    h1{
+        font-size: 28px;
+    }
+    video{
+        width: 300px;
+       
+    }
+p{
+    font-size: 15px;
+}
+   h2{
+    font-size: 24px;
+   }
+   h3{
+    font-size: 20px;
+}
+
+    .grid-container{
+        width: 100%;
+    }
+   .grid-item{
+width: 80%;
+   }
+
+
+    p, table {
+        font-size: 1em;
+    }
+    nav {
+        position: relative;
+        padding-left: 0px;
+     
+    }
+    * {
+       scrollbar-color: #a5b4ff #222b5a;
+    overflow-x: hidden;
+    }
+  p{
+    font-size: 15px;
+  }
+
+
+}

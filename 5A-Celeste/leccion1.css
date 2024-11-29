@@ -1,0 +1,287 @@
+
+body {
+    background-color: #1E1E2F;
+  
+    margin: 0;
+    padding: 0;
+}
+* {
+    scrollbar-color:  rgb(98, 178, 218)   #1E1E2F;
+}
+h1{ font-size: 2.5em;
+    text-align: center;
+    background: linear-gradient(rgb(98, 178, 218), rgb(83, 84, 104));
+    line-height: 100px;
+    text-shadow: 0px 0px 5px rgb(40, 40, 53);
+    color: white;
+height: 100px;
+margin-top: 0px;
+font-family: "Coiny", system-ui;
+
+
+}
+header {
+    color: rgb(27, 32, 75);
+    background-color: #ffffff;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #535468;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    font-family: "Mogra", system-ui;
+    text-align: center;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    background-color: #304d74;
+    border-radius: 5px;
+    color: aliceblue;
+}
+.ins {
+    padding: 20px;
+}
+
+div {
+    
+    background-color: #ffffff;
+    padding: 25px;
+    margin: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+    animation: show both;
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    
+    
+    animation-range: entry 5% cover 50%;
+}
+
+h2 {
+    color:#64abce;
+    font-family: "Shrikhand", serif;
+    font-size: 32px;
+}
+
+.typing {
+    overflow: hidden;
+    border-right: 2px solid #000;
+    white-space: nowrap;
+    width: 0;
+    animation: typing 4s steps(30, end),1s step-end infinite both;
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    
+    
+    animation-range: entry 5% cover 90%;
+  }
+
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+
+  @keyframes blink {
+    from {
+      border-color: transparent;
+    }
+    to {
+      border-color: black;
+    }
+  }
+ol{
+    width: 60%;
+    display: inline-block;
+   
+}
+video{
+    width: 30%;
+    padding-bottom: 60px;
+}
+
+.otra{
+    width: 60%;
+    display: inline-block;
+    line-height: 1.6;
+}
+p, ol, ul {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+p{
+    font-family: "Jua", sans-serif;
+    color:  #533c37;
+}
+li{
+    font-family: "Patrick Hand", cursive;
+    color:  #3f4141;
+}
+img{
+    width: 20%;
+    height: 20%;
+   
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    color: rgb(10, 21, 51);
+    margin: 200px 0px 0px 0px;
+}
+
+
+
+
+@keyframes show{
+    0%{
+        opacity: 0;
+        scale: 25%;
+    }
+    100%{
+        opacity: 1;
+        scale: 90%;
+    }}
+
+    @media (max-width: 800px) {
+        nav {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        h1{
+            font-size: 30px;
+        }
+        h2{
+            font-size: 38px;
+           }
+           li{
+            font-size: 17px;
+        }
+        p{
+            font-size: 17px;
+        }
+    
+        nav ul {
+            flex-direction: column;
+            width: 100%;
+        }
+    
+        nav ul li {
+            margin-left: 0;
+            width: 100%;
+        }
+        video{
+            width: 80%;
+            margin: auto;
+          padding-left: 30px;
+        }
+    
+        nav ul li a {
+            width: 100%;
+            text-align: left;
+            padding: 10px 20px;
+        }
+        nav ul li a:hover {
+            padding: 15px;
+            width: 93%;}
+    
+        
+        ol{
+            display: block;
+          }
+          .otra{
+            display: block;
+          }
+    }
+    
+    @media (max-width: 500px) {
+        nav {
+            position: relative;
+            padding-left: 0px;
+         
+        }
+        video{
+            width: 80%;
+            margin: auto;
+          padding-left: 30px;
+        }
+        * {
+           scrollbar-color: #a5b4ff #222b5a;
+   
+        }
+        .typing {
+           
+            animation: typing 4s forwards steps(30, end), blink 0.5s  step-end infinite alternate;
+            view-timeline-name: --image;
+            view-timeline-axis: block;
+        
+            animation-timeline: --image;
+            
+            
+            animation-range: entry 20% cover 70%;
+          }
+        h1{
+            font-size: 28px;
+            
+        }
+        h2{
+            font-size: 26px;
+            width: 80%;
+        }
+        li{
+            font-size: 15px;
+        }
+      p{
+        font-size: 15px;
+      }
+        nav ul li {
+            margin: 0;
+        }
+      ol{
+        display: block;
+      }
+      .otra{
+        display: block;
+      }
+        nav ul li a {
+            padding: 15px;
+            text-align: left;
+        }
+        nav ul li a:hover {
+          padding: 15px;
+          width: 95%;
+          border-radius: 5px;
+      }
+    }

@@ -1,0 +1,487 @@
+* {
+    scrollbar-color: rgb(42, 200, 231) rgb(35, 131, 142);
+}
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #2fbcb3;
+            overflow-x: hidden;
+            animation: bod 2s ease-out;
+        }
+        
+
+        @keyframes bod {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+
+        header {
+            background: linear-gradient(to right, #31b1ac, #439aab);
+            color: white;
+            padding: 15px;
+            text-align: center;
+            animation: enca 1s ease-out;
+        }
+    
+
+        @keyframes enca {
+            0% {
+                transform: translateY(-50px);
+                opacity: 0;
+            }
+            100% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+    
+        nav {
+        
+            background-color: #0b1a4f;
+            overflow: hidden;
+            animation: barra 1.5s ease-out;
+            text-align: center;
+        }
+        .lel a {
+            font-size: 25px;
+            color: white;
+            font-family: "Slabo 27px", serif;
+        }
+
+        @keyframes barra {
+            0% {
+                transform: translateY(-50px);
+                opacity: 0;
+            }
+            100% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            display: inline-block;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+            transform: scale(1.1);
+        }
+
+       
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            opacity: 0;
+            animation: secciones 2s ease-out forwards;
+        }
+
+
+        @keyframes secciones {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        h1{
+            font-family: "Indie Flower", cursive;
+            font-size: 50px;
+        }
+    
+        h2 {
+            color: #4CAF50;
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+        p{
+            font-family: "Delius", cursive;
+            size: 20px;
+            color: white;
+            text-shadow: 0 0 10px blue, 0 0 20px black;
+        }
+        li{
+            font-family: "Geist Mono", monospace;
+            color: rgb(65, 148, 146);
+        }
+ 
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            background-color: #f9f9f9;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 4px;
+            transition: transform 0.3s ease;
+        }
+        .link{
+            color: #2cd0d5;
+            text-decoration: none;
+        }
+        
+
+        ul li:hover {
+            transform: translateX(10px);
+            background-color: #e7f7e7;
+        }
+
+        footer {
+            background-color: #122e37;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        h2{
+            font-size: 45px;  
+            transition: all 0.3s ease;  
+            font-family: "Delius", cursive;
+            color: white;
+}
+h2:hover {
+    font-size: 36px;  
+    transform: scale(1.1);  
+    color: #3498db;  
+}
+
+    
+        .ig{
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between; 
+        }
+        
+        .ig img{
+            width: 250px; 
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-left: 35px; 
+            margin-right: 35px;
+            margin-top: 60px;
+           
+        }
+        .sos{
+            display: flex;
+            align-items: flex-start; 
+            justify-content: space-between; 
+        }
+        
+        .sos img{
+            width: 250px; 
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-left: 35px; 
+            margin-right: 35px;
+            margin-top: 60px;
+        }
+        .sal{
+            display: flex;
+            align-items: flex-start; 
+            justify-content: space-between; 
+        }
+        
+        .sal img{
+            width: 250px; 
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-left: 35px; 
+            margin-right: 35px;
+            margin-top: 60px;
+        }
+        .art{
+            display: flex;
+            align-items: flex-start; 
+            justify-content: space-between;
+        }
+        
+        .art img{
+            width: 250px; 
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-left: 35px; 
+            margin-right: 35px;
+            margin-top: 60px;
+        }
+        .hum{
+            display: flex;
+            align-items: flex-start; 
+            justify-content: space-between;
+        }
+        
+        .hum img{
+            width: 250px; 
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-left: 35px; 
+            margin-right: 35px;
+            margin-top: 60px;
+        }
+        .eco{
+            display: flex;
+            align-items: flex-start; 
+            justify-content: space-between;
+        }
+        
+        .eco img{
+            width: 250px; 
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-left: 35px; 
+            margin-right: 35px;
+            margin-top: 60px;
+        }
+        .edu{
+            display: flex;
+            align-items: flex-start; 
+            justify-content: space-between;
+        }
+        
+        .edu img{
+            width: 250px; 
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-left: 35px; 
+            margin-right: 35px;
+            margin-top: 60px;
+        }
+        .agr{
+            display: flex;
+            align-items: flex-start; 
+            justify-content: space-between;
+        }
+        
+        .agr img{
+            width: 250px; 
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-left: 35px; 
+            margin-right: 35px;
+            margin-top: 60px;
+        }
+        .medi{
+            display: flex;
+            align-items: flex-start; 
+            justify-content: space-between;
+        }
+        
+        .medi img{
+            width: 250px; 
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-left: 35px; 
+            margin-right: 35px;
+            margin-top: 60px;
+        }
+        .nat{
+            display: flex;
+            align-items: flex-start; 
+            justify-content: space-between;
+        }
+        
+        .nat img{
+            width: 250px; 
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-left: 35px; 
+            margin-right: 35px;
+            margin-top: 60px;
+        }
+        .exa{
+            display: flex;
+            align-items: flex-start; 
+            justify-content: space-between;
+        }
+        
+        .exa img{
+            width: 250px; 
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-left: 35px; 
+            margin-right: 35px;
+            margin-top: 60px;
+        }
+        @keyframes sleep {
+            0% {
+                transform: translateY(50px); 
+                opacity: 0;
+            }
+            100% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+        
+
+        .ig img, .sos img, .sal img, .art img, .hum img, .eco img, .edu img, .agr img, .medi img, .nat img, .exa img {
+            width: 250px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-left: 35px;
+            margin-right: 35px;
+            margin-top: 60px;
+            animation: sleep 1.5s ease-out; 
+        }
+        
+   
+        .ig img:hover, .sos img:hover, .sal img:hover, .art img:hover, .hum img:hover, .eco img:hover, .edu img:hover, .agr img:hover, .medi img:hover, .nat img:hover, .exa img:hover {
+            transform: scale(1.1); 
+            transition: transform 0.3s ease; 
+        }
+        section#ingenieria {
+            background-color: #4f9fbf;
+        }
+        section#ciencias-sociales {
+            background-color: #49b0bb7d;
+        }
+        
+        section#huma {
+            background-color: #4fb1ba;
+        }
+        
+        section#salud {
+            background-color: #59b4e5;
+        }
+        section#arte {
+            background-color: #376fa2;
+        }
+        section#econo {
+            background-color: #705ee7;
+        }
+        section#educ {
+            background-color: #1f90ac;
+        }
+        section#agri {
+            background-color: #5354a9;
+        }
+        section#medios {
+            background-color: #316a99;
+        }
+        section#natu {
+            background-color: #7fa9e8;
+        }
+        section#exact {
+            background-color: #2cd0d5;
+        }
+        
+        @media screen and (max-width: 1024px) and (min-width: 600px) {
+            body {
+                background-color: #A6D1E6; 
+            }
+        
+            nav {
+                flex-direction: column;
+                align-items: center; 
+                padding: 10px 0;
+            }
+        
+            nav a {
+                padding: 15px;
+                font-size: 1.2rem; 
+            }
+        
+            .ig .sos .sal .art .hum .eco .edu .agr .medi .nat .exa-container {
+                max-width: 90%; 
+                margin: 20px auto;
+            }
+            h2{
+                font-size: 40px;
+            }
+            p{
+                font-size: 25px;
+                margin: 10px 15px;
+            }
+            .lel a{
+                font-size: 28px;
+            }
+            ul li{
+                font-size: 22px;
+            }
+        }
+        
+      
+
+@media screen and (max-width: 767px) {
+    
+    nav {
+        display: flex;
+        flex-direction: column; 
+       align-items: center;
+        width: 100%;
+        background-color: #10062c;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        padding: 15px;
+        font-size: 18px;
+        text-align: center; 
+        width: 100%;
+        border-top: 1px solid #444;  
+    }
+
+    nav a:first-child {
+        border-top: none; 
+    }
+
+    .ig, .sos, .sal, .art, .hum, .eco, .edu, .agr, .medi, .nat, .exa {
+        display: block;
+        text-align: center;
+    }
+
+    .ig .sos .sal .art .hum .eco .edu .agr .medi .nat .exa  img {
+        width: 80%;  
+        margin-bottom: 10px;
+    }
+    .lel a{
+        font-size: 10px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    p{
+        font-size: 10px; 
+        line-height: 1.4;
+        text-align: center;
+        margin: 10px 10px;
+    }
+    ul li{
+        font-size: 12px;
+    }
+   
+}

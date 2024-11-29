@@ -1,0 +1,290 @@
+* {
+    scrollbar-color: rgb(98, 178, 218)   #1E1E2F;
+}
+   
+body {
+    background-color: #1E1E2F;
+}
+
+header {
+    background-color: #ffffff;
+
+    padding: 20px;
+    margin: 0px;
+}
+
+
+  video{
+    width: 50%;
+    margin-top: 200px;
+  }
+
+  
+  .image-slider {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .slider {
+    display: flex;
+    width: 300%;
+    height: 100%;
+   
+
+  }
+  
+  .slide {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    animation: slide 40s 5s infinite ;
+  }
+
+  .slide:nth-child(1){
+    background-image: url(imagenes/compu2.jpg);
+  object-fit: scale-down;
+}
+.slide:nth-child(2){
+    background-image: url(imagenes/compu3.jpg);
+}
+.slide:nth-child(3){
+    background-image: url(imagenes/compu4.jpg);
+}
+.img1{
+    width: 30%;
+}
+
+h2{
+   text-shadow: 0px 0px 15px rgb(40, 40, 53);
+    color: #fdfdfd;
+    font-size: 40px;
+   display: inline-block;
+    width: 45%;
+   margin: 40px;
+   font-family: "Coiny", system-ui;
+   line-height: 37px;
+}
+
+h3{
+    font-size: 40px;
+    font-family: "Shrikhand", serif;
+    color: white;
+    animation: 3s giro both;
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    
+    
+    animation-range: entry 20% cover 60%;
+}
+
+h3+p{
+    animation: des both;
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    
+    
+    animation-range: entry 25% cover 90%;
+}
+
+
+.noc{
+   
+    animation: show both;
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    
+    
+    animation-range: entry 20% cover 50%;
+}
+p{
+    font-size: 20px;
+    display: block;
+    width: 60%;
+    justify-self: center;
+    font-family: "Jua", sans-serif;
+    color: white;
+}
+
+.logo{
+text-align: center;
+}
+
+
+/* General Styles */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #535468;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    font-family: "Mogra", system-ui;
+    text-align: center;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    background-color: #304d74;
+    border-radius: 5px;
+    color: aliceblue;
+}
+img{
+    width: 50%;
+    height: 50%;
+    margin: 40px 40px;
+}
+
+.imagenes{
+    text-align: center;   
+}
+
+.ol{
+    color: #1E1E2F;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    color: rgb(10, 21, 51);
+    margin: 200px 0px 0px 0px;
+}
+
+
+
+@keyframes show{
+    0%{
+        opacity: 0;
+        scale: 25%;
+    }
+    100%{
+        opacity: 1;
+        scale: 100%;
+    }
+}
+  
+
+@keyframes slide {
+    0% {
+      transform: translateX(0%);
+    }
+    33% {
+      transform: translateX(-100%);
+    }
+    66% {
+      transform: translateX(-200%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }
+
+  @keyframes des{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+  }
+  @keyframes giro{
+    0% {
+        transform: rotateY(0deg);
+    }
+  
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+  @media (max-width: 800px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    h2{
+        font-size: 38px;
+       }
+       h3{
+        font-size: 35px;
+    }
+    p{
+        font-size: 17px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    nav ul li {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    nav ul li a {
+        width: 100%;
+        text-align: left;
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 500px) 
+{
+    nav {
+        position: relative;
+        padding-left: 0px;
+     
+    }
+    * {
+       scrollbar-color: #a5b4ff #222b5a;
+    
+    }
+p{
+    font-size: 15px;
+}
+   h2{
+    font-size: 30px;
+   }
+h3{
+    font-size: 30px;
+}
+    nav ul li {
+        margin: 0;
+    }
+
+    nav ul li a {
+        padding: 15px;
+        text-align: left;
+    }}
+
+  
