@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    overflow-y: auto; 
+    height: 100%;
+  }
+  
+  .background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #ff9a9e, #fad0c4, #fbc2eb, #a6c1ee);
+    background-size: 400% 400%;
+    animation: gradientMove 10s infinite;
+    z-index: -1;
+  }
+  
+  @keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  header {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .title-wrapper {
+    position: relative;
+    display: inline-block;
+    padding: 20px;
+    border: 3px solid #ff007f;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.8);
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0;
+    animation: colorChange 3s infinite alternate;
+  }
+  
+  @keyframes colorChange {
+    from { color: #ffc0cb; }
+    to { color: #ff007f; }
+  }
+  
+  .fish {
+    width: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: fishMove 7s linear infinite;
+  }
+  
+  @keyframes fishMove {
+    0% { transform: translate(-30px, -30px); }
+    25% { transform: translate(280px, -30px); }
+    50% { transform: translate(280px, 70px); }
+    75% { transform: translate(-30px, 70px); }
+    100% { transform: translate(-30px, -30px); }
+  }
+  
+  main.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto; 
+    gap: 20px;
+    padding: 20px;
+    margin: 50px auto;
+    max-width: 900px;
+  }
+  
+  section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  img {
+    width: 150px;
+    height: auto;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  img:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+  }
+  
+  p {
+    margin: 10px 0 0;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  

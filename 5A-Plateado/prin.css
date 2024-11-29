@@ -1,0 +1,68 @@
+
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(-45deg, #5fffbaf4, #7bfe84, #5b82ca, #91eae4);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    padding: 20px;
+    margin: 0;
+}
+
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+
+.circles-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%; 
+    margin-bottom: 40px;
+}
+
+span {
+    background-color: #2d8fdf;
+    color: aliceblue;
+    border: 2px solid rgb(35, 100, 229);
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    animation: globito 6s infinite alternate-reverse;
+}
+
+
+@keyframes globito {
+    10% { transform: scale(0.2); }
+    50% { transform: scale(0.6); }
+    90% { transform: scale(1); }
+}
+
+
+.images-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    align-items: center;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px; 
+}
+
