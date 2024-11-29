@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - Joyería Elegante</title>
+    <link rel="stylesheet" href="../estilos/productos.css">
+    <script src="../javascript/productos.js" defer></script>
+</head>
+<body>
+    <header id="encabezado">
+         <img class="marca" src="../imagenes-videos/marca.png" alt="">
+        <nav id="menu">
+            <ul class="navegacion">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="tutorial.html">Tutorial</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="creadores.html">Creadores</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main id="contenido-productos">
+        <section id="productos">
+            <h2>Nuestra Colección</h2>
+            <div id="productos-lista">
+                <div class="producto">
+                    <img src="../imagenes-videos/i1.jpg" alt="Anillo de oro elegante">
+                    <div class="producto-info"> 
+                        <h3>Anillo de oro elegante</h3>
+                        <p class="descripcion">Un anillo de oro de 18 quilates con un diseño único y sofisticado.</p>
+                        <p class="precio">$500</p>
+                        <button class="boton-comprar" onclick="comprarProducto('Anillo de oro elegante', 'Un anillo de oro de 18 quilates con un diseño único y sofisticado.', '$500', 'marcadores/producto1.jpg')">Comprar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img src="../imagenes-videos/i2.jpg" alt="Collar de diamantes">
+                    <div class="producto-info">
+                        <h3>Collar de diamantes</h3>
+                        <p class="descripcion">Un collar de diamantes de lujo que ilumina cualquier evento.</p>
+                        <p class="precio">$1200</p>
+                        <button class="boton-comprar" onclick="comprarProducto('Collar de diamantes', 'Un collar de diamantes de lujo que ilumina cualquier evento.', '$1200', 'marcadores/producto2.jpg')">Comprar</button>
+                    </div>
+                </div>
+                
+                <!-- Producto 3 -->
+                <div class="producto">
+                    <img src="../imagenes-videos/i3.jpg" alt="Pendientes de plata">
+                    <div class="producto-info">
+                        <h3>Pendientes de plata</h3>
+                        <p class="descripcion">Pendientes de plata 925 con un diseño minimalista y elegante.</p>
+                        <p class="precio">$200</p>
+                        <button class="boton-comprar" onclick="comprarProducto('Pendientes de plata', 'Pendientes de plata 925 con un diseño minimalista y elegante.', '$200', 'marcadores/producto3.jpg')">Comprar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img src="../imagenes-videos/i4.jpg" alt="Pulsera de rubíes">
+                    <div class="producto-info">
+                        <h3>Pulsera elegante de plata</h3>
+                        <p class="descripcion">Pulsera hecha a mano con plata.</p>
+                        <p class="precio">$850</p>
+                        <button class="boton-comprar" onclick="comprarProducto('Pulsera de rubíes', 'Pulsera hecha a mano con rubíes preciosos en cada eslabón.', '$850', 'marcadores/producto4.jpg')">Comprar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img src="../imagenes-videos/i5.jpg" alt="Anillo de oro elegante">
+                    <div class="producto-info">
+                        <h3>Anillo de oro y plata</h3>
+                        <p class="descripcion">Un anillo de oro de 18 quilates con un diseño único y sofisticado.</p>
+                        <p class="precio">$500</p>
+                        <button class="boton-comprar" onclick="comprarProducto('Anillo de oro elegante', 'Un anillo de oro de 18 quilates con un diseño único y sofisticado.', '$500', 'marcadores/producto1.jpg')">Comprar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img src="../imagenes-videos/i6.jpg" alt="Collar de diamantes">
+                    <div class="producto-info">
+                        <h3>Tobillera de plata</h3>
+                        <p class="descripcion">Una tobillera de lujo que te hace lucir sofisticada.</p>
+                        <p class="precio">$1200</p>
+                        <button class="boton-comprar" onclick="comprarProducto('Collar de diamantes', 'Un collar de diamantes de lujo que ilumina cualquier evento.', '$1200', 'marcadores/producto2.jpg')">Comprar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img src="../imagenes-videos/i7.jpg" alt="Pendientes de plata">
+                    <div class="producto-info">
+                        <h3>Pendientes de plata</h3>
+                        <p class="descripcion">Pendientes de plata sencillos y elegantes.</p>
+                        <p class="precio">$200</p>
+                        <button class="boton-comprar" onclick="comprarProducto('Pendientes de plata', 'Pendientes de plata 925 con un diseño minimalista y elegante.', '$200', 'marcadores/producto3.jpg')">Comprar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img src="../imagenes-videos/i8.jpg" alt="Pulsera de rubíes">
+                    <div class="producto-info">
+                        <h3>Pulsera de rubíes</h3>
+                        <p class="descripcion">Pulsera hecha a mano con rubíes preciosos en cada eslabón.</p>
+                        <p class="precio">$850</p>
+                        <button class="boton-comprar" onclick="comprarProducto('Pulsera de rubíes', 'Pulsera hecha a mano con rubíes preciosos en cada eslabón.', '$850', 'marcadores/producto4.jpg')">Comprar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img src="../imagenes-videos/i9.jpg" alt="Anillo de oro elegante">
+                    <div class="producto-info">
+                        <h3>Anillo de oro especial</h3>
+                        <p class="descripcion">Un anillo de oro con diamantes incustados.</p>
+                        <p class="precio">$500</p>
+                        <button class="boton-comprar" onclick="comprarProducto('Anillo de oro elegante', 'Un anillo de oro de 18 quilates con un diseño único y sofisticado.', '$500', 'marcadores/producto1.jpg')">Comprar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img src="../imagenes-videos/i10.jpg" alt="Collar de diamantes">
+                    <div class="producto-info">
+                        <h3>Pulsera de diamantes</h3>
+                        <p class="descripcion">Una pulsera de diamantes de lujo que ilumina cualquier evento.</p>
+                        <p class="precio">$1200</p>
+                        <button class="boton-comprar" onclick="comprarProducto('Collar de diamantes', 'Un collar de diamantes de lujo que ilumina cualquier evento.', '$1200', 'marcadores/producto2.jpg')">Comprar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img src="../imagenes-videos/i11.jpg" alt="Pendientes de plata">
+                    <div class="producto-info">
+                        <h3>Dijes de Cuarzo</h3>
+                        <p class="descripcion">Dijes de Cuarzo con un diseño minimalista y elegante.</p>
+                        <p class="precio">$200</p>
+                        <button class="boton-comprar" onclick="comprarProducto('Pendientes de plata', 'Pendientes de plata 925 con un diseño minimalista y elegante.', '$200', 'marcadores/producto3.jpg')">Comprar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img src="../imagenes-videos/i12.jpg" alt="Pulsera de rubíes">
+                    <div class="producto-info">
+                        <h3>Pircings de plata </h3>
+                        <p class="descripcion">Pircings de plata para todo tipo de uso.</p>
+                        <p class="precio">$850</p>
+                        <button class="boton-comprar" onclick="comprarProducto('Pulsera de rubíes', 'Pulsera hecha a mano con rubíes preciosos en cada eslabón.', '$850', 'marcadores/producto4.jpg')">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <div id="modal-compra" class="modal">
+            <div class="modal-contenido">
+                <h3>Compra realizada</h3>
+                <img id="imagen-producto" src="" alt="Imagen producto">
+                <p id="nombre-producto"></p>
+                <p id="descripcion-producto"></p>
+                <p id="precio-producto"></p>
+                <button id="cerrar-modal" onclick="cerrarModal()">Cerrar</button>
+            </div>
+        </div>
+    </main>
+    <footer id="pie-de-pagina">
+        <p>&copy; 2024 Joyería Elegante</p>
+        <div id="redes-sociales">
+           
+             <a href="#"><img src="../imagenes-videos/F.webp" alt="Facebook"></a>
+            <a href="#"><img src="../imagenes-videos/I.png" alt="Instagram"></a>
+            <a href="#"><img src="../imagenes-videos/W.png" alt="WhatsApp"></a>
+        </div>
+    </footer>
+</body>
+</html>

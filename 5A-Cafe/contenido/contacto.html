@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Joyería Elegante</title>
+    <link rel="stylesheet" href="../estilos/contacto.css">
+     <script src="../javascript/contacto.js" defer></script>
+</head>
+<body>
+    <header id="encabezado">
+         <img class="marca" src="../imagenes-videos/marca.png" alt="">
+        <nav id="menu">
+            <ul class="navegacion">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="tutorial.html">Tutorial</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="creadores.html">Creadores</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="contenido-contacto">
+        <section id="informacion-general">
+            <h2>Información de Contacto</h2>
+            <p>Estamos aquí para ayudarte. Si tienes preguntas, comentarios o sugerencias, no dudes en ponerte en contacto con nosotros. Estamos disponibles a través de las siguientes opciones:</p>
+            <div class="informacion">
+                <div class="detalle-contacto">
+                    <h3>Teléfonos</h3>
+                    <p>+591-77434922</p>
+                    <p>+591-68513676</p>
+                </div>
+                <div class="detalle-contacto">
+                    <h3>Correo Electrónico</h3>
+                    <p>contacto@joyerianuitcristalline.com</p>
+                </div>
+                <div class="detalle-contacto">
+                    <h3>Redes Sociales</h3>
+                    <p>Síguenos en nuestras redes sociales para estar al tanto de todas las novedades:</p>
+                    <div id="redes-sociales">
+                        <a href="#"><img src="../imagenes-videos/F.webp" alt="Facebook"></a>
+                        <a href="#"><img src="../imagenes-videos/I.png" alt="Instagram"></a>
+                        <a href="#"><img src="../imagenes-videos/W.png" alt="WhatsApp"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="ubicacion-tiendas">
+            <h2>Ubicación de nuestras tiendas</h2>
+            <div class="contenido-ubicacion">
+                <div class="direccion">
+                    <h3>Ubicación Oficial</h3>
+                    <p>La tienda principal está ubicada en la ciudad de La Paz, Bolivia. Aquí podrás ver todos nuestros productos en persona.</p>
+                </div>
+                <div class="mapa">
+                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.541098009636!2d-66.20179522394551!3d-17.38580136415324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93e37485688e1907%3A0xfa3974b0ac7257bd!2sAv.%20Juan%20Pablo%20II%2C%20Cochabamba!5e0!3m2!1ses!2sbo!4v1732482593618!5m2!1ses!2sbo" width="1000" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section id="horarios">
+            <h2>Horarios de Atención</h2>
+            <p>Visítanos durante nuestro horario de atención, ¡estamos esperándote!</p>
+            <div class="horarios-detalle">
+                <ul>
+                    <li><strong>Lunes a Viernes:</strong> 10:00 AM - 7:00 PM</li>
+                    <li><strong>Sábado:</strong> 10:00 AM - 5:00 PM</li>
+                    <li><strong>Domingo:</strong> Cerrado</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="formulario-contacto">
+            <h2>Envíanos un Mensaje</h2>
+            <p>Si tienes alguna consulta, puedes enviarnos un mensaje directo y te responderemos a la brevedad posible.</p>
+            <form id="contacto-formulario">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+                <button type="submit" class="boton-enviar">Enviar Mensaje</button>
+            </form>
+            <div id="mensaje-exito" class="mensaje-exito" style="display:none;">
+                <h3>¡Mensaje enviado con éxito!</h3>
+                <p>Gracias por contactarnos, responderemos a tu mensaje lo más pronto posible.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer id="pie-de-pagina">
+        <p>&copy; 2024 Joyería Elegante</p>
+        <div id="redes-sociales">
+            <a href="#"><img src="../imagenes-videos/F.webp" alt="Facebook"></a>
+            <a href="#"><img src="../imagenes-videos/I.png" alt="Instagram"></a>
+            <a href="#"><img src="../imagenes-videos/W.png" alt="WhatsApp"></a>
+        </div>
+    </footer>
+</body>
+</html>
