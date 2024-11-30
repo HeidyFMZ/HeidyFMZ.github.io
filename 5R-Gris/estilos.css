@@ -1,0 +1,11 @@
+.contenedor-fotos {
+    display: flex;
+    justify-content: space-around;
+    /* Aquí puedes ajustar el ancho máximo de las imágenes y el espacio entre ellas */
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+img {
+    width: 30%; /* Ajusta el ancho de cada imagen según tus necesidades */
+}

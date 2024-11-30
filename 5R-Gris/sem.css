@@ -1,0 +1,220 @@
+
+* {
+    margin: 0;
+    padding: 0; 
+}
+body {
+    font-family: 'Archivo Black', 'Varela Round', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+}
+header{
+    width: 100%;
+    height: 13vh;
+    background-color: #2f695c;   
+    text-align: center;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1.3fr 1fr 1fr 1fr 2fr 1fr 2fr;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    letter-spacing: 0px;
+    font-family: "Sour Gummy", sans-serif;
+}
+h1{
+    color: white;
+    display: inline;
+    margin-left: 100px;
+    justify-items: center;
+}
+h1:hover{
+    text-decoration: underline ;
+}
+a:visited{
+    color: white;
+}
+a:link{
+    color: white;
+    text-decoration-line: none;
+}
+header img{
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    margin-left: 30px;
+}
+
+section{
+    width: 92%;
+    margin: auto;
+    height: auto;
+}
+.comida{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    height: 80vh;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    width: 100%;
+    margin: auto;
+}
+.comida div{
+    background-color: #f3f2f2;
+    border-radius: 15px;
+    margin: 8px;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.comida div button{
+    background-color: #ffa339;
+    border: none;
+    width: 90%;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 30px;
+    height: 35px;
+    font-size: 20px;
+    color: white;
+    margin: auto;
+}
+.comida div h3{
+    font-size: 18px;
+    width: 93%;
+    margin: auto;
+}
+.comida div p{
+    color: #7e7d7d;
+    font-weight: 600;
+    font-size: 13px;
+    height: 4vh;
+    line-height: 5vh;
+    width: 93%;
+    margin: auto;
+}
+.comida .primo{
+    color: black;
+    font-weight: 900;
+    font-size: 20px;
+}
+.comida div p:nth-child(5n){
+    text-align: center;
+    font-weight: 500;
+    background-color: white;
+    border-radius: 20px;
+    height: 7vh;
+    line-height: 7vh;
+    width: 95%;
+    margin: auto;
+}
+.comida img{
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-top: -10px;
+}
+.comida img:hover{
+    scale: 1.1;
+}
+.boton button{
+    width: 20%;
+    margin: auto;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 18px;
+    height: 50px;
+    border-radius: 10px;
+    background-color:#ffa339;
+    border: none;
+    color: white;
+}
+.boton{
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    height: 10vh;
+    position: absolute;
+    bottom: -112vh;
+}
+
+.arriba{
+    background-color: #dadada;
+    height: 20vh;
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    justify-content: center;
+    align-items: center;
+    border-radius:20px ;
+    margin: auto ;
+    margin-top: 10px;
+    
+}
+.arriba h1{
+    color: #333;
+}
+.arriba p{
+    font-family: "Varela Round", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 16px;
+}
+
+@media (max-width: 1024px) {
+    header {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        font-size: 5px;
+    }
+
+    .comida {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .arriba {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .boton button {
+        position: fixed;
+        bottom: 10vh;
+        left: 40%;
+    }
+   .comida div{
+        margin-top: 10vh;
+   }
+}
+
+
+@media (max-width: 768px) {
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .comida {
+        grid-template-columns: 1fr;
+    }
+
+    .comida div {
+        height: auto;
+    }
+
+    .arriba {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .boton button {
+        width: 70%;
+        bottom: 10vh;
+        left: 10%;
+    }
+}
+

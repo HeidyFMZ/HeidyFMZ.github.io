@@ -1,0 +1,448 @@
+*{
+    margin: 0px;
+}
+header{
+    width: 100%;
+    height: 13vh;
+    background-color: #2f695c;   
+    text-align: center;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1.3fr 1fr 1fr 1fr 2fr 1fr 2fr;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    letter-spacing: 0px;
+    font-family: "Sour Gummy", sans-serif;
+}
+h1{
+    color: white;
+    display: inline;
+    margin-left: 100px;
+    justify-items: center;
+}
+h1:hover{
+    text-decoration: underline ;
+}
+a:visited{
+    color: white;
+}
+a:link{
+    color: white;
+    text-decoration-line: none;
+}
+header img{
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    margin-left: 30px;
+    animation: logardo 2s infinite;
+}
+.titulo{
+    font-size: 50px;
+    width: 50vh;
+    height: 50px;
+    text-align: center;
+    margin-top: 50px;
+    font-family: "Sour Gummy", sans-serif;
+    border-radius: 20px;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+}
+.sec1{
+    width: 100%;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.sec1 h2{
+    margin: auto;
+    margin-left: 100px;
+    width: 80%;
+    color: #2f695c;
+    font-size: 50px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    word-spacing: -5px;
+    line-height: 60px;
+}
+.sec1 ul{
+    margin: auto;
+    width: 80%;
+    height: 20vh;
+    color: #2b2b2b;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    margin-top: 10px;
+    list-style: url(imagenes/check.png) center; /*Te permite usar una imagen personalizada para la viñeta, en lugar de un simple cuadrado o círculo. */
+}
+.sec1 ul li{
+    margin: auto;
+    margin-left: 40px;
+    height: 5vh;
+}
+.sec1 div img{
+    height: 60vh;
+    width: 85%;
+    border-radius: 25px;
+}
+.sec1 div div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec1 div div button{
+    width: 35%;
+    margin: auto 10px;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 18px;
+    height: 50px;
+    border-radius: 10px;
+    background-color:#ffa339;
+    border: none;
+    color: white;
+}
+.sec1 div div button:nth-child(odd){
+    background-color: white;
+    border: #206757 1px solid;
+    color: #0e463a;
+}
+.sec2{
+    width: 100%;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 0.8fr 1.2fr;
+    justify-content: center;
+    align-items: center;
+}
+.sec2 h2{
+    margin-left: 0px;
+    margin-top: -80px;
+    width: 100%;
+    color: #252827;
+    font-size: 40px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    word-spacing: -5px;
+    line-height: 60px;
+    
+}
+.sec2 div{
+    margin:auto;
+    display: grid;
+    grid-column: 1fr;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.sec2 div img{
+    margin: auto;
+    height: 60vh;
+    width: 85%;
+    border-radius: 25px;
+}
+.sec2 div ul{
+    margin: auto;
+    margin-top: -80px;
+    width: 100%;
+    height: 20vh;
+    color: #2b2b2b;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    margin-top: 10px;
+    list-style: url(imagenes/check.png) center;
+}
+.sec2 ul li{
+    margin: auto;
+    margin-left: 40px;
+    height: 6vh;
+    width: 500px;
+}
+.sec2 div p{
+    height: 30px;
+    margin-top: -150px;
+    text-align: right;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 16px;
+}
+.sec3{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 0.8fr 1.2fr;
+    justify-content: center;
+    align-items: center;
+}
+.sec2 div button{
+    font-family: "Varela Round", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 20px;
+    height: 50px;
+    border-radius: 10px;
+    background-color:#ffa339;
+    border: none;
+    color: white;
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+.sec3{
+    display: block;
+}
+.sec3 h2{
+    text-align: center;
+    height: 15vh;
+    line-height: 15vh;
+    margin: auto;
+    font-size: 40px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    word-spacing: -5px;
+    color: #252827;
+}
+.comida{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 80vh;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    width: 90%;
+    margin: auto;
+}
+.comida div{
+    background-color: #f3f2f2;
+    border-radius: 15px;
+    margin: 8px;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.comida div button{
+    background-color: #ffa339;
+    border: none;
+    width: 90%;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 30px;
+    height: 35px;
+    font-size: 20px;
+    color: white;
+    margin: auto;
+}
+.comida div h3{
+    font-size: 18px;
+    width: 93%;
+    margin: auto;
+}
+.comida div p{
+    color: #7e7d7d;
+    font-weight: 600;
+    font-size: 13px;
+    height: 4vh;
+    line-height: 5vh;
+    width: 93%;
+    margin: auto;
+}
+.sec3 .primo{
+    color: black;
+    font-weight: 900;
+    font-size: 20px;
+}
+.comida div p:nth-child(5n){
+    text-align: center;
+    font-weight: 500;
+    background-color: white;
+    border-radius: 20px;
+    height: 7vh;
+    line-height: 7vh;
+    width: 95%;
+    margin: auto;
+}
+.comida img{
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-top: -10px;
+}
+.sec4{
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.sem{
+    width: 20%;
+    margin: auto;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 18px;
+    height: 50px;
+    border-radius: 10px;
+    background-color:#ffa339;
+    border: none;
+    color: white;
+}
+@keyframes logardo{
+    0%{
+        scale: 1;
+    }
+    50%{
+        scale: 1.5 ;
+    }
+    100%{
+        scale: 1;
+    }
+}
+@media (max-width: 768px) {
+    header {
+        grid-template-columns: 1fr;
+        font-size: 10px;
+        height: auto;
+    }
+    header h1 {
+        font-size: 14px;
+        margin-left: 0;
+    }
+
+    header img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .sec1, .sec2 {
+        grid-template-columns: 2fr 1fr;
+        text-align: center;
+    }
+
+    .sec1 h2, .sec2 h2 {
+        font-size: 24px;
+        margin: 20px 0;
+    }
+    .sec1 ul, .sec2 ul {
+        width: 100%;
+        margin: auto;
+        font-size: 14px;
+        padding: 0;
+    }
+    .sec2 li{
+        font-size: 10px;
+    }
+    .sec1 div img, .sec2 div img {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        border-radius: 10px;
+    }
+
+    .sec3 {
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+
+    .comida {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+
+    .comida div {
+        margin: 10px;
+        height: auto;
+    }
+
+    .comida div img {
+        height: auto;
+        margin: auto;
+    }
+
+    .comida div button {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .sec4 {
+        height: auto;
+    }
+
+    .sem {
+        width: 80%;
+        font-size: 16px;
+        position: fixed;
+        bottom: 10vh;
+        left: 10%;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        grid-template-columns: 1fr;
+    }
+
+    .sec1 h2, .sec2 h2 {
+        font-size: 18px;
+        line-height: 1.2;
+    }
+
+    .comida div {
+        padding: 10px;
+    }
+
+    .comida div h3 {
+        font-size: 16px;
+    }
+}
+
+button{
+    animation: botoncitos 1.5s 15 alternate-reverse;
+}
+
+@keyframes botoncitos{
+    0%{
+        
+    }
+    100%{
+        box-shadow: -8px 8px 4px  #ffdb3c;
+    }
+}
+.comida img:hover{
+    scale: 1.1;
+}
+.sem:hover{
+    scale: 1.2;
+    background-color: #ff3c00;
+    box-shadow: -5px 5px 3px #097744;
+    transition: 1s;
+    
+}
+.sec2 img:active{
+    rotate: 360deg;
+    transition: 2s;
+}
+.sec1 img:active{
+    rotate: 360deg;
+    transition: 2s;
+}
