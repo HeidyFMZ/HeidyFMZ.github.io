@@ -1,0 +1,200 @@
+body{
+margin: 0%;
+background-image: url(imagenes/fondo\ de\ shazam.jpg) ;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+
+/*el logo de shazam*/
+.logo{
+width: 100%;
+height: 350px;
+text-align: center;
+padding-top: 25px;
+}
+.logo img{
+height: 200px;
+width: 200px;
+border-radius: 50%;
+animation: jol 10s linear infinite ;
+}
+@keyframes jol{
+0%{
+transform: rotate(0deg);
+}
+
+100%{
+transform: rotate(360deg);
+}
+    
+}
+
+/* la palabra shazam*/
+.logo p{
+font-family: "Lilita One", sans-serif;
+font-size: 7em;
+margin-top: 15px;
+color: white;
+text-shadow: 5px 5px 5px  rgb(221, 176, 17);
+}
+.logo p:hover{
+transition: 2s;
+color: rgb(148, 50, 73);
+text-shadow: 5px 5px 5px black;
+}
+
+/*las diapositivas*/
+.imag{
+display: block;
+width: 70%;
+margin: 90px auto;
+border-radius: 40px;
+box-shadow: 10px 10px 10px rgb(168, 62, 83);
+}
+.imag:hover{
+width: 82%;
+transition: 2s;
+border: solid 10px rgb(206, 172, 48);
+}
+
+/*el .contenido es lo que contiene a todoy le puse grid*/
+.contenido div{
+display: inline;
+}
+.contenido{
+width: 100%;
+}
+h3{
+text-align: center;
+}
+
+/*efecto del jolx*/
+.music{
+display: inline-flex;
+align-items: center;
+justify-content: space-between;
+position: relative;
+left: 40%;
+width: 300px; 
+height: 200px;
+}
+
+.music .bar{
+width: 12px;
+height: 2px;
+border-radius: 10px;
+background-color: white;
+animation: nota 1.5s ease-in-out infinite;
+}
+
+@keyframes nota{
+ 0%{
+}
+50%{
+ height: 80px;
+}
+100%{
+height: 2px;
+}
+}
+
+.music .bar:nth-child(1){
+background-color:purple ;
+animation-delay: 1s;
+}
+
+.music .bar:nth-child(2){
+background-color:crimson ;
+animation-delay: 0.8s;
+}
+.music .bar:nth-child(3){
+background-color:deeppink ;
+animation-delay: 0.6s;
+}
+.music .bar:nth-child(4){
+background-color:orange ;
+animation-delay: 0.4s;
+}
+.music .bar:nth-child(5){
+background-color:gold ;
+animation-delay: 0.2s;
+}
+.music .bar:nth-child(6){
+background-color:gold ;
+animation-delay: 0.2s;
+}
+.music .bar:nth-child(7){
+background-color:orange ;
+animation-delay: 0.4s;
+}
+.music .bar:nth-child(8){
+background-color:deeppink ;
+animation-delay: 0.6s;
+}
+.music .bar:nth-child(9){
+background-color:crimson ;
+animation-delay: 0.8s;
+}
+.music .bar:nth-child(10){
+background-color:purple ;
+animation-delay: 1s;
+}
+
+/*RESPONSIVE PARA TABLET*/
+@media(max-width:800px){
+.logo p{
+font-size: 80px;
+color: aqua;
+}
+
+.imag{
+display: block;
+width: 70%;
+margin: 60px auto;
+border-radius: 40px;
+box-shadow: 10px 10px 10px rgb(168, 62, 83);
+}
+
+.imag:hover{
+width: 81%;
+border: #5b7d87 solid 7px;
+}
+
+.music{
+position: relative;
+left: 30%;
+width: 300px; 
+height: 200px;
+}
+    
+}
+
+/*RESPONSIVE PARA CELULAR*/
+@media(max-width:600px){
+.logo p{
+font-size: 60px;
+color: yellowgreen;
+}
+
+.imag{
+display: block;
+width: 77%;
+margin: 60px auto;
+border-radius: 30px;
+box-shadow: 10px 10px 10px rgb(168, 62, 83);
+}
+
+.imag:hover{
+width: 82%;
+border: white 5px solid;
+}
+
+.music{
+position: relative;
+left: 20%;
+width: 300px; 
+height: 200px;
+}
+    
+}
