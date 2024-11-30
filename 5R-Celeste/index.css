@@ -1,0 +1,325 @@
+.playa{
+    height: 100vh;
+    background-image: linear-gradient(to top, #7aa4d744 0%, #9bd3ce75 100%), url(imagenes/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    border: 2px solid rgb(255, 255, 255);
+
+}
+.titulo{
+    font-size: 10vh;
+    font-family: "Chicle", serif;
+    margin: auto;
+    margin-top: 40vh;
+    text-align: center;
+    color: rgba(9, 54, 80, 0.61);
+    letter-spacing: 20px;
+}
+
+
+
+img{
+    width: 10vw;
+    height: 10vw;
+}
+
+body{
+    background-image: url(imagenes/fondoagua.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+
+h2{
+    font-size: 6vh;
+    margin: auto;
+    text-align: center;
+    color: #141a40db;
+    margin-top: 20px;
+        font-family: "Chicle", serif;
+        font-weight: 400;
+        font-style: normal;
+      letter-spacing: 10px;
+    text-decoration: overline;
+}
+@media (max-width:1024px){
+    h2{
+     font-size: 1.5em;
+    }
+}
+@media (max-width: 768px){
+    h2{
+        font-size: 1.2em;
+       }
+}
+@media (max-width: 480px) {
+    h2 {
+        font-size: 1em;
+    }
+}
+
+h3{
+    font-size: 6vh;
+    margin: auto;
+    text-align: center;
+    color: #141a40db;
+    margin-top: 20px;
+        font-family: "Chicle", serif;
+        font-weight: 400;
+        font-style: normal;
+      letter-spacing: 10px;
+    text-decoration: overline;
+}
+
+@media (max-width:1024px){
+    h3{
+     font-size: 1.5em;
+    }
+}
+@media (max-width: 768px){
+    h3{
+        font-size: 1.2em;
+       }
+}
+@media (max-width: 480px) {
+    h3 {
+        font-size: 1em;
+    }
+}
+.intro{
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 25%;
+    margin: auto;
+    background-image: linear-gradient(to top, #f4c39a7e 0%, #7a9bab67 100%), url(imagenes/mesopelagica.png);
+    border: 2px solid #ffffff;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+@media (max-width:1024px){
+    .intro{
+     font-size: 1.5em;
+    }
+    p{
+        padding: 15px;
+       }
+}
+@media (max-width: 768px){
+    .intro{
+        font-size: 1.2em;
+       }
+       p{
+        padding: 10px;
+       }
+}
+@media (max-width: 480px) {
+     .intro{
+        font-size: 1em;
+    }
+    p {
+        padding: 5px;
+    }
+}
+
+.imagenes{
+   width: 80vw;
+   height: 15vw;
+   background-color: #59c2c565;
+   margin: auto;
+   text-align: center;
+   border: 2px solid white;
+   border-radius: 20px;
+}
+@media (max-width:1024px){
+    div{
+     font-size: 1.5vw;
+    }
+    p{
+     padding: 15px;
+    }
+}
+@media (max-width: 768px){
+    div{
+        font-size: 1.2vw;
+       }
+    p{
+        padding: 10px;
+       }
+}
+@media (max-width: 480px) {
+    div {
+        font-size: 1vw;
+    }
+
+    p {
+        padding: 5px;
+    }
+}
+
+
+.letr{
+    font-size: 1vw;
+    text-align: center;
+    font-family: "Chicle", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(38, 39, 58);
+}
+@media (max-width:1024px){
+    .letr{
+     font-size: 1.5vw;
+    }
+    p{
+        padding: 15px;
+       }
+}
+@media (max-width: 768px){
+    .letr{
+        font-size: 1.2vw;
+       }
+       p{
+        padding: 10px;
+       }
+}
+@media (max-width: 480px) {
+     .letr{
+        font-size:1.2em; 
+
+    }
+    p {
+        padding: 5px;
+    }
+}
+
+.primera{
+    margin: auto;
+    margin-top: 5%;
+    margin-right: 86px;
+    border-radius: 30%;
+    transition: 0.3s ease;
+}
+.primera:hover{
+    transform: scale(0.9);
+}
+@media (max-width:1024px){
+    .primera{
+     font-size: 1.5vw;
+    }
+}
+@media (max-width: 768px){
+    .primera{
+        font-size: 1.2vw;
+       }
+}
+@media (max-width: 480px) {
+    .primera{
+        font-size: 1vw;
+    }
+}
+
+.segunda{
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 30%;
+    transition: 0.3s ease;
+}
+.segunda:hover{
+    transform: scale(0.9);
+}
+@media (max-width:1024px){
+    .segunda{
+     font-size: 1.5vw;
+    }
+}
+@media (max-width: 768px){
+    .segunda{
+        font-size: 1.2vw;
+       }
+}
+@media (max-width: 480px) {
+    .segunda{
+        font-size: 1vw;
+    }
+}
+
+.tercera{
+    margin: auto;
+    margin-top: 5%;
+    margin-right: 86px;
+    border-radius: 30%;
+    transition: 0.3s ease;
+}
+
+.tercera:hover{
+    transform: scale(0.9);
+}
+@media (max-width:1024px){
+    .tercera{
+     font-size: 1.5vw;
+    }
+}
+@media (max-width: 768px){
+    .tercera{
+        font-size: 1.2vw;
+       }
+}
+@media (max-width: 480px) {
+    .tercera{
+        font-size: 1vw;
+    }
+}
+
+.cuarta{
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 30%;
+    transition: 0.3s ease;
+}
+
+.cuarta:hover{
+    transform: scale(0.9);
+}
+@media (max-width:1024px){
+    .cuarta{
+     font-size: 1.5vw;
+    }
+}
+@media (max-width: 768px){
+    .cuarta{
+        font-size: 1.2vw;
+       }
+}
+@media (max-width: 480px) {
+    .cuarta{
+        font-size: 1vw;
+    }
+}
+
+.personal{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid black;
+    position: fixed; 
+    top: 7%;
+    left: 4%;
+    transform: translate(-50%, -50%); 
+    z-index: 10;
+}
+.tutori{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid black;
+    position: fixed; 
+    top: 7%;
+    left: 96%;
+    transform: translate(-50%, -50%); 
+    z-index: 10;
+}
