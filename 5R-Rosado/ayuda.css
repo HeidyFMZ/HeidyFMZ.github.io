@@ -1,0 +1,106 @@
+.volver{
+    width: 120px;
+    height: 25px;
+     background-color:darkgrey;
+     border-radius: 20px;
+     text-align: center;
+}
+a{
+    font-size: 15px;
+    color: darkolivegreen;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: darkolivegreen;
+    font-size: 40px;
+   
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 150px 150px 150px;
+text-align: center;
+}
+img{
+    width: 100px;
+    height: 90px;
+    box-shadow: 2px 4px 6px rgb(31, 5, 3);
+
+}
+.uno{
+    font-size: 23px;
+  color: deepskyblue;
+   
+}
+.dos{
+    font-size: 23px; 
+    color: red;
+}
+.tres{
+    font-size: 23px;
+    color: white;
+}
+.cuatro{
+    font-size: 23px;
+    color: yellow;
+}
+.cinco{
+    font-size: 23px;
+    color: yellow;
+}
+.seis{
+    font-size: 23px;
+    color: blue;
+}
+.siete{
+    font-size: 23px;
+    color: green;
+}
+.ocho{
+    font-size: 23px;
+    color: red;
+}
+.nueve{
+    font-size: 23px;
+    color: cornflowerblue;
+}
+.diez{
+    font-size: 23px;
+    color: yellow;
+}
+section{
+   background: linear-gradient(45deg,rgb(124, 116, 54),rgb(236, 176, 176),rgb(10, 117, 175),beige);
+   position: relative;
+   background-size: 400% 400%;
+   animation: cambiar 10s ease infinite;
+}
+@keyframes cambiar{
+    0%{background-position:0 50%;}
+    50%{background-position:100% 50%;}
+    100%{background-position:0 50%;}
+}
+video{
+    width: 400px;
+    height: 250px;
+    position: relative;
+    left: 460px;
+    bottom: 150px;
+    border-radius: 10px;
+}
+@media(max-width:768px){
+    video{
+    width: 300px;
+
+        position: relative;
+
+        left:170px;
+bottom: 140px;
+ }  
+}
+img:hover{
+    width:250px ;
+    height:250px ;
+    transition: 5s;
+}

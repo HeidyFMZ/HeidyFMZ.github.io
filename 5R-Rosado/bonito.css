@@ -1,0 +1,92 @@
+body{
+    background-color: #fad4af;
+    background-image: url(gato.gif);
+    background-size: 50%;
+}
+
+   
+.aa{
+    font-size: 15px;
+    color: darkolivegreen; width: 120px;
+    height: 25px;
+     background-color:darkgrey;
+     border-radius: 20px;
+     text-align: center;
+}
+
+h1{
+    padding: 10px;
+    font-size: 50px;
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    color: #c4a36e;
+    text-shadow: 5px 5px 4px beige;
+}
+
+img{
+    width:185px ;
+    height: 190px;
+    border-radius:15px ;
+    margin-top: 5px;
+}
+.imagen:hover{
+    width:195px ;
+    height: 220px;
+    border-radius:15px ;
+    margin-top: 5px;
+    transition: 2s;
+}
+h2{
+    color: peru;
+    text-align: center;
+    font-family: "Berkshire Swash", serif;
+}
+div{
+    border-radius: 15px;
+    border: 5px dotted sienna; 
+    margin: auto;
+    width: 830px;
+    height: 210px;
+}
+.caja:hover{
+    border-radius: 15px;
+    border: 5px dotted sienna; 
+    margin: auto;
+    width: 900px;
+    height: 230px;
+    transition: 2s;
+}
+p{
+    font-family: "Sour Gummy", sans-serif;
+    text-align: auto;    
+    position: relative; 
+    bottom: 210px;
+    left: 200px;
+    font-size: 16px;
+}
+.letras:hover{
+    font-size: 18px;
+    transition: 2s;
+}
+@media(max-width:765px){
+    div{
+     
+        
+        top: 100px;
+        bottom: 100%;
+        width: auto;
+        height: auto;
+        
+    
+    }
+    p{ 
+        position:relative ;
+        bottom: 5px;
+        left: 3px;
+    }
+    img{
+       position: relative;
+       left: 138px;
+    }
+    }
+   
