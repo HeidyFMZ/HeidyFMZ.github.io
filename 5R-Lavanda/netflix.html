@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="netflix.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Nerko+One&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía de Uso - Netflix</title>
+    <link rel="stylesheet" href="netflix.css">
+</head>
+<body>
+    <div class="top-images">
+        <a href="desarrolladoras.html"><img src="desa.png" alt="">
+        </a>
+        <a href="index.html"><img src="unicornio.png" alt="">
+        </a>
+    </div>
+    <div class="container">
+        <h1>Guía de Uso de Netflix</h1>
+        <div class="steps">
+            <div class="step">
+                <h2>Paso 1: Crear una cuenta</h2>
+                <p>Visita la página principal de Netflix y selecciona "Iniciar prueba gratuita". Completa la información solicitada.</p>
+                <button onclick="showStep(2)">Siguiente</button>
+            </div>
+            <div class="step">
+                <h2>Paso 2: Elegir un plan</h2>
+                <p>Netflix ofrece varios planes. Elige el que mejor se adapte a tus necesidades según la calidad de video y la cantidad de dispositivos.</p>
+                <button onclick="showStep(1)">Anterior</button>
+                <button onclick="showStep(3)">Siguiente</button>
+            </div>
+            <div class="step">
+                <h2>Paso 3: Descargar la aplicación</h2>
+                <p>Puedes usar Netflix en diferentes dispositivos. Descarga la aplicación desde la App Store, Play Store o usa Netflix en un navegador web.</p>
+                <button onclick="showStep(2)">Anterior</button>
+                <button onclick="showStep(4)">Siguiente</button>
+            </div>
+            <div class="step">
+                <h2>Paso 4: Configurar perfiles</h2>
+                <p>Configura perfiles para personalizar las recomendaciones y el historial de visualización.</p>
+                <button onclick="showStep(3)">Anterior</button>
+                <button onclick="showStep(5)">Siguiente</button>
+            </div>
+            <div class="step">
+                <h2>Paso 5: Explorar el contenido</h2>
+                <p>Explora series, películas y más desde el menú principal. ¡Disfruta tu experiencia!</p>
+                <button onclick="showStep(4)">Anterior</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        function showStep(step) {
+            document.querySelectorAll('.step').forEach((el, index) => {
+                el.style.display = index === step - 1 ? 'block' : 'none';
+            });
+        }
+        showStep(1);
+    </script>
+</body>
+</html>
