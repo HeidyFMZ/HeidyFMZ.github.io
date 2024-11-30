@@ -1,0 +1,523 @@
+header{
+    width: 80%;
+}
+body{
+    background: #eacda3;
+    background: -webkit-linear-gradient(to right, #d6ae7b, #eacda3); 
+    background: linear-gradient(to right, #d6ae7b, #eacda3);
+    background: linear-gradient(120deg, #572c23, #eacda3, #913a1b);
+    background-size: 300% 300%;
+    animation: fondo 8s ease infinite;
+    height: 100vh;
+}
+@keyframes fondo {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+body::-webkit-scrollbar{
+    width: 15px;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #743e34c8;
+    border-radius: 8px;
+}
+nav{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.nombre{
+    width: 90px;
+    height: 90px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+li a{
+    color:#5e3930;
+    font-weight: 600;
+    text-decoration: none;
+    margin: 15px;
+    transition: 0.6s;
+    font-family: "Matemasie", sans-serif;
+    font-size: 25px;
+    text-shadow: 6px 5px #faf5f2;
+    padding: 8px;
+}
+li:hover>a{
+    color: #e5b98c;
+    font-size: 35px;
+    font-family: "Akaya Kanadaka", system-ui;
+    font-weight: 500;
+    text-shadow: 5px 6px #734339;
+}
+li a::selection{
+    background-color: #552e25 ;
+    color:rgb(241, 224, 202);
+    text-shadow: none;
+}
+.info{
+    display: flex;
+}
+.cajita{
+    display: grid;
+    border-radius: 20px;
+    background-color:#eee6d7;
+    flex: 1;
+    transition: 1s all ease;
+    margin-left: 5px;
+    margin-top: 90px;
+    width: 25%;
+  }
+  .cajita:hover{
+    flex: 2px;
+    background-color: #82513b;
+    text-shadow: none;
+  } 
+  h2{      
+    text-align: center;
+    font-size: 35px;
+   color:#321c16;
+   font-family: "Fascinate", system-ui;
+   font-weight: 400;
+   font-style: normal;
+   text-shadow: 4px 3px #b9623d;
+ }   
+ h2:hover{
+    color: #ffffff;
+    text-shadow: none;
+    font-family: "Matemasie", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  }
+  h2::selection{
+    background-color:beige ;
+    color:#734339 ;
+  }
+ p{
+     text-align: center;
+     font-size: 25px;
+     color: #ffffff;
+     font-family: "Poetsen One", serif;
+     font-weight: 400;
+     font-style: normal;
+     text-shadow: 3px 2px #913a1b;
+ }
+ p::selection{
+  background-color:  #f7e7db;
+  color:#321c18;
+  text-shadow: none;
+ }
+ .video{
+    background-color: #5e3930;
+    opacity: 0.7;
+    width: 71%;
+    height: 550px;
+    margin: auto;
+    border-radius: 40px;
+    box-shadow: 8px 6px #b9623d;
+    margin-top: 100px;
+ }
+ video{
+    display: block;
+    width: 70%;
+    height: 500px;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+ }
+ h1{
+    text-align: center;
+     color: #faf5f2;
+     font-family: "Matemasie", serif;
+     font-weight: 400;
+     font-style: normal;
+     text-shadow:5px 5px #552e25;
+     text-transform: uppercase;
+    font-weight: 900;
+    font-size: 2rem;
+    overflow: hidden; 
+    border-right: 2px solid #fff; 
+    white-space: nowrap;
+    margin: 0px auto;
+    width: 0px; 
+    animation: escritura 4s steps(30, end), blink 0.6s step-end infinite;
+ }
+ @keyframes escritura {
+    from {
+        width: 0px;
+    }
+    to {
+        width: 25ch; 
+    }
+}
+@keyframes blink {
+    from {
+        border-color: transparent;
+    }
+    to {
+        border-color: #fff;
+    }
+}
+ h1:hover{
+    text-align: center;
+     font-size: 40px;
+     color: #eacda3;
+     font-family: "Matemasie", sans-serif;
+     text-shadow: 6px 5px 5px #913a1b;
+     text-transform: lowercase;
+    font-weight: 500;
+ }
+ .animacion{
+    display: flex;
+    flex-direction: row; 
+    gap: 10px; 
+    position: absolute;
+    transform: translateX(-50%);
+    top: 1300px;
+    left: 600px;
+ }
+ .uno{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: center;
+    color: #0d0907;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    animation: salto 2s infinite ease-in-out, colorb 4s infinite;
+ }
+ @keyframes colorb {
+    0% {
+        background-color:#f7f5ef ;
+    }
+    25% {
+        background-color:#f8e1b6 ;
+    }
+    50% {
+        background-color:#dab181;
+    }
+    75% {
+        background-color: #b46f41;
+    }
+    100% {
+        background-color: #573327;
+    }
+}
+@keyframes salto {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+.uno:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.uno:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+.uno:nth-child(4) {
+    animation-delay: 0.6s;
+}
+
+.uno:nth-child(5) {
+    animation-delay: 0.8s;
+}
+.formar{
+    display: flex;
+}
+.primero, .segundo, .tercero, .cuarto, .quinto {
+    display: grid;
+    border-radius: 20px;
+    background-color:#eee6d7;
+    flex: 1;
+    transition: 1s all ease;
+    margin-left: 5px;
+    margin-top: 100px;
+    width: 25%;
+  }
+  .primero:hover{
+    flex: 2px;
+    background-color: #82513b;
+    text-shadow: none;
+  } 
+  .segundo:hover{
+    flex: 2px;
+    background-color: #572c23;
+    text-shadow: none;
+  }
+  .tercero:hover{
+    flex: 2px;
+    background-color: #82513b;
+    text-shadow: none;
+  }
+  .cuarto:hover{
+    flex: 2px;
+    background-color: #913a1b;
+    text-shadow: none;
+  }
+  .quinto:hover{
+    flex: 2px;
+    background-color: #b46f41;
+    text-shadow: none;
+  }
+  h3{      
+    text-align: center;
+    font-size: 40px;
+   color:#a77263;
+   font-family: "Indie Flower", serif;
+  font-weight: 400;
+  font-style: normal;
+   text-shadow: 4px 3px #573424;
+ }   
+ h3:active{
+    color: #ffffff;
+    text-shadow: none;
+    font-family: "Matemasie", serif;
+  font-weight: 400;
+  font-style: normal;
+  }
+  h3::selection{
+    background-color:beige ;
+    color:#734339 ;
+    text-shadow: none;
+  }
+ img{
+    width: 200px;
+    height: 180px;
+    margin: auto;
+    border-radius: 20%;
+ }
+ @media (max-width:800px){
+    header{
+        width: 80%;
+        flex-direction: row;
+        margin-top: 10px;
+        justify-content: space-between;
+    }
+    nav {
+        flex-direction: row;
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        gap: 1rem;
+    }
+    li a {
+        font-size:11px;
+        flex-direction:row ;
+     padding:1px;
+    }
+    li a:hover{
+        color: #e5b98c;
+        font-size: 15px;
+        font-family: "Akaya Kanadaka", system-ui;
+      font-weight: 500;
+      text-shadow: 5px 6px #734339 ;
+    }
+   .nombre{
+      width:70px;
+      height:70px;
+    margin-left:5px;
+ }
+ .info{
+    display: block;
+    width: 70%;
+    margin: auto;
+ }
+ .formar{
+    display: block;
+    width: 70%;
+    margin: auto;
+ }
+ .primero, .segundo, .tercero, .cuarto, .quinto {
+  width: 70%;
+  height: 40%;
+    border-radius: 20px;
+  }
+  .cajita{
+    width: 60%;
+    height: 35%;
+    border-radius: 20px;
+    background-color:#eee6d7;
+    flex: 1;
+    transition: 1s all ease;
+   margin: auto;
+  
+  }
+  h1{
+    font-size: 1rem;
+  }
+  h2{
+    font-size: 1rem;
+  }
+ h3{
+    font-size: 1rem;
+ }
+ p{
+    font-size:14px;
+ }
+ .video{
+    background-color: #5e3930;
+    opacity: 0.7;
+    width:40%;
+    height: 340px;
+    margin: auto;
+    border-radius: 40px;
+    box-shadow: 8px 6px #b9623d;
+    margin-top: 100px;}
+ video{
+    display: block;
+    width: 80%;
+    height: 300px;
+   justify-content: center;
+   align-items: center;
+   margin: auto;}
+   .animacion{
+    display: flex;
+    flex-direction: row; 
+    gap: 10px; 
+    position: absolute;
+    transform: translateX(-50%);
+    top: 520px;
+    left: 400px;
+    width: 30%;
+    height:20px;
+}
+.uno{
+    font-size: 20px;
+    width: 35px;
+}
+ @media (max-width: 600px) {
+    header{
+        width: 70%;
+        flex-direction: row;
+        margin-top: 10px;
+        justify-content: space-between;}
+
+    nav {
+        flex-direction: row;
+  margin-top: 10px;
+  justify-content: space-between;
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        gap: 0.5rem;
+
+    }
+    li a{
+        color:#5e3930;
+        font-weight: 200;
+        text-decoration: none;
+        border-radius: 25px;
+        margin:8px;
+        transition: 0.6s;
+        font-family: "Matemasie", sans-serif;
+        font-size: 8px;
+        text-shadow: 6px 5px #faf5f2;
+        padding:1px;
+    } 
+    li a:hover{
+        color: #e5b98c;
+        font-size: 10px;
+        font-family: "Akaya Kanadaka", system-ui;
+      font-weight: 400;
+      text-shadow: 5px 6px #734339 ;
+    } 
+    .nombre{
+        width:65px;
+        height:65px;
+      margin-left:5px;}
+    
+    }
+    .info{
+        display: block;
+        width: 70%;
+        margin: auto;
+        align-items: center;
+     }
+     .formar{
+        display: block;
+        margin-bottom:5px ;
+        width: 70%;
+        margin: auto;
+     }
+     .primero, .segundo, .tercero, .cuarto, .quinto {
+      width: 70%;
+      height: 40%;
+        border-radius: 20px;
+      }
+      .cajita{
+        width: 60%;
+        height: 35%;
+        border-radius: 20px;
+        background-color:#eee6d7;
+        flex: 1;
+        transition: 1s all ease;
+       margin: auto;
+      
+      }
+      h1{
+        font-size: 20px;
+      }
+      h2{
+        font-size: 20px;
+      }
+     h3{
+        font-size: 20px;
+     }
+     p{
+        font-size:14px;
+     }
+     .video{
+        background-color: #5e3930;
+        opacity: 0.7;
+        width:70%;
+        height: 340px;
+        margin: auto;
+        border-radius: 40px;
+        box-shadow: 8px 6px #b9623d;
+        margin-top: 100px;}
+     video{
+        display: block;
+        width: 100%;
+        height: 400px;
+       justify-content: center;
+       align-items: center;
+       margin: auto;}
+       .animacion{
+        display: flex;
+        flex-direction: row; 
+        gap: 10px; 
+        position: absolute;
+        transform: translateX(-50%);
+        top: 720px;
+        left: 300px;
+        width: 30%;
+        height:20px;
+    }
+    .uno{
+        font-size: 20px;
+        width: 35px;
+    }
+}

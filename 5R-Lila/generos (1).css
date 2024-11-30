@@ -1,0 +1,349 @@
+
+body{
+    background-color: whitesmoke;
+    min-height: 150vh;
+    background: -webkit-linear-gradient(90deg,#f8d9cd,#ab7e6e,#f5c6b5); /* Chrome 10-25, Safari 5.1-6 */ background: linear-gradient(90deg,#f8d9cd,#ab7e6e,#f5c6b5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+body::-webkit-scrollbar{
+    width: 15px;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #743e34c8;
+    border-radius: 8px;
+}
+header{
+    width: 80%;
+}
+nav{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.nombre{
+    width: 90px;
+    height: 90px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    font-size: 40px;
+}
+li a{
+    color:#5e3930;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 25px;
+    margin: 15px;
+    transition: 0.6s;
+    font-family: "Matemasie", sans-serif;
+    font-size: 25px;
+    text-shadow: 6px 5px #df9f77;
+    padding: 8px;
+}
+li:hover>a{
+    color: #e5b98c;
+    font-size: 28px;
+    font-family: "Akaya Kanadaka", system-ui;
+  font-weight: 500;
+  text-shadow: 5px 6px #734339;
+}
+li ::selection{
+    background-color: #552e25 ;
+color:rgb(241, 224, 202);
+text-shadow: none;
+}
+.asterisco{
+    margin-top: 50px;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+}
+.caja{
+    display: flex;
+    gap: 25px;
+}
+.cajita{
+    width: 250px;
+    height: 400px;
+    border-radius: 16px;
+    overflow: hidden;
+    position: relative;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-left: 50px;
+}
+.cajita img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+    transition: 0.5s;
+}
+.cajita .layer{
+ background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0,));
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+ height: 75%;
+ opacity: 0;
+ transition: 0.3s;
+}
+.cajita .info{
+    position: absolute;
+    bottom: -50%;
+    padding: 15px;
+    opacity: 0;
+    transition: 0.5s bottom, 1.75s opacity;
+}
+.cajita:hover,
+.cajita:hover img,
+.cajita:hover layer{
+    transform: scale(1.1);
+}
+.cajita:hover > .layer{
+    opacity: 1;
+}
+.cajita:hover > .info{
+    bottom: 0;
+    opacity: 1;
+}
+.caja:hover > .cajita:not(:hover){
+    filter: blur(5px);
+}
+.asterisco2{
+    margin-top: 50px;
+}
+.titulo{
+    text-align: center;
+    font-size: 32px;
+    color: #faf5f2;
+    background-color: #371b13;
+    opacity: 0.8;
+    font-family: "Uncial Antiqua", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.titulo::selection{
+    background-color: #d4bdb4;
+    color: #321c18;
+}
+.titulo1{
+    font-size: 25px;
+    text-align: center;
+    color: #faf5f2;
+    background-color: #371b13;
+    opacity: 0.8;
+    font-family: "Uncial Antiqua", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.titulo1::selection{
+    background-color: #d4bdb4;
+    color: #321c18;
+}
+.letra{
+text-align: center;
+ background-color: #371b13;
+ opacity: 0.8;
+  font-weight: 400;
+  font-style: normal;
+}
+.letra1{
+ font-size: 22px;
+ color: #f3eae1;
+ font-family: "Chakra Petch", serif;
+}
+.letra1::selection{
+    background-color: #f3eae1;
+    color: #552e25;
+}
+.letra2{
+    font-size: 21px;
+    color: #f8e0ca;
+    font-family: "Akaya Kanadaka", serif;
+}
+.letra2::selection{
+    background-color: #f3eae1;
+    color: #552e25;
+}
+.letra3{
+    font-size: 20px;
+    color: #fbf7f1;
+    font-family: "Bokor", serif;
+}
+.letra3::selection{
+    background-color: #f3eae1;
+    color: #552e25;
+}
+.letra4{
+    font-size: 22px;
+    color: #f5ebdf;
+    font-family: "Edu AU VIC WA NT Pre", serif;
+}
+.letra4::selection{
+    background-color: #f3eae1;
+    color: #552e25;
+}
+.letra5{
+    font-size: 19px;
+    color: #fbf7f1;
+       font-family: "Indie Flower", cursive;
+}
+.letra5::selection{
+    background-color: #f3eae1;
+    color: #552e25;
+}
+.letra6{
+    font-size: 19px;
+    color: #f2eae2;
+ font-family: "Poetsen One", serif;
+}
+.letra6::selection{
+    background-color: #f3eae1;
+    color: #552e25;
+}
+.letra7{
+    font-size: 21px;
+    color: #faf5f2;
+    font-family: "Fascinate", serif;
+}
+.letra7::selection{
+    background-color: #f3eae1;
+    color: #552e25;
+}
+.letra8{
+    font-size: 19px;
+    color: #d4b59d;
+    font-family: "Matemasie", serif;
+}
+.letra8::selection{
+    background-color: #f3eae1;
+    color: #552e25;
+    
+}
+@media (max-width:800px) {
+    header{
+        width: 80%;
+        flex-direction: row;
+        margin-top: 10px;
+        justify-content: space-between;
+    }
+    nav {
+        flex-direction: row;
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        gap: 1rem;
+    }
+    li a {
+        font-size:11px;
+        flex-direction:row ;
+     padding:1px;
+    }
+    li a:hover{
+        color: #e5b98c;
+        font-size: 15px;
+        font-family: "Akaya Kanadaka", system-ui;
+      font-weight: 500;
+      text-shadow: 5px 6px #734339 ;
+    }
+   .nombre{
+      width:70px;
+      height:70px;
+    margin-left:5px;
+}
+    .cajita {
+        width:30%;
+        height: 320px;
+        border-radius: 16px;
+        overflow: hidden;
+        position: relative;
+        transition: 0.5s;
+        cursor: pointer;
+        margin-left: 10px;
+    }
+    .titulo1 {
+        font-size: clamp(12px, 3vw, 14px);
+    }
+    .titulo{ 
+        font-size: clamp(16px, 4vw, 22px);
+    }
+
+    .letra1, .letra2, .letra3, .letra4, .letra5, .letra6, .letra7, .letra8 {
+        font-size: clamp(10px, 3vw, 13px);
+    }
+    }
+@media (max-width:600px) {
+    body{
+        background-size:100% 100%;  
+    }
+    header{
+        width: 80%;
+        flex-direction: row;
+       margin-left:2px;
+        justify-content: space-between;
+    }
+    nav {
+        flex-direction: row;
+    display: flex;
+    align-items: center;
+    }
+    ul{
+        list-style: none;
+        display: flex;}
+        li a {
+            font-size:9px;
+            flex-direction:row ;
+        }
+    li a:hover{
+        color: #e5b98c;
+        font-size: 9px;
+        font-family: "Akaya Kanadaka", system-ui;
+      font-weight: 200;
+      text-shadow: 5px 6px #734339 ;
+    } 
+    .nombre{
+        width:55px;
+        height:55px;
+    }
+  
+    .cajita, .cajita2 {
+        width: 140px;
+    height: 200px;
+    border-radius: 16px;
+    overflow: hidden;
+    position: relative;
+    transition: 0.5s;
+    cursor: pointer;
+  
+    }
+    .asterisco{
+       align-items: center;
+       margin-left:40px;
+     
+    }
+    .cajita {
+        width:20%;
+        height: 200px;
+        border-radius: 16px;
+        overflow: hidden;
+        position: relative;
+        transition: 0.5s;
+        cursor: pointer;
+        margin-left: 10px;
+    }
+.titulo1{
+    font-size: clamp(8px, 2vw, 14px)
+}
+    .titulo{
+        font-size: clamp(10px, 3vw, 16px);
+    }
+
+    .letra1, .letra2, .letra3, .letra4, .letra5, .letra6, .letra7, .letra8 {
+        font-size: clamp(8px, 2vw, 8px);
+    }
+}
