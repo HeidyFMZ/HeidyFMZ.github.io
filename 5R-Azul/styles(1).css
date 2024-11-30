@@ -1,0 +1,748 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    width: 100vw;
+    height:700px ; 
+    padding-top: 0%;
+background-image:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5) ), url(imagensss/Designer.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+   text-align: center;
+   position: relative;
+   bottom:70px;
+   right:0px;
+     flex-wrap: wrap;
+background-attachment: fixed;
+
+}
+
+ html{scroll-behavior: smooth; 
+scrollbar-width: none;
+}   
+ 
+  
+   .frases{ padding: 90px;
+    font-size: 50px; 
+    font-family: "Roboto Condensed", sans-serif;
+    color: antiquewhite;
+    animation: frases 4s linear infinite;
+
+   }
+   @keyframes frases { from{ opacity: 0;}
+   to{opacity: 1;}
+    
+   }
+
+.carrito{display: block;  position: relative;
+    top: 20px;
+    margin-top: auto; 
+
+  
+}
+.icono{position: relative;
+bottom:810px; filter: invert(100%);
+left: 40px;}
+.buscar{
+    width: 30px;
+    filter: invert(100%);
+}
+.menu{display: flex;
+    width: 100vw;
+    height: 100px;
+margin: auto; 
+    border-radius: 20px;
+    border: 5px cadetblue solid;
+justify-content: center;
+position: relative;
+bottom: 160px;
+background-image: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5) );
+min-width: 300px;
+font-family: "Delius", cursive;
+   text-align: center;
+}
+
+
+p{ padding: 20px 40px; font-size: 30px;text-transform: capitalize; 
+    font-family: "Delius", cursive;
+}
+a p:hover{ display: inline-block; border-radius: 8px;
+ 
+background-image:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5) );                                                      ;
+text-decoration: underline;
+animation: nav 1s alternate linear infinite;
+ 
+    
+}
+
+ #compra{ display: block;
+width: 40px;
+height: 40px;
+background-color: cadetblue;
+color: rgb(243, 242, 242);
+border-radius: 25%;
+margin: auto;
+line-height: 40px;text-shadow: rgb(255, 245, 245) 5px 5px 5px ;
+font-weight:400;
+}
+
+
+
+
+ 
+#compra:active{ transition: 0.3s ease;
+    font-weight: 200;
+    background-color: rgb(17, 18, 18);
+    color: antiquewhite;text-shadow: rgb(0, 0, 0) 5px 5px 5px ; transform: scale(1);
+    box-shadow: 0 5px 20px rgba(36, 36, 36, 0.733);
+
+}
+
+body{background-image:linear-gradient(0deg,rgba(0,0,0,0.0),rgba(0,0,0,0.5) ), url(imagensss/fondopag.jpg.jpg) ;   background-attachment: fixed;   }                                                       ;
+    
+    h1{
+        font-family: "Delius", cursive;
+      text-align: center;
+      text-shadow: rgb(0, 0, 0) 5px 5px 5px ;
+    }
+
+
+.comida{ width: 300px;
+    border: 5px cadetblue double; margin: 30px;
+    box-shadow: 0 5px 20px rgba(36, 36, 36, 0.733);
+    
+
+}
+.link{
+    font-size: 40px;
+}
+a{ font-size: 40px;
+    color:cadetblue;
+    text-decoration: none;  text-shadow: rgb(0, 0, 0) 5px 5px 5px ;
+}
+ .container{ 
+    padding: 90px;
+    margin: auto;
+    text-align: center;
+     text-transform: uppercase;}
+ .linkaside{
+   font-size: larger;
+ }
+ @keyframes nav { 0%{text-decoration: underline cadetblue;}
+ 100%{text-decoration:underline white;}
+    
+ }
+ .tortas{
+    display:flex; flex-wrap: wrap;
+    margin: auto;
+    text-align: center;
+ }
+ .postres{display:flex; flex-wrap: wrap; margin: auto;
+    text-align: center;
+ }
+ .cafes{display:flex;flex-wrap:wrap; margin: auto;
+    text-align: center;
+ }
+ .nuestros{ display: flex; flex-wrap:wrap; margin: auto;
+    text-align: center;
+ }
+
+    
+footer {
+    background-color:cadetblue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.contacto p{
+    font-family: "Delius", cursive;
+}
+.contacto {
+    flex: 1;
+    max-width: 300px;     font-family: "Delius", cursive;
+}
+
+.contacto img {
+    width: 100%;
+    height: auto;
+}
+
+
+.subscribe {
+    flex: 1;
+    max-width: 300px;
+}
+
+.subscribe h3 {     font-family: "Delius", cursive;
+    font-size: 1.5em;
+}
+
+.subscribe p {     font-family: "Delius", cursive;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.subscribe input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.subscribe button {
+    width: 100%;
+    padding: 10px;
+    background-color: #dbd6c1;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.subscribe button:hover {
+    background-color: #7c5936;
+    color: #dbd6c1;
+}
+
+header .info{ position: relative;
+    font-family: "Delius", cursive;
+   
+}
+ul li{    display: inline-block;
+    margin: 50px 40px;
+    font-family: "Delius", cursive;
+   }
+ul{text-decoration: none;}
+li a{ color: antiquewhite;
+    text-shadow: rgb(0, 0, 0) 5px 5px 5px ;
+    font-size: 15px;
+}
+ul li a:hover{ display: block;
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5) );
+    transition:  1s;
+    color: cadetblue;
+}
+
+.ig{
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+}
+#IG{
+font-size:60px;
+color: cadetblue;
+
+text-shadow: rgb(0, 0, 0) 5px 5px 5px ;
+}
+.box{ margin: auto;
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    border-radius: 10%;  animation-name: caja;
+    animation-fill-mode: both;
+view-timeline-name: --reveal;
+animation-timeline: --reveal;
+animation-range:entry 20% cover 70%; 
+    
+}
+    
+
+.box img{margin: auto;
+    line-height: 40px;
+padding: 60px;
+    width: 40px; 
+    opacity: 0;
+}
+.box1 img:hover{margin: auto;
+    line-height: 40px;
+
+
+opacity: 1;
+}
+.box2 img:hover{margin: auto;
+    line-height: 40px;
+opacity: 1;
+}
+.box3 img:hover{margin: auto;
+    line-height: 40px;
+opacity: 1;
+}
+.box4 img:hover{margin: auto;
+    line-height: 40px;
+
+opacity: 1;
+}
+
+
+
+
+
+.grid{
+    display: flex; flex-wrap:nowrap ;
+  padding: 80px;
+  margin: 30px 300px;
+}
+
+@keyframes caja {
+    from{opacity: 0.5; scale: 10%;
+    }
+    to{opacity: 1 ;scale: 100%;
+}
+ }
+
+.box1{background-image: url(imagensss/cappuccino.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+justify-content: center;
+
+}
+.box2{background-image: url(imagensss/tartadulcedeleche.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    line-height: 20px;
+    
+}
+.box3{background-image: url(imagensss/pastel\ de\ almendra.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    line-height: 20px;
+}
+.box4{background-image: url(imagensss/mousse.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;margin: auto;
+    line-height: 20px;
+}
+    .box1:hover{background-image:linear-gradient(0deg,rgba(0,0,0,0.3),rgba(0,0,0,0.5) ),url(imagensss/cappuccino.jpg);
+
+    }
+    .box2:hover{background-image:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5) ),url(imagensss/tartadulcedeleche.jpg);
+
+    }
+    .box3:hover{background-image:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5) ),url(imagensss/pastel\ de\ almendra.jpg);
+
+    }
+    .box4:hover{background-image:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5) ),url(imagensss/mousse.jpg);
+
+    }
+    
+  
+    .comprados{margin: auto;
+        text-align: center;
+    padding: 60px;
+        
+
+    }
+    .comprados1{ display: inline-block;
+        position: relative;
+        bottom: 40px;
+        width: 500px;
+        height: 500px;
+        background-image: url(imagensss/pastel\ de\ almendra.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+border:  6px rgb(255, 255, 255) double;
+
+    }
+.comprados2{display: inline-block;
+    width: 500px;
+    height: 500px;
+    background-image: url(imagensss/lemonnies.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; border:  6px rgb(255, 255, 255) double;
+}
+.comprados3{display: inline-block;
+ width: 1200px;
+    height: 300px;
+    background-image: url(imagensss/pasteldefrutilla\ gos.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border:  6px rgb(255, 255, 255) double;
+    
+
+    
+    
+}
+#comprados{
+    text-align: center;
+    text-shadow: rgb(0, 0, 0) 5px 5px 5px ;
+    font-size:60px ;
+    color: cadetblue;
+}
+.comprados p{
+    background-color: cadetblue;
+    color: aliceblue;
+
+}
+ .comprados p:hover{ background-color: black;
+transition: 1s;
+}
+
+
+.slider img:hover{
+    width:100%; transition: all ease-in-out 0.5s ; }
+
+
+.slider {
+    display: flex;
+    gap: 15px;
+    flex: 2;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.slider img {
+    width: 80%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(36, 36, 36, 0.733);
+}
+
+.icono{margin: 40px 5px;
+    border-radius: 2px;
+    
+}nav label{
+    display: none;
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    cursor: pointer;
+    
+}
+#menu{display: none;}
+.container{
+    position: relative;
+    bottom: 150px;
+    margin: auto;
+} 
+#comp{
+    display: none;
+}
+.pago{ width: 300px;
+    right: -100%;
+    position: fixed;
+    top: 20%;
+            text-align: center;
+    transition: all 0.5s;
+    font-size: 8px; z-index: 4;
+    border-radius: 8px;
+    box-shadow: 0 5px 20px rgba(36, 36, 36, 0.733);
+}
+
+
+#comp:checked ~.pago{right: 0px; 
+}
+.container label{cursor: pointer;}
+.logo{
+        width: 100px;
+     position: relative;
+        right: 540px;
+        top: 60px;
+}
+h3{
+    font-family: "Delius", cursive;
+}
+h1{
+    font-family: "Delius", cursive;
+}
+.comida:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 20px rgba(36, 36, 36, 0.733);
+    transition: 0.5s;
+  }
+  .slider img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 20px rgba(36, 36, 36, 0.733);
+    transition: 0.5s;
+  }
+  .pago:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 20px rgba(36, 36, 36, 0.733);
+    transition: 0.5s;
+  }
+
+  .comprar{font-size: 50px;
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    line-height:150px;
+    margin: auto;
+    background-color: cadetblue;
+    color: antiquewhite;
+    border-radius: 15px;
+    border: #333 4px solid;
+    
+  }
+  .comprar:hover{
+    background-color: rgb(0, 0, 0);
+    color: antiquewhite;
+
+  }
+.comprar:active{ transform: scale(1);
+    box-shadow: 0 5px 20px rgba(36, 36, 36, 0.733);
+
+}
+  .button{margin: auto; text-align: center;}
+  .animacion{ display: flex;
+    text-align:center;
+    background-color: cadetblue;
+width: 200px;
+
+box-shadow: 0 5px 20px rgba(36, 36, 36, 0.733);
+border-radius: 15px;
+height: 100px;
+
+animation: todo 3s infinite ;
+
+    right: -100%;
+    position: fixed;
+    top: 5%;
+            text-align: center;
+    transition: all 0.5s;
+    font-size: 8px; z-index: 4;
+
+  }
+  .mas{background-color: rgb(255, 255, 255);
+width: 18px;
+height:18px;
+position: relative; animation: mass 3s infinite ;box-shadow: 0 5px 20px rgba(36, 36, 36, 0.733);
+    
+top: 38px;
+right: 98px;}
+.mas1{background-color: rgb(255, 255, 255);
+  
+    position: relative;
+    top: 45px;box-shadow: 0 5px 20px rgba(36, 36, 36, 0.733);
+    right: 110px;
+     width: 100%;
+    height:2px; animation: mas1 3s infinite ;
+   
+}
+
+  .animacion p{
+    color: rgb(255, 255, 255);
+    font-size: 15px ;position: relative; left:70px;
+    top: 20px;  animation: agregar 3s infinite ;
+
+  }
+  .anim-car{width: 40px;
+    height: 40px; 
+    position: relative;
+    right: 100px;
+    top: 30px;
+    animation: cars 3s infinite;
+    filter: invert(100%);
+    
+  }
+@keyframes mass{
+    0%{transform: rotateX(0deg);}
+
+    35%{transform: rotateX(0deg);}
+    50%{
+        transform: translateY(0px);
+        width: 100%;
+        height:2px; 
+       
+    }
+
+    100%{transform: translateY(0px);
+        width: 100%;
+        height:2px; 
+        transform: translateX(90px);}
+}
+@keyframes mas1{
+    0%{transform: translateX(0px);}
+    55%{transform: translateX(0px);}
+    100%{transform: translateX(90px);}
+}
+@keyframes cars { 0%{transform: translateX(0px);}
+55%{transform: translateX(0px);
+transform: rotateX(30deg);
+}
+100%{transform: translateX(90px);}
+    
+}
+@keyframes agregar {
+    0%{transform: translateX(0px);}
+55%{transform: translateX(0px);
+opacity: 1;}
+95%{opacity: 0;}
+100%{transform: translateX(-90px);
+opacity: 0;}
+    
+}
+@keyframes todo { 
+    0%{background-color: cadetblue;}
+    55%{background-color: cadetblue;opacity: 1;}
+    100%{background-color: #333;
+    opacity: 0;}
+}
+#carrito:checked ~.animacion{right: 0%;
+    
+}
+
+#carrito{display: none;}
+@media (max-width:768px) {
+    header {display: block;
+        width:100% ;
+        height: 300px; 
+        background-size: contain; 
+    
+    }
+    nav{
+        left: -100%;position: fixed;
+        top: 70%;
+                text-align: center;
+        transition: all 0.5s;
+        font-size: 8px; z-index: 4;
+        
+    }
+    .menu{
+        display: flex;
+        flex-wrap: wrap;
+        width: 80px;
+        height: 400px;
+    }
+    #menu:checked ~nav{left: 0px; 
+}
+.logo {
+    width: 80px; 
+    top: 60px;  
+    right: -170px; 
+}
+
+    .frases {
+        position: relative;
+        bottom: -30px;
+        font-size: 20px; 
+        padding: 5px;
+    }
+.carrito{
+    position: relative;
+    top: 30px;
+    padding: 5px;
+}
+img{
+    max-width: 70%;
+}
+.grid{
+    margin: 0px;
+    padding: 20px;
+}
+h1{
+    font-size: 160%;
+}
+
+#IG{
+    font-size: 5vh;
+}
+
+
+.icono{position: relative;
+bottom: 320px; right: 20px;
+
+}
+    ul li{ margin: -20px 5px;
+        
+        }
+        li a{ font-size: 10px;}
+
+    .container {
+        padding: 30px;
+        text-align: center;
+    }
+
+    .comida {
+        width: 100%; 
+        margin: 20px 0;
+    }
+.grid{ display: flex;
+flex-direction: column;}
+    .comprados1, .comprados2, .comprados3 {
+        width: 100%; 
+        height: auto;
+    }
+    .comprados1{
+        position: relative;
+        bottom: 0px;
+    }
+        .footer-container {
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .slider {
+            flex-direction: column;
+            align-items: center;
+        }
+    footer{
+        
+
+overflow:auto;
+
+    }
+    
+    
+}
+
+
+@media (max-width: 480px) {
+    .frases {
+        font-size: 20px; 
+        padding: 20px;
+    }
+
+    .comida {
+        width: 90%; 
+        margin: 10px 0;
+    }
+
+    .link {
+        font-size: 30px;
+    }
+
+    .comprados1, .comprados2, .comprados3 {
+        width: 100%; 
+        height: auto;
+    }
+
+    footer {
+        height: 300px;
+        top: 300px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    header {
+        height: 800px; 
+    }
+
+    .frases {
+        font-size: 50px;
+    }
+
+    .comida {
+        width: 300px; 
+    }
+
+    footer {
+        height: 600px;
+    }
+}

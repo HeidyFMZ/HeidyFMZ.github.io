@@ -1,0 +1,275 @@
+header{width: 100%;
+    height: 900px;
+    background-image:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5) ), url(imagensss/freepik__candid-image-photography-natural-textures-highly-r__636.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+   text-align: center;
+   background-attachment: fixed;
+   position: relative;
+   bottom: 50px;
+   animation: background 3s linear step-end;
+}
+h1{
+    font-size: 100px;
+     font-family: "Roboto Condensed", sans-serif;
+     color: antiquewhite;
+     animation: entrada 3s step-end;
+}
+.logo{
+    animation: entrada 3s step-end;
+}
+body{
+    background-color: antiquewhite;
+    background-image:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5) );
+}
+ul li{    display: inline-block;
+    margin: 50px 40px;
+    font-family: "Delius", cursive;
+   }
+ul{text-decoration: none;}
+li a{ color: antiquewhite;
+    text-shadow: rgb(0, 0, 0) 5px 5px 5px ;
+    font-size: 15px;
+}
+ul li a:hover{ display: block;
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5) );
+    transition:  1s;
+    color: cadetblue;
+}
+.pres{
+    width: 100%;
+    height: 900px; background-color:  #7c5936;
+    
+   
+
+   text-align: center;
+   background-attachment: fixed;
+   position: relative;
+   bottom: 70px;
+   opacity: 0.5;
+   
+}
+p{ font-size: 20px;
+    font-family: "Delius", cursive;
+   color: antiquewhite;
+}
+.cards{   width: 100%;
+    height: 900px; background-color:  #7c5936;
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5) ),url(imagensss/freepik__candid-image-photography-natural-textures-highly-r__15697.jpeg);
+   margin: auto;
+background-repeat: no-repeat;
+background-size: cover;
+   text-align: center;
+   background-attachment: fixed;
+   position: relative;
+   bottom: 70px;
+   display: flex;
+color: bisque;
+padding: 90px;
+
+}
+.int{animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+    position: relative;
+    right: 60px;
+display: flex; }
+
+.int1{
+    width: 400px;
+    height: 600px;
+    border-radius: 10px;
+    border:#7c5936 4px solid ;
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5) );
+padding: 10px;
+}
+.int1:hover{
+    transform: scale(1.1);
+    box-shadow: 0 5px 20px rgba(36, 36, 36, 0.733);
+    transition: 0.5s;
+}
+.int2:hover{
+    transform: scale(1.1);
+    box-shadow: 0 5px 20px rgba(36, 36, 36, 0.733);
+    transition: 0.5s;
+}
+.int3:hover{
+    transform: scale(1.1);
+    box-shadow: 0 5px 20px rgba(36, 36, 36, 0.733);
+    transition: 0.5s;
+}
+.int3{
+    width: 400px;
+    height: 600px;
+    border-radius: 8px;
+    border: #7c5936 4px solid ;
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5) );
+padding: 10px;
+}
+.cards h3{ font-size: 20px;
+    font-family: "Delius", cursive;
+    animation: nombre infinite 0.5s linear alternate-reverse;
+}
+@keyframes nombre {0%{color: cadetblue;}
+50%{color: #7c5936;}
+100%{color: #333;}
+    
+}
+@keyframes background {0%{background-color: #333;
+
+}
+100%{background-image:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(imagensss/fondodes.jpg.png);}
+    
+}
+.int2{padding: 10px;
+    width: 400px;
+    height: 600px;
+border-radius: 8px;
+    border: #7c5936 4px solid ;
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5) );
+}
+.cards img{ margin: 20px 5px;
+    width: 200px;
+    height:300px ;
+    border:3px solid #7c5936;
+    border-radius: 10px;
+}
+ a .redes{ margin: auto;
+    width: 40px;
+    height: 40px;
+    border-radius:10px ;
+}
+a .redes:hover{
+    transform: scale(1.1);
+    box-shadow: 0 5px 20px rgba(36, 36, 36, 0.733);
+    transition: 0.5s;
+}
+
+@keyframes entrada {0%{
+    transform:translateX(-1000px) ;
+   
+} 100%{transform: translateX(0px);}
+    
+}
+@keyframes logo {0%{
+    transform:translateX(1000px) ;
+   
+} 100%{transform: translateX(0px);}
+    
+}
+@keyframes appear { from{
+    opacity: 0;
+    scale: 0.5;
+}
+to{opacity: 1; 
+scale: 1;}
+
+    
+}
+
+
+
+
+@keyframes background {
+    0% {
+        background-color: #333;
+    }
+    100% {
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(imagensss/fondodes.jpg.png);
+    }
+}
+
+@keyframes entrada {
+    0% {
+        transform: translateX(-1000px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        scale: 0.5;
+    }
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+@keyframes nombre {
+    0% {
+        color: cadetblue;
+    }
+    50% {
+        color: #7c5936;
+    }
+    100% {
+        color: #333;
+    }
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    header {
+        height: 600px;
+    }
+ul li{
+    margin: 50px 5px;
+}
+    .cards {
+        display:flex;
+        padding: 20px;
+        height: 600px;
+        width: auto;
+    }
+   a>.redes{
+        width:8px;
+        height: 8px;
+    }
+    .logo{position: relative;
+    bottom: 30px;
+width: 200px;}
+
+    .int {
+        display: flex;
+        width: 300px;
+        height: 600px ;
+    }
+
+    .int1, .int2, .int3 {
+        width: 90%;
+        height: auto;
+        margin: 10px 0;
+    }
+.cards img{
+    width: 80px;
+    height: 100px;
+}
+    h1 {
+        font-size: 45px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    .cards img {
+        width: 120px;
+        height: 200px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}

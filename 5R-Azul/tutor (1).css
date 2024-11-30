@@ -1,0 +1,288 @@
+* {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+body{
+	background: linear-gradient(to top, #ef32d9, #89fffd);
+}
+.titulo {
+	padding: 40px;
+	font-size: 30px;
+	font-family: "Shadows Into Light Two", cursive;
+	color:#ffffff;
+	background-image: url(./imageia/estrella\ de\ 5\ puntas\ rosa\ con\ fondo\ azul.png);
+	background-size: cover;
+	background-position: center;
+}
+b{
+    animation: estrella 1s alternate;
+}
+@keyframes estrella{
+    0%{
+font-size: 0px;
+    }
+    100%{
+font-size: 55px;
+    }
+  
+}
+nav ul {
+	width: 100%;
+	margin: auto;
+	background-color: #0b4a99;
+}
+nav li {
+	display: inline-flex;
+}
+nav a {
+	padding: 20px;
+	width: 300px;
+    text-decoration: none;
+	font-family: "Patrick Hand SC", cursive;
+	font-size: 20px;
+	color: #ffffff;
+}
+nav ul a:active {
+    background-color:#84b6f4;
+}
+h2{
+	font-family: "Shadows Into Light Two", cursive;
+	text-align: left;
+	animation: entrada 1s;
+	background-color: #ef32d9;
+	width: 30%;
+}
+@keyframes entrada{
+	0%{
+		transform: translateX(-100px);
+	}
+	100%{
+		transform: translateX(5px);
+	}
+}
+
+.descarga a{
+	height: 80px;
+	border-radius: 10px;
+	font-size: 30px;
+	background-color: #df81ab;
+	text-decoration: none;
+	color: white;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	box-shadow: 12px 12px 8px 1px #d4c3da;
+}
+
+.contenido {
+	display: flex;
+	width: 80%;
+	margin: auto;
+	margin-top: 60px;
+}
+.contenido .articulo {
+	width: 70%;
+	margin: auto;
+}
+.contenido .articulo div {
+	width: 90%;
+	padding: 15px;
+	background-color: #ffe4e1;
+	margin-bottom: 100px;
+	font-family: "Comic Neue", cursive;
+  font-weight: 500;
+}
+p{
+	font-size: 20px;
+	text-align: left;
+	padding: 10px;
+}
+.descripcion {
+	font-size: 20px;
+}
+.contenido .articulo img {
+	width: 250px;
+	box-shadow: 12px 12px 8px 1px #d4c3da;
+
+}
+.articulo div:nth-child(4){
+	font-size: 50px;
+	
+}
+.videos{
+	height: 400px;
+margin: 0 auto;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+video{
+	box-shadow: 12px 12px 9px 5px #acbfd6;
+	height: 450px;
+	border-radius: 20px;
+}
+.secundario{
+	font-family: "Shadows Into Light Two", cursive;
+	font-weight: 900;
+	font-size: 50px;
+	color: #ffffff;
+}
+.frase{
+animation: letras 3s infinite;	
+}
+@keyframes letras{
+	0%{
+		text-shadow: 7px 5px 3px #0b4a99;
+	}
+	100%{
+		text-shadow: -5px 5px 3px #ff3b93;
+	}
+}
+.contenido .secundario {
+	width: 40%;
+}
+.contenido .secundario p {
+	background-image: url(./imageia/muchas.jpeg);
+	padding: 20px;
+	height: 750px;
+	background-size: cover;
+	background-position: center;
+	font-size: 70px;
+}
+.piedepagina {
+	background-color: #ff69b4;
+	margin-top: 100px;
+	display: flex;
+	gap:30px;
+	justify-content: left;
+	padding: 30px;
+}
+h3{
+	font-size: 30px;
+	font-family: "Shadows Into Light Two", cursive;
+}
+.piedepagina img{
+	width: 60px;
+}
+img:hover{
+	transform: scale(1.1);
+    box-shadow: 0 5px 20px rgba(36, 36, 36, 0.733);
+    transition: 0.5s;
+}
+html{
+	scrollbar-color:  #ec95d7 #ee4aee;
+	scroll-behavior: smooth;}
+@media (max-width: 800px) {
+    .titulo {
+        font-size: 24px;
+        padding: 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        display: block;
+    }
+
+    nav a {
+        font-size: 18px;
+        padding: 10px;
+        width: auto;
+    }
+
+    h2 {
+        width: 80%;
+        font-size: 20px;
+    }
+
+    .contenido {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .contenido .articulo,
+    .contenido .secundario {
+        width: 100%;
+    }
+	.contenido .secundario p{
+		font-size: 40px;
+		height: 500px;
+	}
+
+    .contenido .articulo img {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    video {
+        width: 60%;
+    }
+
+    .descarga a {
+        font-size: 20px;
+        padding: 15px;
+    }
+
+    .piedepagina {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .piedepagina img {
+        width: 50px;
+    }
+}
+@media (max-width: 600px) {
+    .titulo {
+        font-size: 18px;
+        padding: 15px;
+    }
+
+    nav a {
+        font-size: 16px;
+        padding: 8px;
+    }
+
+    h2 {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .contenido {
+        flex-direction: column;
+        gap: 20px;
+    }
+	.contenido .secundario p{
+		font-size: 40px;
+		height: 500px;
+	}
+    .contenido .articulo div {
+        font-size: 16px;
+    }
+
+    .contenido .articulo img {
+        width: 100%;
+        max-width: 150px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .descarga a {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .videos {
+        height: auto;
+    }
+
+    .piedepagina img {
+        width: 40px;
+    }
+}
