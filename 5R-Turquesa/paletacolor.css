@@ -1,0 +1,149 @@
+
+
+body{
+    background-color: rgb(237, 237, 237);
+}
+
+.madre{
+    width: 87%;
+    background-color: rgb(227, 218, 204);
+ margin: auto;
+ margin-top: -10%;
+}
+
+.principal{
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    z-index: 1000;
+    display: flex;
+    top: 0;
+    align-items: center;
+ padding-left: 30px;
+ height: 10em;
+}
+
+.menu{
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    grid-area: menu;
+    margin-left: 35%;
+    margin-right: 0%;
+    height: 7em;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  width: 100%;
+}
+
+b{
+    font-family: "Almendra", serif;
+    font-weight: 800;
+    font-size: 1.5em;
+    margin-left: 2em;
+    text-shadow: 1.5px 1.5px 1px rgb(107, 107, 107);
+}
+
+img{
+    width: 80%;
+    border-radius: 1em;
+    margin-top: 7em;
+    
+}
+
+
+.logo{
+    margin-top: 1em;
+    width: 8em;
+    height: auto;
+   animation: logo ease 3s ;
+}
+
+@keyframes logo{
+    0%{transform:scale(0) rotate(1000deg);}
+    100%{transform: scale(1) (2000deg);}
+}
+
+.it{
+    margin-right: 2em;
+   
+}
+
+.menuicono{
+    display: none;
+}
+
+a{
+    text-decoration: none;
+    color: red;
+}
+
+a:hover{
+    text-decoration: overline red 0.2em ;
+}
+
+h1{
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 300;
+}
+
+@media (max-width: 768px){
+    .madre{
+        display: flex;
+        background-color: rgb(227, 218, 204);
+        flex-direction: column;
+       
+        width: auto;
+    }
+
+    .menu{
+        width: 10em;
+        height: auto;
+        background-color: rgb(219, 219, 219);
+        position: absolute;
+        display: none;
+        top: 0;
+        position: absolute;
+        z-index: 1000;
+        flex-direction: column;
+        margin-left: -400%;
+        margin-right: 0%;
+        justify-content: center;
+        align-items: center;
+        font-family: "Lilita One", sans-serif;
+      font-weight: 400;
+      display: none;
+      top: 200%;
+      align-items: center;
+    }
+    .menucaja{
+        position: relative;
+    }
+    .menuicono{
+        position: relative;
+        display: flex;
+        width: 2em;
+        margin-left: -100%;
+        cursor: pointer;
+    }
+    .logo{
+        width: 15%;
+    }
+    .it {
+        text-decoration: none;
+        color: rgb(213, 11, 11);
+        font-size: 1em;
+        margin: 13px;
+       text-align: center;
+        }
+        b{
+            margin-left: 2%;
+        }
+        h1{
+            margin-left: 3px;
+        }
+
+}

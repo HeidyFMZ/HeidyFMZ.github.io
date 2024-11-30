@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilo Y Proporciones</title>
+    <link rel="stylesheet" href="index.css">
+
+    <link rel="icon" href="imagenes/icono.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Forum&family=Lugrasimo&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Forum&family=Lugrasimo&family=Rubik+Dirt&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Forum&family=Lilita+One&family=Lugrasimo&family=Rubik+Dirt&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Almendra:ital,wght@0,400;0,700;1,400;1,700&family=Charm:wght@400;700&family=Forum&family=Lilita+One&family=Lugrasimo&family=Rubik+Dirt&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Almendra:ital,wght@0,400;0,700;1,400;1,700&family=Charm:wght@400;700&family=Forum&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Lilita+One&family=Lugrasimo&family=Rubik+Dirt&display=swap" rel="stylesheet">
+
+<style>
+body{
+    background-color: rgb(237, 237, 237);
+}
+
+b{
+
+font-size: 1.5em;
+justify-content: center;
+margin-left: 2em;
+font-family: "Almendra", serif;
+  font-weight: 800;
+  text-shadow: 1.5px 1.5px 0.5px rgb(154, 147, 147);
+}
+
+.menu{
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    grid-area: menu;
+    margin-left: 3%;
+    margin-right: 0%;
+    height: 6em;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  width: 100%;
+}
+
+.logo{
+    width: 10em;
+    height: auto;
+    animation: logoin 2.5s  ease-in;
+}
+
+
+.principal{
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    z-index: 1000;
+    display: flex;
+    top: 0;
+    align-items: center;
+ padding-left: 30px;
+}
+
+
+.it{
+ margin-right: 2em;
+
+}
+
+.one{
+    display: flex;
+    margin-left: 3em;
+    
+}
+
+ .two{
+    display: flex;
+    margin-left: 3em;
+ }
+
+.three{
+    display: flex;
+    margin-left: 3em;
+}
+
+img{
+    width: 20em;
+}
+
+p{
+    font-family: "Forum", serif;
+  font-weight: 400;
+  font-size: 1.3em;
+}
+
+.madre{
+    width: 87%;
+    background-color: rgb(227, 218, 204);
+    margin: auto;
+    margin-top: -1em;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 300px 300px  500px 500px 500px 500px 500px 500px 300px 300px;
+    background-color: blueviolet;
+    grid-template-areas: "menu menu"
+                         "titulo titulo"
+                         "intro  intro"
+                         "ectomorfo i"
+                         "texto1    i"
+                         "endomorfo im"
+                         "texto2    im"
+                         "mesomorfo img"
+                         "texto3    img"
+                         "consejo consejo"
+                         "final final";
+    gap: 20px; */
+}
+
+
+.titulo{
+    background-image: url('imagenes/fondo.jpg');
+    background-repeat: no-repeat;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 10em;
+    margin-top: 1em;
+    display: flex;
+}
+
+.title{
+    background-color: rgb(70, 97, 113);
+    margin-left: 20px;
+    font-size: 4em;
+    text-align: center;
+   color: aliceblue;
+   width: 95%;
+   font-family: "Rubik Dirt", system-ui;
+   font-weight: 400;
+}
+
+.intro{
+
+    margin-left: 1.5em;
+}
+
+.ectomorfo{
+grid-area: ectomorfo;
+font-size: 2em;
+font-family: "Inknut Antiqua", serif;
+  font-weight: 300;
+margin-left: 1em;
+color: rgb(0, 0, 0);
+}
+
+.endomorfo{
+    grid-area: endomorfo;
+    font-size: 2em;
+    margin-left: 1em;
+    padding-top: ;
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 300;
+}
+
+.mesomorfo{
+    grid-area: mesomorfo;
+    font-size: 2em;
+    margin-left: 1em;
+    font-family: "Inknut Antiqua", serif;
+  font-weight: 300;
+}
+
+.texto1{
+margin-left: 4em;
+white-space: pre-line;
+
+
+}
+
+.texto2{
+grid-area: texto2;
+margin-left: 4em;
+justify-items: center;
+white-space: pre-line;
+}
+
+.texto3{
+grid-area: texto3;
+margin-left: 4em;
+justify-items: center;
+white-space: pre-line;
+}
+
+.img1{
+    grid-area: i;
+    background-color: rgb(0, 0, 0);
+}
+
+.img2{
+    grid-area: im;
+    background-color: rgb(0, 0, 0);
+}
+
+.img3{
+    grid-area: img;
+    background-color: rgb(0, 0, 0);
+}
+
+.consejo{
+    background-color: rgb(168, 168, 168);
+    box-shadow: 0.2em 0.2em 0px rgb(101, 101, 101);
+    text-align: center;
+    margin-left: 13em;
+    margin-right: 13em;
+    border-radius: 1em;
+}
+
+.final{
+   margin-left: 2em;
+   padding: 1em;
+}
+
+/* .img, .img2, .img3 {
+    width: 100%;  
+   object-fit: contain;
+    height: auto; 
+} */
+
+a{
+    text-decoration: none;
+    color: red;
+}
+
+a:hover{
+    text-decoration: overline red 0.2em ;
+}
+
+::selection{
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+.title:hover{
+    color: rgb(0, 0, 0);
+    
+}
+
+@keyframes logoin{
+    0%{transform: rotate(0deg) scale(0);}
+    40%{transform: rotate(600deg) scale(0.5) ;}
+    80%{transform: rotate(300deg) scale(0.7) ;}
+    100%{transform: rotate(0deg) scale(1) ;}
+
+}
+
+.menuicono{
+    display: none;
+}
+
+.volver{
+    display: none;
+}
+
+@media (max-width: 768px){
+.madre{
+    display: flex;
+    background-color: rgb(227, 218, 204);
+    flex-direction: column;
+   
+    width: auto;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1px;
+}
+
+.two{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1px;
+}
+.three{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1px;
+}
+.principal{
+    width: 90%;
+}
+.logo{
+    width: 15%;
+}
+.menuicono{
+    position: relative;
+    display: flex;
+    width: 2em;
+    margin-left: -150%;
+    cursor: pointer;
+}
+
+.it {
+    text-decoration: none;
+    color: rgb(213, 11, 11);
+    font-size: 1em;
+    margin: 13px;
+   text-align: center;
+    
+}
+
+.menu{
+    width: 10em;
+    height: auto;
+    background-color: rgb(219, 219, 219);
+    position: absolute;
+    top: 0;
+    position: absolute;
+    z-index: 1000;
+    flex-direction: column;
+    margin-left: -700%;
+    margin-right: 0%;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  display: none;
+  top: 200%;
+  align-items: center;
+}
+.menucaja{
+    position: relative;
+}
+
+.consejo{
+    color: blueviolet;
+}
+b{
+    color: blue;
+    margin-left: 5%;
+}
+.title{
+
+font-size: 2em;
+text-align: center;
+}
+.titulo{
+    justify-content: center;
+    align-items: center;
+    
+}
+.volver{
+    font-size: 15px;
+    color: rgb(0, 38, 251);
+    display: flex;
+    
+}
+.intro{
+    margin-left: 2px;
+}
+.ectomorfo{
+    margin-left: 3px;
+}
+.endomorfo{
+    margin-left: 3px;
+}
+.mesomorfo{
+    margin-left: 3px;
+}
+.texto1{
+    margin-left: 4px;
+    margin-right: auto;
+}
+.texto2{
+    margin-left: 4px;
+    margin-right: auto;
+}
+.texto3{
+    margin-left: 4px;
+    margin-right: auto;
+}
+.img1,.img2,.img3{
+    margin: auto;
+}
+.consejo{
+    width: 90%;
+    margin: auto;
+    border-radius: 4px;
+    color: black;
+}
+.final{
+    margin-left: 4px;
+
+}
+a:hover{
+    text-decoration: overline 1px rgb(255, 0, 0);
+}
+}
+</style>
+
+</head>
+<body>
+<div class="madre">
+    
+    <div class="principal"><img class="logo" src="imagenes/icono.png" alt="icono"><b>ESTILO Y PROPORCIONES</b>
+
+        <div class="menucaja">
+            <img class="menuicono" src="imagenes/menuicono.png" alt="" onclick="toggleMenu()">
+<div class="menu">
+    <div class="it" >  <a href="MenEstyle.html">MENS STYLE</a></div>
+    <div class="it" ><a href="women.html">WOMEN STYLE</a></div>
+    <div class="it" ><a href="styles.html">STYLES</a></div>
+    <div class="it" ><a href="desarrolladores.html">CREADORES DE LA PAGINA WEB</a></div>
+    <div class="it" ><a href="Tutorial.html">APP</a></div>
+  </div>
+ </div>
+</div>
+
+<script>
+    function toggleMenu() {
+        var menu = document.querySelector('.menu');
+        if (menu.style.display === 'none' || menu.style.display === '') {
+            menu.style.display = 'flex'; // Muestra el menú
+        } else {
+            menu.style.display = 'none'; // Oculta el menú
+        }
+    }
+</script>
+
+
+<div class="titulo">
+    <h1 class="title">¿Que Tipo De Cuerpo Tengo?</h1>
+</div>
+
+<div class="contenedor">
+    <div class="intro"><p>No trates de ser un pajaro siendo una oruga, mejor se una hermosa mariposa. Cada persona tiene diferente genética y diferentes cuerpos, esta pagina te ayudara a identificar tu tipo de cuerpo y te ayudara a vestirte mejor para resaltar tu estilo.</p>
+        <p>Observa los siguientes tipos de cuerpo para identificar el tuyo.</p> </div>
+    
+        <h1 class="ectomorfo">Ectomorfo</h1> 
+    <div class="one">
+     
+    <div class="img1"><img src="imagenes/ectomorfo.jpg" alt=""></div>
+        <p class="texto1">Delgado, con extremidades largas y hombros estrechos, tiene un metabolismo rápido que dificulta ganar peso o músculo, manteniendo un bajo nivel de grasa corporal.
+  <br> Los ectomorfos suelen tener dificultades para aumentar masa muscular, pero una rutina adecuada de entrenamiento y una dieta específica pueden ayudar a mejorar su físico.
+
+  Es importante que se centren en ejercicios de fuerza y en una ingesta calórica adecuada para maximizar su potencial de desarrollo muscular.
+  
+        </p>
+    </div>
+
+ <h1 class="endomorfo">Endomorfmo </h1>
+    <div class="two">
+       
+     <div class="img2"><img src="imagenes/endomorfo.jpg" alt=""></div>
+<p  class="texto2">Cuerpo ancho y redondeado, acumula grasa fácilmente debido a un metabolismo lento, con tendencia a ganar peso rápidamente.
+    <br>
+    Las personas con este tipo de cuerpo pueden tener dificultad para perder peso, pero con un entrenamiento adecuado y una dieta balanceada, pueden mejorar su composición corporal.
+</p>
+   </div>
+
+<h1 class="mesomorfo">Mesomorfo</h1>
+<div class="three">
+<div class="img3"><img src="imagenes/mesomorfo.png" alt=""></div>
+    <p class="texto3">Atlético, con hombros anchos, cintura estrecha y un tono muscular natural, tiene un metabolismo balanceado que facilita ganar músculo y perder grasa.
+<br> Las personas con este tipo de cuerpo suelen tener una buena capacidad para ganar masa muscular y mantener un bajo porcentaje de grasa. 
+<br>El entrenamiento con pesas y una alimentación adecuada son clave para maximizar sus resultados y mantener un físico equilibrado.
+    </p>
+    
+</div>
+
+    <div class="consejo"><p>No puedes cambiar tu tipo de cuerpo pero si mejorarlo con ejercio y una buena alimentacion.</p>
+    </div>
+
+    <div class="final"><p>Una vez que ya identificaste tu tipo de cuerpo ve a una seccion del menu que desees.</p> <a class="volver" href="#">Toca aquí para volver arriba</a>
+    </div>
+</div>
+    
+</div>
+
+</body>
+</html>

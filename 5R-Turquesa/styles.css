@@ -1,0 +1,181 @@
+body{
+    background-color: rgb(237, 237, 237);
+}
+
+.principal{
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    z-index: 1000;
+    display: flex;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+ padding-left: 30px;
+}
+.menuicono{
+    animation: none;
+}
+.menu{
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    margin-left: -10%;
+    margin-right: 0%;
+    height: 6em;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  width: 100%;
+}
+
+.paleta{
+width: 5%;
+}
+a{
+    text-decoration: none;
+    color: red;
+    position: sticky;
+}
+
+a:hover{
+    text-decoration: overline red 0.2em ;
+}
+
+::selection{
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+b{
+    font-family: "Almendra", serif;
+    font-weight: 800;
+    font-size: 2em;
+    margin-left: -27em;
+    text-shadow: 1.5px 1.5px 1px rgb(107, 107, 107);
+    position: relative;
+    left: -10em;
+    display: block;
+
+}
+.it{
+    margin-right: 2em;
+   
+}
+
+.menuicono{
+    display: none;
+}
+.logo{
+    width: 5em;
+    height: auto;
+    animation: logo 3s ease;
+    margin-left: 4%;
+    box-shadow: 0px 0px 0px black;
+}
+
+
+img{
+    width: 40%;
+    margin: auto;
+    view-timeline-name: --reveal;
+    animation-name: img;
+    animation-fill-mode: both;
+    animation-timeline: --reveal;
+    animation-range: 7% cover 50%;
+    border-radius: 2em;
+    box-shadow: 3px 3px 6px black;
+}
+
+.madre{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 87%;
+    margin-top: -10%;
+    background-color: rgb(84, 84, 84);
+}
+
+p{
+    text-align: center;
+    margin-top: -25%;
+    width: 40%;
+    background-color: rgb(227, 218, 204);
+    margin: auto;
+    font-family: "Forum", serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    border-radius: 20%;
+}
+.comienzo{
+    margin-top: 6em;
+}
+@keyframes img{
+    0%{opacity: 0; scale: 10%; }
+    100%{opacity: 1; scale: 100%;}
+}
+
+@keyframes logo{
+    0%{transform: scale(0);}
+    100%{transform: scale(1);}
+}
+
+@media (max-width: 768px){
+    .madre{
+        width: 99%;
+
+    }
+
+    .menu{
+        width: 10em;
+        height: auto;
+        background-color: rgb(219, 219, 219);
+        position: absolute;
+        display: none;
+        top: 0;
+        position: absolute;
+        z-index: 1000;
+        flex-direction: column;
+        margin-left: -400%;
+        margin-right: 0%;
+        justify-content: center;
+        align-items: center;
+        font-family: "Lilita One", sans-serif;
+      font-weight: 400;
+      display: none;
+      top: 200%;
+      align-items: center;
+    }
+    .menucaja{
+        position: relative;
+    }
+    .menuicono{
+        position: relative;
+        display: flex;
+        width: 2em;
+        margin-left: -300%;
+        cursor: pointer;
+        
+    }
+    .logo{
+        width: 15%;
+        margin-right: 75%;
+    }
+    .it {
+        text-decoration: none;
+        color: rgb(213, 11, 11);
+        font-size: 1em;
+        margin: 13px;
+       text-align: center;
+        }
+        b{
+            margin-left: 110%;
+            position: absolute;
+        }
+    .comienzo{
+        margin-top: 1.5em;
+    }}
+

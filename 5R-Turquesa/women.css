@@ -1,0 +1,245 @@
+body{
+    background-color: rgb(237, 237, 237);
+}
+
+.madre{
+    width: 87%;
+    background-color: rgb(227, 218, 204);
+ margin: auto;
+ margin-top: -10%;
+}
+
+.principal{
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    z-index: 1000;
+    display: flex;
+    top: 0;
+    align-items: center;
+ padding-left: 30px;
+}
+
+.menu{
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    grid-area: menu;
+    margin-left: 35%;
+    margin-right: 0%;
+    height: 6em;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  width: 100%;
+}
+
+.paleta{
+width: 5%;
+}
+
+b{
+    font-family: "Almendra", serif;
+    font-weight: 800;
+    font-size: 1.5em;
+    margin-left: 2em;
+    text-shadow: 1.5px 1.5px 1px rgb(107, 107, 107);
+}
+
+
+img{
+    width: 15em;
+    border-radius: 1em;
+}
+
+
+.puntos{
+    margin-top: 10em;
+    margin-left: 3em;
+    background-color: rgb(185, 179, 160);
+    margin-right: 3em;
+    font-family: "Forum", serif;
+    font-weight: 400;
+    border-radius: 1em;
+   
+}
+
+.puntos:hover{
+    background-color: beige;
+    color: rgb(0, 84, 87);
+}
+
+h2{
+    margin-left: 1em;
+    padding-top: 1em;
+}
+
+.altadelgada{
+    margin-left: 1em;
+}
+
+.normaldelgada{
+    margin-left: 1em;
+}
+
+.bajaitadelgada{
+    margin-left: 1em;
+}
+
+.bajacurvilinea{
+    margin-left: 1em;
+}
+
+.atletica{
+    margin-left: 1em;
+}
+
+.bajitorobusto{
+    margin-left: 1em;
+}
+
+.logo{
+    width: 10em;
+    height: auto;
+    animation: logoin 2.5s  ease-in;
+    animation: logo 3s ease;
+}
+
+@keyframes logo{
+    0%{transform: translateX(-50%);}
+    100%{transform: translateX(0px);}
+}
+
+.it{
+    margin-right: 2em;
+   
+}
+
+.menuicono{
+    display: none;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: red;
+}
+
+a:hover{
+    text-decoration: overline red 0.2em ;
+}
+
+.uno,.dos,.tres,.cuatro,.cinco,.seis{
+    display: flex;
+    margin-left: 2em;
+    font-family: "Forum", serif;
+    font-weight: 400;
+    font-size: 1.3em;
+    white-space: pre-line;
+}
+
+.one,.two,.three,.four,.five,.six{
+    
+}
+
+
+
+.img1,.img2,.img3,.img4,.img5{
+   margin-left: 3em;
+   margin-right: 2em;
+   
+   
+}
+
+h1{
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 300;
+}
+
+
+
+@media (max-width: 768px){
+    .madre{
+        display: flex;
+        background-color: rgb(227, 218, 204);
+        flex-direction: column;
+       
+        width: auto;
+    }
+    .uno,.dos,.tres,.cuatro,.cinco,.seis{
+        display: flex;
+        flex-direction: column;
+        margin-left: 5px;
+    }
+    .menu{
+        width: 10em;
+        height: auto;
+        background-color: rgb(219, 219, 219);
+        position: absolute;
+        display: none;
+        top: 0;
+        position: absolute;
+        z-index: 1000;
+        flex-direction: column;
+        margin-left: -400%;
+        margin-right: 0%;
+        justify-content: center;
+        align-items: center;
+        font-family: "Lilita One", sans-serif;
+      font-weight: 400;
+      display: none;
+      top: 200%;
+      align-items: center;
+    }
+    .menucaja{
+        position: relative;
+    }
+    .menuicono{
+        position: relative;
+        display: flex;
+        width: 2em;
+        margin-left: 100%;
+        cursor: pointer;
+    }
+    .logo{
+        width: 15%;
+    }
+    .it {
+        text-decoration: none;
+        color: rgb(213, 11, 11);
+        font-size: 1em;
+        margin: 13px;
+       text-align: center;
+        }
+        b{
+            margin-left: 2%;
+        }
+    .puntos{
+        margin-top: 3.2em;
+
+        }
+        h2{
+            padding-top: 2px;
+            margin-right: 3px;
+            text-align: center;
+        }
+        li{
+            margin-right: 5px;
+        }
+        h1{
+            margin-left: 3px;
+        }
+        .altodelgado,.normaldelgado,.bajitodelgado,.altorobusto,.bajitorobusto,.musculoso{
+            margin-left: 4px;
+        }
+        .img1,.img2,.img3,.img4,.img5{
+            margin: auto;
+        }
+        .paleta{
+            width: 7%;
+            padding-top: 3px;
+        }
+}

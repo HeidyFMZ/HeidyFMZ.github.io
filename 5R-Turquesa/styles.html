@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styles</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="imagenes/stiloicon.jpg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Almendra:ital,wght@0,400;0,700;1,400;1,700&family=Charm:wght@400;700&family=Forum&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Lilita+One&family=Lugrasimo&family=Rubik+Dirt&display=swap" rel="stylesheet">
+    
+    <style>
+        body{
+    background-color: rgb(237, 237, 237);
+}
+
+.principal{
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    z-index: 1000;
+    display: flex;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+ padding-left: 30px;
+}
+.menuicono{
+    animation: none;
+}
+.menu{
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    margin-left: -10%;
+    margin-right: 0%;
+    height: 6em;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  width: 100%;
+}
+
+.paleta{
+width: 5%;
+}
+a{
+    text-decoration: none;
+    color: red;
+    position: sticky;
+}
+
+a:hover{
+    text-decoration: overline red 0.2em ;
+}
+
+::selection{
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+b{
+    font-family: "Almendra", serif;
+    font-weight: 800;
+    font-size: 2em;
+    margin-left: -27em;
+    text-shadow: 1.5px 1.5px 1px rgb(107, 107, 107);
+    position: relative;
+    left: -10em;
+    display: block;
+
+}
+.it{
+    margin-right: 2em;
+   
+}
+
+.menuicono{
+    display: none;
+}
+.logo{
+    width: 5em;
+    height: auto;
+    animation: logo 3s ease;
+    margin-left: 4%;
+    box-shadow: 0px 0px 0px black;
+}
+
+
+img{
+    width: 40%;
+    margin: auto;
+    view-timeline-name: --reveal;
+    animation-name: img;
+    animation-fill-mode: both;
+    animation-timeline: --reveal;
+    animation-range: 7% cover 50%;
+    border-radius: 2em;
+    box-shadow: 3px 3px 6px black;
+}
+
+.madre{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 87%;
+    margin-top: -10%;
+    background-color: rgb(84, 84, 84);
+}
+
+p{
+    text-align: center;
+    margin-top: -25%;
+    width: 40%;
+    background-color: rgb(227, 218, 204);
+    margin: auto;
+    font-family: "Forum", serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    border-radius: 20%;
+}
+.comienzo{
+    margin-top: 6em;
+}
+@keyframes img{
+    0%{opacity: 0; scale: 10%; }
+    100%{opacity: 1; scale: 100%;}
+}
+
+@keyframes logo{
+    0%{transform: scale(0);}
+    100%{transform: scale(1);}
+}
+
+@media (max-width: 768px){
+    .madre{
+        width: 99%;
+
+    }
+
+    .menu{
+        width: 10em;
+        height: auto;
+        background-color: rgb(219, 219, 219);
+        position: absolute;
+        display: none;
+        top: 0;
+        position: absolute;
+        z-index: 1000;
+        flex-direction: column;
+        margin-left: -400%;
+        margin-right: 0%;
+        justify-content: center;
+        align-items: center;
+        font-family: "Lilita One", sans-serif;
+      font-weight: 400;
+      display: none;
+      top: 200%;
+      align-items: center;
+    }
+    .menucaja{
+        position: relative;
+    }
+    .menuicono{
+        position: relative;
+        display: flex;
+        width: 2em;
+        margin-left: -300%;
+        cursor: pointer;
+        
+    }
+    .logo{
+        width: 15%;
+        margin-right: 75%;
+    }
+    .it {
+        text-decoration: none;
+        color: rgb(213, 11, 11);
+        font-size: 1em;
+        margin: 13px;
+       text-align: center;
+        }
+        b{
+            margin-left: 110%;
+            position: absolute;
+        }
+    .comienzo{
+        margin-top: 1.5em;
+    }}
+
+    </style>
+    
+</head>
+<body>
+<div class="madre">
+<h1></h1>
+
+
+<script>
+    function toggleMenu() {
+        var menu = document.querySelector('.menu');
+        if (menu.style.display === 'none' || menu.style.display === '') {
+            menu.style.display = 'flex'; 
+        } else {
+            menu.style.display = 'none'; 
+        }
+    }
+</script>
+
+
+
+<div class="principal"><img class="logo" src="imagenes/of1.png" alt="icono">
+    <b>STYLES</b>
+
+    <div class="menucaja">
+        <img class="menuicono" src="imagenes/menuicono.png" alt="" onclick="toggleMenu()">
+<div class="menu">
+<div class="it" >  <a href="index.html">INICIO</a></div>
+<div class="it" ><a href="MenEstyle.html">MEN STYLE</a></div>
+<div class="it" ><a href="women.html">WOMEN STYLE</a></div>
+<div class="it" ><a href="desarrolladores.html">CREADORES DE LA PAGINA WEB</a></div>
+<div class="it" ><a href="Tutorial.html">APP</a></div>
+</div>
+</div>
+</div>
+
+
+    <p class="comienzo">Streetwear</p>
+    <img src="imagenes/streetwearmen.jpeg" alt="">
+
+    <p>Starboy</p>
+    <img src="imagenes/starboy men.jpeg" alt="">
+
+    <p>Old Money</p>
+    <img src="imagenes/oldmoneymen.jpeg" alt="">
+
+    <p>Softboy</p>
+    <img src="imagenes/softboymen.jpeg" alt="">
+
+    <p>Hip hop</p>
+    <img src="imagenes/hiphopmen.jpeg" alt="">
+
+    <p>Urbano</p>
+    <img src="imagenes/urbanomen.jpeg" alt="">
+
+    <p>Y2k</p>
+    <img src="imagenes/y2kmen.jpeg" alt="">
+
+    <p>Casual</p>
+    <img src="imagenes/casualwomen.jpeg" alt="">
+
+    <p>Elegante</p>
+    <img src="imagenes/elegantewomen.jpeg" alt="">
+
+    <p>Urbano</p>
+    <img src="imagenes/urbanowomen.jpeg" alt="">
+
+    <p>Bohemio</p>
+    <img src="imagenes/bohemiowomen.jpeg" alt="">
+
+    <p>Vintage</p>
+    <img src="imagenes/vintagewomen.jpeg" alt="">
+
+    <p>Deportivo</p>
+    <img src="imagenes/deportivowomen.jpeg" alt="">
+
+    <p>Romantico</p>
+    <img src="imagenes/romanticowomen.jpeg" alt="">
+
+    <p>Gótico</p>
+    <img src="imagenes/goticowomen.jpeg" alt="">
+</div>
+
+
+</body>
+</html>
